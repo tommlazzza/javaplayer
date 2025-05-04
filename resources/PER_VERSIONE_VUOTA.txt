@@ -1,0 +1,5 @@
+lasciare
+icons
+playlists (vuota)
+playlist.png
+playbackMode.config
