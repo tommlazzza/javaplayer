@@ -1,0 +1,50 @@
+[Logger inizializzato alle 11:13:58]
+[11:13:58] Window creata
+[11:13:58] Lingua caricata: Italiano
+[11:13:58] Tema caricato dal file config
+[11:13:58] Modalità di riproduzione caricata dal file config
+[11:13:59] Lista canzoni aggiornata
+[11:13:59] Icone playlist caricate
+[11:13:59] Repaint e Revalidate fatto
+[11:13:59] Lingua aggiornata
+[11:13:59] Icone aggiornate
+[11:13:59] Tema applicato
+[11:13:59] Pannello creato
+[11:13:59] Lingua caricata: Italiano
+[11:13:59] Repaint e Revalidate fatto
+[11:13:59] Lingua aggiornata
+[11:14:04] Lista canzoni aggiornata
+[11:14:04] Icone playlist caricate
+[11:14:04] Icone playlist caricate
+[11:14:09] Lista canzoni aggiornata
+[11:14:09] Icone playlist caricate
+[11:14:10] Count Me Out
+[11:14:10] MP3Player: play() avviato – Count Me Out
+[11:14:10] MP3Player: inizio riproduzione di "Count Me Out"
+[11:14:10] MP3Player: thread playback avviato
+[11:14:10] Icone aggiornate
+[11:14:10] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:14:10] PlaybackManager: percentuale attuale = 0
+[11:14:10] MP3Player: player creato, avvio riproduzione
+[11:14:11] PlaybackManager: percentuale attuale = 0
+[11:14:12] PlaybackManager: percentuale attuale = 1
+[11:14:13] PlaybackManager: percentuale attuale = 1
+[11:14:14] PlaybackManager: percentuale attuale = 2
+[11:14:14] Lista canzoni aggiornata
+[11:14:14] Icone playlist caricate
+[11:14:14] Lista canzoni aggiornata
+[11:14:14] Icone playlist caricate
+[11:14:14] Icone playlist caricate
+[11:14:14] Icone playlist caricate
+[11:14:14] Lista canzoni aggiornata
+[11:14:14] MP3Player: riproduzione completata
+[11:14:14] MP3Player: riproduzione completata
+[11:14:14] MP3Player: riproduzione completata – Count Me Out
+[11:14:14] MP3Player: isPlaying = false
+[11:14:14] Lista canzoni aggiornata
+[11:14:14] Icone playlist caricate
+[11:14:14] Icone playlist caricate
+[11:14:14] Lista canzoni aggiornata
+[11:14:14] Icone aggiornate
+[11:14:15] PlaybackManager: percentuale attuale = 0
+[11:14:16] PlaybackManager: percentuale attuale = 1

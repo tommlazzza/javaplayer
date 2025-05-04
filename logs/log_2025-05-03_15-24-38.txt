@@ -1,0 +1,50 @@
+[Logger inizializzato alle 15:24:38]
+[15:24:39] Window creata
+[15:24:39] Lingua caricata: Italiano
+[15:24:39] Tema caricato dal file config
+[15:24:39] Modalità di riproduzione caricata dal file config
+[15:24:39] Lista canzoni aggiornate
+[15:24:39] Icone playlist caricate
+[15:24:39] Repaint e Revalidate fatto
+[15:24:39] Lingua aggiornata
+[15:24:39] Icone aggiornate
+[15:24:39] Tema applicato
+[15:24:39] Pannello creato
+[15:24:39] Lingua caricata: Italiano
+[15:24:39] Repaint e Revalidate fatto
+[15:24:39] Lingua aggiornata
+[15:24:40] Lista canzoni aggiornate
+[15:24:40] Icone playlist caricate
+[15:24:40] Icone playlist caricate
+[15:24:41] Bound 2
+[15:24:41] MP3Player: play() avviato – Bound 2
+[15:24:41] MP3Player: inizio riproduzione di "Bound 2"
+[15:24:41] MP3Player: thread playback avviato
+[15:24:41] Icone aggiornate
+[15:24:41] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:24:41] PlaybackManager: percentuale attuale = 0
+[15:24:41] MP3Player: player creato, avvio riproduzione
+[15:24:42] PlaybackManager: percentuale attuale = 3
+[15:24:43] PlaybackManager: percentuale attuale = 4
+[15:24:43] MP3Player: riproduzione completata
+[15:24:43] MP3Player: riproduzione completata
+[15:24:43] MP3Player: riproduzione completata – Bound 2
+[15:24:43] MP3Player: isPlaying = false
+[15:24:44] PlaybackManager: percentuale attuale = 4
+[15:24:45] PlaybackManager: percentuale attuale = 5
+[15:24:46] Icone aggiornate
+[15:24:46] PlaybackManager: canzone finita, chiamo nextSong()
+[15:24:46] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:24:46] PlaybackManager: isPlaying prima = false
+[15:24:46] PlaybackManager: canzone finita, chiamo nextSong()
+[15:24:46] PlaybackManager: isPlaying prima = false
+[15:24:50] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:24:50] MP3Player: ripresa riproduzione di "Bound 2"
+[15:24:50] PlaybackManager: percentuale attuale = 5
+[15:24:50] Icone aggiornate
+[15:24:51] PlaybackManager: percentuale attuale = 5
+[15:24:52] PlaybackManager: percentuale attuale = 5
+[15:24:53] PlaybackManager: percentuale attuale = 5
+[15:24:54] PlaybackManager: percentuale attuale = 5
+[15:24:55] PlaybackManager: percentuale attuale = 5
+[15:24:56] PlaybackManager: percentuale attuale = 5

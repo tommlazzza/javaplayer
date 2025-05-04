@@ -1,0 +1,22 @@
+[Logger inizializzato alle 15:41:22]
+[15:41:23] Window creata
+[15:41:23] Lingua caricata: Italiano
+[15:41:23] Tema caricato dal file config
+[15:41:23] Modalità di riproduzione caricata dal file config
+[15:41:23] Lista canzoni aggiornata
+[15:41:23] Icone playlist caricate
+[15:41:23] Repaint e Revalidate fatto
+[15:41:23] Lingua aggiornata
+[15:41:23] Icone aggiornate
+[15:41:23] Tema applicato
+[15:41:23] Pannello creato
+[15:41:24] Lingua caricata: Italiano
+[15:41:24] Repaint e Revalidate fatto
+[15:41:24] Lingua aggiornata
+[15:41:26] Lista canzoni aggiornata
+[15:41:26] Icone playlist caricate
+[15:41:26] Icone playlist caricate
+[15:41:34] Lista canzoni aggiornata
+[15:41:34] Icone playlist caricate
+[15:41:34] Lista canzoni aggiornata
+[15:43:30] Errore nel copiare MP3: resources\playlists\Unreleased YE\On God feat Dua Lipa.mp3 -> resources\playlists\Unreleased YE\On God feat Dua Lipa.mp3

@@ -1,0 +1,522 @@
+[Logger inizializzato alle 20:50:10]
+[20:50:11] Window creata
+[20:50:11] Lingua caricata: Italiano
+[20:50:11] Tema caricato dal file config
+[20:50:11] Modalità di riproduzione caricata dal file config
+[20:50:12] Lista canzoni aggiornate
+[20:50:12] Icone playlist caricate
+[20:50:12] Repaint e Revalidate fatto
+[20:50:12] Lingua aggiornata
+[20:50:12] Icone aggiornate
+[20:50:12] Tema applicato
+[20:50:12] Pannello creato
+[20:50:12] Lingua caricata: Italiano
+[20:50:12] Repaint e Revalidate fatto
+[20:50:12] Lingua aggiornata
+[20:50:14] Lista canzoni aggiornate
+[20:50:14] Icone playlist caricate
+[20:50:15] Icone playlist caricate
+[20:50:24] Happier Than Ever
+[20:50:24] MP3Player: play() avviato – Happier Than Ever
+[20:50:24] MP3Player: inizio riproduzione di "Happier Than Ever"
+[20:50:24] MP3Player: thread playback avviato
+[20:50:24] Icone aggiornate
+[20:50:24] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[20:50:24] PlaybackManager: percentuale attuale = 0
+[20:50:25] MP3Player: player creato, avvio riproduzione
+[20:50:25] PlaybackManager: percentuale attuale = 0
+[20:50:26] MP3Player: riproduzione completata
+[20:50:26] MP3Player: riproduzione completata
+[20:50:26] MP3Player: riproduzione completata – Happier Than Ever
+[20:50:26] MP3Player: isPlaying = false
+[20:50:26] Happy
+[20:50:26] MP3Player: play() avviato – Happy
+[20:50:26] MP3Player: inizio riproduzione di "Happy"
+[20:50:26] MP3Player: thread playback avviato
+[20:50:26] MP3Player: player creato, avvio riproduzione
+[20:50:26] Icone aggiornate
+[20:50:26] PlaybackManager: percentuale attuale = 0
+[20:50:27] PlaybackManager: percentuale attuale = 0
+[20:50:28] PlaybackManager: percentuale attuale = 1
+[20:50:29] PlaybackManager: percentuale attuale = 1
+[20:50:30] PlaybackManager: percentuale attuale = 1
+[20:50:31] PlaybackManager: percentuale attuale = 2
+[20:50:32] PlaybackManager: percentuale attuale = 2
+[20:50:34] PlaybackManager: percentuale attuale = 2
+[20:50:35] PlaybackManager: percentuale attuale = 3
+[20:50:36] PlaybackManager: percentuale attuale = 3
+[20:50:36] MP3Player: riproduzione completata
+[20:50:36] MP3Player: riproduzione completata
+[20:50:36] MP3Player: riproduzione completata – Happy
+[20:50:36] MP3Player: isPlaying = false
+[20:50:36] Pablo
+[20:50:36] MP3Player: play() avviato – Pablo
+[20:50:36] MP3Player: inizio riproduzione di "Pablo"
+[20:50:36] MP3Player: thread playback avviato
+[20:50:36] MP3Player: player creato, avvio riproduzione
+[20:50:36] Icone aggiornate
+[20:50:37] PlaybackManager: percentuale attuale = 0
+[20:50:38] PlaybackManager: percentuale attuale = 1
+[20:50:39] PlaybackManager: percentuale attuale = 1
+[20:50:40] PlaybackManager: percentuale attuale = 2
+[20:50:41] PlaybackManager: percentuale attuale = 3
+[20:50:42] PlaybackManager: percentuale attuale = 3
+[20:50:43] PlaybackManager: percentuale attuale = 4
+[20:50:44] PlaybackManager: percentuale attuale = 5
+[20:50:45] PlaybackManager: percentuale attuale = 5
+[20:50:46] PlaybackManager: percentuale attuale = 6
+[20:50:47] PlaybackManager: percentuale attuale = 7
+[20:50:48] PlaybackManager: percentuale attuale = 7
+[20:50:49] PlaybackManager: percentuale attuale = 8
+[20:50:50] PlaybackManager: percentuale attuale = 8
+[20:50:51] PlaybackManager: percentuale attuale = 9
+[20:50:52] PlaybackManager: percentuale attuale = 10
+[20:50:53] PlaybackManager: percentuale attuale = 11
+[20:50:54] PlaybackManager: percentuale attuale = 11
+[20:50:55] PlaybackManager: percentuale attuale = 12
+[20:50:56] PlaybackManager: percentuale attuale = 13
+[20:50:57] PlaybackManager: percentuale attuale = 13
+[20:50:58] PlaybackManager: percentuale attuale = 14
+[20:50:59] PlaybackManager: percentuale attuale = 14
+[20:51:00] PlaybackManager: percentuale attuale = 15
+[20:51:01] PlaybackManager: percentuale attuale = 16
+[20:51:02] PlaybackManager: percentuale attuale = 16
+[20:51:03] PlaybackManager: percentuale attuale = 17
+[20:51:04] PlaybackManager: percentuale attuale = 18
+[20:51:05] PlaybackManager: percentuale attuale = 19
+[20:51:06] PlaybackManager: percentuale attuale = 19
+[20:51:07] PlaybackManager: percentuale attuale = 20
+[20:51:08] PlaybackManager: percentuale attuale = 20
+[20:51:09] PlaybackManager: percentuale attuale = 21
+[20:51:10] PlaybackManager: percentuale attuale = 21
+[20:51:11] PlaybackManager: percentuale attuale = 22
+[20:51:12] PlaybackManager: percentuale attuale = 23
+[20:51:13] PlaybackManager: percentuale attuale = 23
+[20:51:14] PlaybackManager: percentuale attuale = 24
+[20:51:15] PlaybackManager: percentuale attuale = 25
+[20:51:16] PlaybackManager: percentuale attuale = 25
+[20:51:17] PlaybackManager: percentuale attuale = 26
+[20:51:18] PlaybackManager: percentuale attuale = 27
+[20:51:19] PlaybackManager: percentuale attuale = 27
+[20:51:20] PlaybackManager: percentuale attuale = 28
+[20:51:21] PlaybackManager: percentuale attuale = 28
+[20:51:22] PlaybackManager: percentuale attuale = 29
+[20:51:23] PlaybackManager: percentuale attuale = 30
+[20:51:24] PlaybackManager: percentuale attuale = 31
+[20:51:25] PlaybackManager: percentuale attuale = 31
+[20:51:26] PlaybackManager: percentuale attuale = 32
+[20:51:27] PlaybackManager: percentuale attuale = 32
+[20:51:28] PlaybackManager: percentuale attuale = 33
+[20:51:29] PlaybackManager: percentuale attuale = 34
+[20:51:30] PlaybackManager: percentuale attuale = 34
+[20:51:31] PlaybackManager: percentuale attuale = 35
+[20:51:32] PlaybackManager: percentuale attuale = 36
+[20:51:33] PlaybackManager: percentuale attuale = 37
+[20:51:34] PlaybackManager: percentuale attuale = 37
+[20:51:35] PlaybackManager: percentuale attuale = 38
+[20:51:36] PlaybackManager: percentuale attuale = 39
+[20:51:37] PlaybackManager: percentuale attuale = 39
+[20:51:38] PlaybackManager: percentuale attuale = 40
+[20:51:39] PlaybackManager: percentuale attuale = 41
+[20:51:40] PlaybackManager: percentuale attuale = 41
+[20:51:41] PlaybackManager: percentuale attuale = 42
+[20:51:42] PlaybackManager: percentuale attuale = 43
+[20:51:43] PlaybackManager: percentuale attuale = 43
+[20:51:44] PlaybackManager: percentuale attuale = 44
+[20:51:45] PlaybackManager: percentuale attuale = 45
+[20:51:46] PlaybackManager: percentuale attuale = 45
+[20:51:47] PlaybackManager: percentuale attuale = 46
+[20:51:48] PlaybackManager: percentuale attuale = 46
+[20:51:49] PlaybackManager: percentuale attuale = 47
+[20:51:50] PlaybackManager: percentuale attuale = 48
+[20:51:51] PlaybackManager: percentuale attuale = 48
+[20:51:52] PlaybackManager: percentuale attuale = 49
+[20:51:53] PlaybackManager: percentuale attuale = 50
+[20:51:54] PlaybackManager: percentuale attuale = 50
+[20:51:55] PlaybackManager: percentuale attuale = 51
+[20:51:56] PlaybackManager: percentuale attuale = 52
+[20:51:57] PlaybackManager: percentuale attuale = 52
+[20:51:58] PlaybackManager: percentuale attuale = 53
+[20:51:59] PlaybackManager: percentuale attuale = 54
+[20:52:00] PlaybackManager: percentuale attuale = 54
+[20:52:01] PlaybackManager: percentuale attuale = 55
+[20:52:02] PlaybackManager: percentuale attuale = 55
+[20:52:03] PlaybackManager: percentuale attuale = 56
+[20:52:04] PlaybackManager: percentuale attuale = 57
+[20:52:05] PlaybackManager: percentuale attuale = 57
+[20:52:06] PlaybackManager: percentuale attuale = 58
+[20:52:07] PlaybackManager: percentuale attuale = 59
+[20:52:08] PlaybackManager: percentuale attuale = 59
+[20:52:09] PlaybackManager: percentuale attuale = 60
+[20:52:10] PlaybackManager: percentuale attuale = 61
+[20:52:11] PlaybackManager: percentuale attuale = 61
+[20:52:12] PlaybackManager: percentuale attuale = 62
+[20:52:13] PlaybackManager: percentuale attuale = 62
+[20:52:14] PlaybackManager: percentuale attuale = 63
+[20:52:15] PlaybackManager: percentuale attuale = 64
+[20:52:16] PlaybackManager: percentuale attuale = 64
+[20:52:17] PlaybackManager: percentuale attuale = 65
+[20:52:18] PlaybackManager: percentuale attuale = 66
+[20:52:19] PlaybackManager: percentuale attuale = 67
+[20:52:20] PlaybackManager: percentuale attuale = 67
+[20:52:21] PlaybackManager: percentuale attuale = 68
+[20:52:22] PlaybackManager: percentuale attuale = 69
+[20:52:23] PlaybackManager: percentuale attuale = 69
+[20:52:24] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[20:52:24] Lista canzoni aggiornate
+[20:52:24] Icone playlist caricate
+[20:52:24] Icone playlist caricate
+[20:52:24] PlaybackManager: percentuale attuale = 70
+[20:52:25] PlaybackManager: percentuale attuale = 70
+[20:52:26] PlaybackManager: percentuale attuale = 71
+[20:52:27] PlaybackManager: percentuale attuale = 72
+[20:52:27] Lista canzoni aggiornate
+[20:52:27] Icone playlist caricate
+[20:52:27] Icone playlist caricate
+[20:52:28] PlaybackManager: percentuale attuale = 72
+[20:52:29] PlaybackManager: percentuale attuale = 73
+[20:52:30] PlaybackManager: percentuale attuale = 74
+[20:52:31] PlaybackManager: percentuale attuale = 74
+[20:52:32] PlaybackManager: percentuale attuale = 75
+[20:52:33] PlaybackManager: percentuale attuale = 76
+[20:52:34] PlaybackManager: percentuale attuale = 76
+[20:52:35] PlaybackManager: percentuale attuale = 77
+[20:52:36] PlaybackManager: percentuale attuale = 78
+[20:52:37] PlaybackManager: percentuale attuale = 78
+[20:52:38] PlaybackManager: percentuale attuale = 79
+[20:52:39] PlaybackManager: percentuale attuale = 80
+[20:52:40] PlaybackManager: percentuale attuale = 80
+[20:52:41] PlaybackManager: percentuale attuale = 81
+[20:52:42] PlaybackManager: percentuale attuale = 82
+[20:52:43] PlaybackManager: percentuale attuale = 82
+[20:52:44] PlaybackManager: percentuale attuale = 83
+[20:52:45] PlaybackManager: percentuale attuale = 84
+[20:52:46] PlaybackManager: percentuale attuale = 84
+[20:52:46] MP3Player: riproduzione completata
+[20:52:46] MP3Player: riproduzione completata
+[20:52:46] MP3Player: riproduzione completata – Pablo
+[20:52:46] MP3Player: isPlaying = false
+[20:52:46] MOVIE
+[20:52:46] MP3Player: play() avviato – MOVIE
+[20:52:46] MP3Player: inizio riproduzione di "MOVIE"
+[20:52:46] MP3Player: thread playback avviato
+[20:52:46] MP3Player: player creato, avvio riproduzione
+[20:52:46] Icone aggiornate
+[20:52:47] PlaybackManager: percentuale attuale = 0
+[20:52:47] MP3Player: riproduzione completata
+[20:52:47] MP3Player: riproduzione completata
+[20:52:47] MP3Player: riproduzione completata – MOVIE
+[20:52:47] MP3Player: isPlaying = false
+[20:52:47] MR MIYAGI
+[20:52:47] MP3Player: play() avviato – MR MIYAGI
+[20:52:47] MP3Player: inizio riproduzione di "MR MIYAGI"
+[20:52:47] MP3Player: thread playback avviato
+[20:52:47] MP3Player: player creato, avvio riproduzione
+[20:52:47] Icone aggiornate
+[20:52:48] PlaybackManager: percentuale attuale = 0
+[20:52:49] PlaybackManager: percentuale attuale = 1
+[20:52:50] PlaybackManager: percentuale attuale = 1
+[20:52:51] PlaybackManager: percentuale attuale = 2
+[20:52:52] PlaybackManager: percentuale attuale = 2
+[20:52:53] PlaybackManager: percentuale attuale = 3
+[20:52:54] PlaybackManager: percentuale attuale = 4
+[20:52:55] PlaybackManager: percentuale attuale = 4
+[20:52:56] PlaybackManager: percentuale attuale = 5
+[20:52:57] PlaybackManager: percentuale attuale = 5
+[20:52:58] PlaybackManager: percentuale attuale = 6
+[20:52:59] PlaybackManager: percentuale attuale = 6
+[20:53:00] PlaybackManager: percentuale attuale = 7
+[20:53:01] PlaybackManager: percentuale attuale = 8
+[20:53:02] PlaybackManager: percentuale attuale = 8
+[20:53:03] PlaybackManager: percentuale attuale = 9
+[20:53:04] PlaybackManager: percentuale attuale = 9
+[20:53:04] MP3Player: riproduzione completata
+[20:53:04] MP3Player: riproduzione completata
+[20:53:04] MP3Player: riproduzione completata – MR MIYAGI
+[20:53:04] MP3Player: isPlaying = false
+[20:53:04] All Day (feat Kendrick Lamar)
+[20:53:04] MP3Player: play() avviato – All Day (feat Kendrick Lamar)
+[20:53:04] MP3Player: inizio riproduzione di "All Day (feat Kendrick Lamar)"
+[20:53:04] MP3Player: thread playback avviato
+[20:53:04] MP3Player: player creato, avvio riproduzione
+[20:53:04] Icone aggiornate
+[20:53:05] PlaybackManager: percentuale attuale = 0
+[20:53:06] PlaybackManager: percentuale attuale = 0
+[20:53:07] PlaybackManager: percentuale attuale = 1
+[20:53:07] MP3Player: riproduzione completata
+[20:53:07] MP3Player: riproduzione completata
+[20:53:07] MP3Player: riproduzione completata – All Day (feat Kendrick Lamar)
+[20:53:07] MP3Player: isPlaying = false
+[20:53:08] PlaybackManager: percentuale attuale = 26
+[20:53:09] PlaybackManager: percentuale attuale = 26
+[20:53:10] PlaybackManager: percentuale attuale = 27
+[20:53:11] PlaybackManager: percentuale attuale = 27
+[20:53:12] PlaybackManager: percentuale attuale = 27
+[20:53:13] PlaybackManager: percentuale attuale = 28
+[20:53:14] PlaybackManager: percentuale attuale = 28
+[20:53:15] PlaybackManager: percentuale attuale = 28
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\The Explanation.mp3 -> resources/playlists/17/resources\playlists\17\The Explanation.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Jocelyn Flores.mp3 -> resources/playlists/17/resources\playlists\17\Jocelyn Flores.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Depression & Obsession.mp3 -> resources/playlists/17/resources\playlists\17\Depression & Obsession.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Everybody Dies In Their Nightmares.mp3 -> resources/playlists/17/resources\playlists\17\Everybody Dies In Their Nightmares.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Revenge.mp3 -> resources/playlists/17/resources\playlists\17\Revenge.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Save Me.mp3 -> resources/playlists/17/resources\playlists\17\Save Me.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Dead Inside (interlude).mp3 -> resources/playlists/17/resources\playlists\17\Dead Inside (interlude).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Fuck Love.mp3 -> resources/playlists/17/resources\playlists\17\Fuck Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Carry On.mp3 -> resources/playlists/17/resources\playlists\17\Carry On.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Orlando.mp3 -> resources/playlists/17/resources\playlists\17\Orlando.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\17\Ayala (Outro).mp3 -> resources/playlists/17/resources\playlists\17\Ayala (Outro).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Say You Will.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Say You Will.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Welcome To Heartbreak.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Welcome To Heartbreak.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Heartless.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Heartless.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Amazing.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Amazing.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Love Lockdown.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Love Lockdown.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Paranoid.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Paranoid.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\RoboCop.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\RoboCop.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Street Lights.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Street Lights.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Bad News.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Bad News.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\See You In My Nightmares.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\See You In My Nightmares.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Coldest Winter.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Coldest Winter.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\808s & Hearbreak\Pinocchio Story.mp3 -> resources/playlists/808s & Hearbreak/resources\playlists\808s & Hearbreak\Pinocchio Story.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\PREACHER MAN.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\PREACHER MAN.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\I CAN’T BARE.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\I CAN’T BARE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\CLOSE TO YOU.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\CLOSE TO YOU.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\CIRCLES.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\CIRCLES.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\BULLY.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\BULLY.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\LAST BREATHE.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\LAST BREATHE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\BEAUTY AND THE BEAST.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\BEAUTY AND THE BEAST.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\SHOWTIME.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\SHOWTIME.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\HIGHS AND LOWS.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\HIGHS AND LOWS.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\BULLY\MELROSE.mp3 -> resources/playlists/BULLY/resources\playlists\BULLY\MELROSE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\ANTHEM.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\ANTHEM.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\CRINGE.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\CRINGE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\INCUBI.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\INCUBI.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\RESPIRA.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\RESPIRA.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\MIRACOLO.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\MIRACOLO.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\CVLT.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\CVLT.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\BRUJERIA.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\BRUJERIA.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\CROCI  CRISTI.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\CROCI  CRISTI.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\MY LOVE SONG 2.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\MY LOVE SONG 2.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\KILOMETRI.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\KILOMETRI.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\MALEDETTI.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\MALEDETTI.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\GRINDHOUSE.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\GRINDHOUSE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\MATRIOSKA.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\MATRIOSKA.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\NIGHTCRAWLERS.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\NIGHTCRAWLERS.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\CVLT\LA FINE.mp3 -> resources/playlists/CVLT/resources\playlists\CVLT\LA FINE.mp3
+[20:53:15] Errore nel salvataggio JSON per playlist DAMN.: resources/playlists/DAMN./data.json (File o directory non esistente)
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\BLOOD.mp3 -> resources/playlists/DAMN./\BLOOD.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\DNA.mp3 -> resources/playlists/DAMN./\DNA.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\YAH.mp3 -> resources/playlists/DAMN./\YAH.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\ELEMENT.mp3 -> resources/playlists/DAMN./\ELEMENT.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\FEEL.mp3 -> resources/playlists/DAMN./\FEEL.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\LOYALTY.mp3 -> resources/playlists/DAMN./\LOYALTY.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\PRIDE.mp3 -> resources/playlists/DAMN./\PRIDE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\HUMBLE.mp3 -> resources/playlists/DAMN./\HUMBLE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\LUST.mp3 -> resources/playlists/DAMN./\LUST.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\LOVE.mp3 -> resources/playlists/DAMN./\LOVE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\XXX.mp3 -> resources/playlists/DAMN./\XXX.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\FEAR.mp3 -> resources/playlists/DAMN./\FEAR.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\GOD.mp3 -> resources/playlists/DAMN./\GOD.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\DAMN/\DUCKWORTH.mp3 -> resources/playlists/DAMN./\DUCKWORTH.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\True Love.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\True Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Broken Road.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Broken Road.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Get Lost.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Get Lost.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Too Easy.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Too Easy.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Flowers.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Flowers.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Security.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Security.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\We Did It Kid.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\We Did It Kid.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Pablo.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Pablo.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Louie Bags.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Louie Bags.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Happy.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Happy.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Sci Fi.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Sci Fi.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Selfish.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Selfish.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Lord Lift Me Up.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Lord Lift Me Up.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\City of Gods.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\City of Gods.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\First Time in a Long Time.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\First Time in a Long Time.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Donda 2\Eazy.mp3 -> resources/playlists/Donda 2/resources\playlists\Donda 2\Eazy.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Live Fast Die Young.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Live Fast Die Young.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Glenwood.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Glenwood.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Kinda Like A Big Deal.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Kinda Like A Big Deal.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Wild’n Cuz I’m Young.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Wild’n Cuz I’m Young.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Christian Dior Denim Flow.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Christian Dior Denim Flow.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Start It Up.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Start It Up.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Mama's Boyfriend.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Mama's Boyfriend.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Mrs Donda.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Mrs Donda.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Diamonds.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Diamonds.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Don't Look Down.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Don't Look Down.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Tragically Beautiful.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Tragically Beautiful.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Good Ass Job\Power To Survive.mp3 -> resources/playlists/Good Ass Job/resources\playlists\Good Ass Job\Power To Survive.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Getting Older.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Getting Older.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\I Didn't Change My Number.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\I Didn't Change My Number.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Billie Bossa Nova.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Billie Bossa Nova.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\my future.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\my future.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Oxytocin.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Oxytocin.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\GOLDWING.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\GOLDWING.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Lost Cause.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Lost Cause.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Halley's Comet.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Halley's Comet.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Not My Responsibility.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Not My Responsibility.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\OverHeated.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\OverHeated.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Everybody Dies.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Everybody Dies.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Your Power.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Your Power.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\NDA.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\NDA.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Therefore I Am.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Therefore I Am.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Happier Than Ever.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Happier Than Ever.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Happier Than Ever\Male Fantasy.mp3 -> resources/playlists/Happier Than Ever/resources\playlists\Happier Than Ever\Male Fantasy.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Kids See Ghosts\Feel The Love.mp3 -> resources/playlists/Kids See Ghosts/resources\playlists\Kids See Ghosts\Feel The Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Kids See Ghosts\Fire.mp3 -> resources/playlists/Kids See Ghosts/resources\playlists\Kids See Ghosts\Fire.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Kids See Ghosts\4th Dimension.mp3 -> resources/playlists/Kids See Ghosts/resources\playlists\Kids See Ghosts\4th Dimension.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Kids See Ghosts\Freeee (Ghost Town Pt 2).mp3 -> resources/playlists/Kids See Ghosts/resources\playlists\Kids See Ghosts\Freeee (Ghost Town Pt 2).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Kids See Ghosts\Reborn.mp3 -> resources/playlists/Kids See Ghosts/resources\playlists\Kids See Ghosts\Reborn.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Kids See Ghosts\Cudi Montage.mp3 -> resources/playlists/Kids See Ghosts/resources\playlists\Kids See Ghosts\Cudi Montage.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\I Am Not Home (Intro).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\I Am Not Home (Intro).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\All Day (feat Kendrick Lamar).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\All Day (feat Kendrick Lamar).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\White Dress.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\White Dress.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Don't Jump (feat Kendrick Lamar).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Don't Jump (feat Kendrick Lamar).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Tom Cruise.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Tom Cruise.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\One I Love.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\One I Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Awesome.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Awesome.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Piss On Your Grave.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Piss On Your Grave.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Liberated (feat Kendrick Lamar).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Liberated (feat Kendrick Lamar).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Freestyle 4 (feat Big Sean & Asap Ferg) (Remix).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Freestyle 4 (feat Big Sean & Asap Ferg) (Remix).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\FML (feat The Weeknd & Travis Scott).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\FML (feat The Weeknd & Travis Scott).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Fall Out of Heaven (feat The-Dream & Justin Vernon).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Fall Out of Heaven (feat The-Dream & Justin Vernon).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Nina Chop (feat Young Thug).mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Nina Chop (feat Young Thug).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Tell Your Friends.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Tell Your Friends.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\Highlights.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\Highlights.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\So Help Me God\I Feel Like That.mp3 -> resources/playlists/So Help Me God/resources\playlists\So Help Me God\I Feel Like That.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Come Back to Earth.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Come Back to Earth.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Hurt Feelings.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Hurt Feelings.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\What's the Use.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\What's the Use.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Perfecto.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Perfecto.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Self Care.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Self Care.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Wings.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Wings.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Ladders.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Ladders.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Small Worlds.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Small Worlds.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Dunno.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Dunno.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\Jet Fuel.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\Jet Fuel.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\2009.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\2009.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Swimming\So It Goes.mp3 -> resources/playlists/Swimming/resources\playlists\Swimming\So It Goes.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\I Am Not Home.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\I Am Not Home.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Yeezus.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Yeezus.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Send It Up.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Send It Up.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Cant Get Over Me.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Cant Get Over Me.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Talk To Me.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Talk To Me.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\LOUDER!.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\LOUDER!.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Good Things Don't Last.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Good Things Don't Last.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Perfect Bitch.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Perfect Bitch.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Blood On The Leaves.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Blood On The Leaves.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\On Sight.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\On Sight.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\GOD!.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\GOD!.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Guilt Trip.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Guilt Trip.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\New Slaves.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\New Slaves.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Black Skinhead.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Black Skinhead.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Emotionless.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Emotionless.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\No No No No.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\No No No No.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Hollywood.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Hollywood.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Awesome.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Awesome.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\One I Love.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\One I Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Thank God For Drugs\Nobody To Love.mp3 -> resources/playlists/Thank God For Drugs/resources\playlists\Thank God For Drugs\Nobody To Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\STARS.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\STARS.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\KEYS TO MY LIFE.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\KEYS TO MY LIFE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\PAID.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\PAID.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\TALKING.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\TALKING.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\HOODRAT.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\HOODRAT.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\BACK TO ME.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\BACK TO ME.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\PAPERWORK.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\PAPERWORK.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\DO IT.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\DO IT.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\BURN.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\BURN.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\FUK SUMN.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\FUK SUMN.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\VULTURES.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\VULTURES.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\CARNIVAL.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\CARNIVAL.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\GOOD (DON'T DIE).mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\GOOD (DON'T DIE).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\BEG FORGIVENESS.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\BEG FORGIVENESS.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\PROBLEMATIC.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\PROBLEMATIC.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 1\KING.mp3 -> resources/playlists/VULTURES 1/resources\playlists\VULTURES 1\KING.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\SLIDE.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\SLIDE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\TIME MOVING SLOW.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\TIME MOVING SLOW.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\FIELD TRIP.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\FIELD TRIP.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\FRIED.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\FRIED.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\ISABELLA.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\ISABELLA.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\PROMOTION.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\PROMOTION.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\HUSBAND.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\HUSBAND.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\LIFESTYLE.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\LIFESTYLE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\FOREVER.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\FOREVER.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\BOMB.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\BOMB.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\RIVER.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\RIVER.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\530.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\530.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\DEAD.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\DEAD.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\FOREVER ROLLING.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\FOREVER ROLLING.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\SKY CITY.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\SKY CITY.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\MY SOUL.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\MY SOUL.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\TAKE OFF YOUR DRESS.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\TAKE OFF YOUR DRESS.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\BELIEVER.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\BELIEVER.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\DRUNK.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\DRUNK.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\GUN TO MY HEAD.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\GUN TO MY HEAD.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\VULTURES 2\CAN U BE.mp3 -> resources/playlists/VULTURES 2/resources\playlists\VULTURES 2\CAN U BE.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Charkas.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Charkas.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Calm (Interlude).mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Calm (Interlude).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\The Storm.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\The Storm.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Spread Your Wings.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Spread Your Wings.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\New Body.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\New Body.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Hurricane.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Hurricane.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Alien (Interlude).mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Alien (Interlude).mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Alien.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Alien.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Home.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Home.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\City In The Sky.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\City In The Sky.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Brothers.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Brothers.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Cash To Burn.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Cash To Burn.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\We Got Love.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\We Got Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\All Dreams Real.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\All Dreams Real.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\The Garden.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\The Garden.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Last Name.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Last Name.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\Law Of Attraction.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\Law Of Attraction.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yandhi\End Of It.mp3 -> resources/playlists/Yandhi/resources\playlists\Yandhi\End Of It.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\On Sight.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\On Sight.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\Black Skinhead.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\Black Skinhead.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\I Am A God.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\I Am A God.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\New Slaves.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\New Slaves.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\Hold My Liquor.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\Hold My Liquor.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\I'm In It.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\I'm In It.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\Blood On The Leaves.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\Blood On The Leaves.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\Guilt Trip.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\Guilt Trip.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\Send It Up.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\Send It Up.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus\Bound 2.mp3 -> resources/playlists/Yeezus/resources\playlists\Yeezus\Bound 2.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\The World.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\The World.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Grave.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Grave.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\All Day 2014.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\All Day 2014.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\I Feel Like That.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\I Feel Like That.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\New Angels.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\New Angels.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\333.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\333.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\You Aint No Model.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\You Aint No Model.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Father Stretch My Hands.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Father Stretch My Hands.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Depiction of the Devil.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Depiction of the Devil.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Do You Really Ever Love.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Do You Really Ever Love.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Never Let Me Go.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Never Let Me Go.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Its Only Right.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Its Only Right.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Ultimate Lie.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Ultimate Lie.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Creep Theme.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Creep Theme.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\FeedBack.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\FeedBack.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\I Been Trill.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\I Been Trill.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Never Lose.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Never Lose.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Man Up.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Man Up.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Tom Cruise.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Tom Cruise.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Hit Boy.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Hit Boy.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Special.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Special.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Wolves.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Wolves.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\After You.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\After You.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\FourFiveSeconds.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\FourFiveSeconds.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Nobody.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Nobody.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Only One.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Only One.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\When I see It.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\When I see It.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\4 4 4 4.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\4 4 4 4.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\Yeezus II\Forever.mp3 -> resources/playlists/Yeezus II/resources\playlists\Yeezus II\Forever.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\I Thought About Killing You.mp3 -> resources/playlists/ye/resources\playlists\ye\I Thought About Killing You.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\Yikes.mp3 -> resources/playlists/ye/resources\playlists\ye\Yikes.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\All Mine.mp3 -> resources/playlists/ye/resources\playlists\ye\All Mine.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\Wouldn't Leave.mp3 -> resources/playlists/ye/resources\playlists\ye\Wouldn't Leave.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\No Mistakes.mp3 -> resources/playlists/ye/resources\playlists\ye\No Mistakes.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\Ghost Town.mp3 -> resources/playlists/ye/resources\playlists\ye\Ghost Town.mp3
+[20:53:15] Errore nel copiare MP3: resources\playlists\ye\Violent Crimes.mp3 -> resources/playlists/ye/resources\playlists\ye\Violent Crimes.mp3
+[20:53:16] PlaybackManager: percentuale attuale = 28
+[20:53:17] PlaybackManager: percentuale attuale = 29

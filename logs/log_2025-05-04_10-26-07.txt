@@ -1,0 +1,132 @@
+[Logger inizializzato alle 10:26:07]
+[10:26:07] Window creata
+[10:26:07] Lingua caricata: Italiano
+[10:26:07] Tema caricato dal file config
+[10:26:08] Modalità di riproduzione caricata dal file config
+[10:26:08] Lista canzoni aggiornate
+[10:26:08] Icone playlist caricate
+[10:26:08] Repaint e Revalidate fatto
+[10:26:08] Lingua aggiornata
+[10:26:08] Icone aggiornate
+[10:26:08] Tema applicato
+[10:26:08] Pannello creato
+[10:26:08] Lingua caricata: Italiano
+[10:26:08] Repaint e Revalidate fatto
+[10:26:08] Lingua aggiornata
+[10:26:19] Lista canzoni aggiornate
+[10:26:19] Icone playlist caricate
+[10:26:19] Icone playlist caricate
+[10:26:29] Lista canzoni aggiornate
+[10:26:29] Icone playlist caricate
+[10:26:29] Icone playlist caricate
+[10:26:29] Lista canzoni aggiornate
+[10:26:29] Icone playlist caricate
+[10:26:29] Icone playlist caricate
+[10:26:29] Lista canzoni aggiornate
+[10:26:56] Lista canzoni aggiornate
+[10:26:56] Icone playlist caricate
+[10:26:57] Blood On The Leaves
+[10:26:57] MP3Player: play() avviato – Blood On The Leaves
+[10:26:57] MP3Player: inizio riproduzione di "Blood On The Leaves"
+[10:26:57] MP3Player: thread playback avviato
+[10:26:57] Icone aggiornate
+[10:26:57] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:26:57] PlaybackManager: percentuale attuale = 0
+[10:26:57] MP3Player: player creato, avvio riproduzione
+[10:26:58] PlaybackManager: percentuale attuale = 32
+[10:26:59] PlaybackManager: percentuale attuale = 32
+[10:27:00] PlaybackManager: percentuale attuale = 33
+[10:27:01] PlaybackManager: percentuale attuale = 33
+[10:27:02] PlaybackManager: percentuale attuale = 33
+[10:27:03] PlaybackManager: percentuale attuale = 34
+[10:27:04] PlaybackManager: percentuale attuale = 34
+[10:27:05] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:27:05] Lista canzoni aggiornate
+[10:27:05] Icone playlist caricate
+[10:27:05] Icone playlist caricate
+[10:27:05] Lista canzoni aggiornate
+[10:27:05] Icone playlist caricate
+[10:27:05] Icone playlist caricate
+[10:27:05] Lista canzoni aggiornate
+[10:27:05] PlaybackManager: percentuale attuale = 34
+[10:27:06] PlaybackManager: percentuale attuale = 35
+[10:27:07] PlaybackManager: percentuale attuale = 35
+[10:27:07] Controller: nextSong() chiamato
+[10:27:07] MP3Player: riproduzione completata
+[10:27:07] MP3Player: riproduzione completata
+[10:27:07] MP3Player: riproduzione completata – Blood On The Leaves
+[10:27:07] MP3Player: isPlaying = false
+[10:27:07] CAN U BE
+[10:27:07] MP3Player: play() avviato – CAN U BE
+[10:27:07] MP3Player: inizio riproduzione di "CAN U BE"
+[10:27:07] MP3Player: thread playback avviato
+[10:27:07] Icone aggiornate
+[10:27:07] Riproduco: CAN U BE
+[10:27:07] MP3Player: player creato, avvio riproduzione
+[10:27:07] Icone aggiornate
+[10:27:08] PlaybackManager: percentuale attuale = 0
+[10:27:09] PlaybackManager: percentuale attuale = 1
+[10:27:09] Controller: nextSong() chiamato
+[10:27:09] MP3Player: riproduzione completata
+[10:27:09] MP3Player: riproduzione completata
+[10:27:09] MP3Player: riproduzione completata – CAN U BE
+[10:27:09] MP3Player: isPlaying = false
+[10:27:09] I CAN’T BARE
+[10:27:09] MP3Player: play() avviato – I CAN’T BARE
+[10:27:09] MP3Player: inizio riproduzione di "I CAN’T BARE"
+[10:27:09] MP3Player: thread playback avviato
+[10:27:09] Icone aggiornate
+[10:27:09] Riproduco: I CAN’T BARE
+[10:27:09] MP3Player: player creato, avvio riproduzione
+[10:27:09] Icone aggiornate
+[10:27:10] PlaybackManager: percentuale attuale = 0
+[10:27:11] PlaybackManager: percentuale attuale = 1
+[10:27:12] PlaybackManager: percentuale attuale = 2
+[10:27:13] PlaybackManager: percentuale attuale = 3
+[10:27:14] PlaybackManager: percentuale attuale = 4
+[10:27:15] PlaybackManager: percentuale attuale = 5
+[10:27:16] PlaybackManager: percentuale attuale = 6
+[10:27:17] PlaybackManager: percentuale attuale = 7
+[10:27:18] PlaybackManager: percentuale attuale = 8
+[10:27:19] PlaybackManager: percentuale attuale = 8
+[10:27:20] PlaybackManager: percentuale attuale = 9
+[10:27:21] PlaybackManager: percentuale attuale = 10
+[10:27:22] PlaybackManager: percentuale attuale = 11
+[10:27:23] PlaybackManager: percentuale attuale = 12
+[10:27:24] PlaybackManager: percentuale attuale = 13
+[10:27:25] PlaybackManager: percentuale attuale = 14
+[10:27:26] PlaybackManager: percentuale attuale = 15
+[10:27:27] PlaybackManager: percentuale attuale = 15
+[10:27:28] PlaybackManager: percentuale attuale = 16
+[10:27:29] PlaybackManager: percentuale attuale = 17
+[10:27:30] PlaybackManager: percentuale attuale = 18
+[10:27:31] PlaybackManager: percentuale attuale = 19
+[10:27:32] PlaybackManager: percentuale attuale = 20
+[10:27:33] PlaybackManager: percentuale attuale = 20
+[10:27:34] PlaybackManager: percentuale attuale = 21
+[10:27:35] PlaybackManager: percentuale attuale = 22
+[10:27:36] PlaybackManager: percentuale attuale = 23
+[10:27:37] PlaybackManager: percentuale attuale = 24
+[10:27:38] PlaybackManager: percentuale attuale = 25
+[10:27:39] PlaybackManager: percentuale attuale = 26
+[10:27:40] PlaybackManager: percentuale attuale = 26
+[10:27:41] PlaybackManager: percentuale attuale = 27
+[10:27:42] PlaybackManager: percentuale attuale = 28
+[10:27:43] PlaybackManager: percentuale attuale = 29
+[10:27:44] PlaybackManager: percentuale attuale = 30
+[10:27:45] PlaybackManager: percentuale attuale = 31
+[10:27:46] PlaybackManager: percentuale attuale = 31
+[10:27:47] PlaybackManager: percentuale attuale = 32
+[10:27:48] PlaybackManager: percentuale attuale = 33
+[10:27:49] PlaybackManager: percentuale attuale = 34
+[10:27:50] PlaybackManager: percentuale attuale = 35
+[10:27:51] PlaybackManager: percentuale attuale = 36
+[10:27:52] PlaybackManager: percentuale attuale = 37
+[10:27:53] PlaybackManager: percentuale attuale = 38
+[10:27:54] PlaybackManager: percentuale attuale = 39
+[10:27:55] PlaybackManager: percentuale attuale = 40
+[10:27:56] PlaybackManager: percentuale attuale = 40
+[10:27:57] PlaybackManager: percentuale attuale = 41
+[10:27:58] PlaybackManager: percentuale attuale = 42
+[10:27:59] PlaybackManager: percentuale attuale = 43
+[10:28:00] PlaybackManager: percentuale attuale = 44

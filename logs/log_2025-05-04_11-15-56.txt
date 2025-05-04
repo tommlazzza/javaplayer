@@ -1,0 +1,61 @@
+[Logger inizializzato alle 11:15:56]
+[11:15:56] Window creata
+[11:15:57] Lingua caricata: Italiano
+[11:15:57] Tema caricato dal file config
+[11:15:57] Modalità di riproduzione caricata dal file config
+[11:15:57] Lista canzoni aggiornata
+[11:15:57] Icone playlist caricate
+[11:15:57] Repaint e Revalidate fatto
+[11:15:57] Lingua aggiornata
+[11:15:57] Icone aggiornate
+[11:15:57] Tema applicato
+[11:15:57] Pannello creato
+[11:15:57] Lingua caricata: Italiano
+[11:15:57] Repaint e Revalidate fatto
+[11:15:57] Lingua aggiornata
+[11:16:03] Lista canzoni aggiornata
+[11:16:03] Icone playlist caricate
+[11:16:03] Icone playlist caricate
+[11:16:08] Lista canzoni aggiornata
+[11:16:08] Icone playlist caricate
+[11:16:08] Cry For Me
+[11:16:08] MP3Player: play() avviato – Cry For Me
+[11:16:08] MP3Player: inizio riproduzione di "Cry For Me"
+[11:16:08] MP3Player: thread playback avviato
+[11:16:08] Icone aggiornate
+[11:16:08] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:16:08] PlaybackManager: percentuale attuale = 0
+[11:16:09] MP3Player: player creato, avvio riproduzione
+[11:16:09] PlaybackManager: percentuale attuale = 1
+[11:16:10] MP3Player: riproduzione completata
+[11:16:10] MP3Player: riproduzione completata
+[11:16:10] MP3Player: riproduzione completata – Cry For Me
+[11:16:10] MP3Player: isPlaying = false
+[11:16:10] PlaybackManager: percentuale attuale = 29
+[11:16:11] PlaybackManager: percentuale attuale = 0
+[11:16:12] PlaybackManager: percentuale attuale = 37
+[11:16:13] PlaybackManager: percentuale attuale = 38
+[11:16:14] PlaybackManager: percentuale attuale = 38
+[11:16:15] PlaybackManager: percentuale attuale = 38
+[11:16:16] Lista canzoni aggiornata
+[11:16:16] Icone playlist caricate
+[11:16:16] Lista canzoni aggiornata
+[11:16:16] Icone playlist caricate
+[11:16:16] Icone playlist caricate
+[11:16:16] Icone playlist caricate
+[11:16:16] Lista canzoni aggiornata
+[11:16:17] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:16:17] PlaybackManager: percentuale attuale = 0
+[11:16:17] Icone aggiornate
+[11:16:17] PlaybackManager: canzone finita, chiamo nextSong()
+[11:16:17] PlaybackManager: isPlaying prima = false
+[11:16:17] MP3Player: isPlaying impostato a false
+[11:16:17] Controller: nextSong() chiamato
+[11:16:17] Nessuna playlist di riproduzione attiva o vuota.
+[11:16:17] PlaybackManager: nextSong() chiamato
+[11:16:18] PlaybackManager: percentuale attuale = 1
+[11:16:19] PlaybackManager: percentuale attuale = 1
+[11:16:20] PlaybackManager: percentuale attuale = 28
+[11:16:21] PlaybackManager: percentuale attuale = 77
+[11:16:22] PlaybackManager: percentuale attuale = 77
+[11:16:23] PlaybackManager: percentuale attuale = 78

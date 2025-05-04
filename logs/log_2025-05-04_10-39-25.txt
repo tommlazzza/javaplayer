@@ -1,0 +1,324 @@
+[Logger inizializzato alle 10:39:25]
+[10:39:25] Window creata
+[10:39:25] Lingua caricata: Italiano
+[10:39:25] Tema caricato dal file config
+[10:39:25] Modalità di riproduzione caricata dal file config
+[10:39:26] Lista canzoni aggiornate
+[10:39:26] Icone playlist caricate
+[10:39:26] Repaint e Revalidate fatto
+[10:39:26] Lingua aggiornata
+[10:39:26] Icone aggiornate
+[10:39:26] Tema applicato
+[10:39:26] Pannello creato
+[10:39:26] Lingua caricata: Italiano
+[10:39:26] Repaint e Revalidate fatto
+[10:39:26] Lingua aggiornata
+[10:39:28] Lista canzoni aggiornate
+[10:39:28] Icone playlist caricate
+[10:39:28] Icone playlist caricate
+[10:39:29] Ghost Town
+[10:39:29] MP3Player: play() avviato – Ghost Town
+[10:39:29] MP3Player: inizio riproduzione di "Ghost Town"
+[10:39:29] MP3Player: thread playback avviato
+[10:39:29] Icone aggiornate
+[10:39:29] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:39:29] PlaybackManager: percentuale attuale = 0
+[10:39:29] MP3Player: player creato, avvio riproduzione
+[10:39:30] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:39:30] Lista canzoni aggiornate
+[10:39:30] Icone playlist caricate
+[10:39:30] Icone playlist caricate
+[10:39:30] PlaybackManager: percentuale attuale = 1
+[10:39:31] PlaybackManager: percentuale attuale = 1
+[10:39:32] PlaybackManager: percentuale attuale = 2
+[10:39:32] MP3Player: riproduzione completata
+[10:39:32] MP3Player: riproduzione completata
+[10:39:32] MP3Player: riproduzione completata – Ghost Town
+[10:39:32] MP3Player: isPlaying = false
+[10:39:33] PlaybackManager: percentuale attuale = 2
+[10:39:34] PlaybackManager: percentuale attuale = 2
+[10:39:35] PlaybackManager: percentuale attuale = 96
+[10:39:36] PlaybackManager: percentuale attuale = 96
+[10:39:37] PlaybackManager: percentuale attuale = 97
+[10:39:38] PlaybackManager: percentuale attuale = 97
+[10:39:39] PlaybackManager: percentuale attuale = 97
+[10:39:40] PlaybackManager: percentuale attuale = 98
+[10:39:41] PlaybackManager: percentuale attuale = 98
+[10:39:42] PlaybackManager: percentuale attuale = 98
+[10:39:43] PlaybackManager: percentuale attuale = 99
+[10:39:44] PlaybackManager: percentuale attuale = 99
+[10:39:45] PlaybackManager: percentuale attuale = 100
+[10:39:46] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:39:46] PlaybackManager: canzone finita, chiamo nextSong()
+[10:39:46] PlaybackManager: isPlaying prima = false
+[10:39:46] MP3Player: isPlaying impostato a false
+[10:39:46] Controller: nextSong() chiamato
+[10:39:46] ERRORE: canzone non trovata per titolo: 'Special'
+[10:39:46] Titoli disponibili nella playlist:
+[10:39:46]  - 'I Thought About Killing You'
+[10:39:46]  - 'Yikes'
+[10:39:46]  - 'All Mine'
+[10:39:46]  - 'Wouldn't Leave'
+[10:39:46]  - 'No Mistakes'
+[10:39:46]  - 'Ghost Town'
+[10:39:46]  - 'Violent Crimes'
+[10:39:46] PlaybackManager: nextSong() chiamato
+[10:39:46] PlaybackManager: canzone finita, chiamo nextSong()
+[10:39:46] PlaybackManager: isPlaying prima = false
+[10:39:57] Controller: nextSong() chiamato
+[10:39:57] ERRORE: canzone non trovata per titolo: 'I Been Trill'
+[10:39:57] Titoli disponibili nella playlist:
+[10:39:57]  - 'I Thought About Killing You'
+[10:39:57]  - 'Yikes'
+[10:39:57]  - 'All Mine'
+[10:39:57]  - 'Wouldn't Leave'
+[10:39:57]  - 'No Mistakes'
+[10:39:57]  - 'Ghost Town'
+[10:39:57]  - 'Violent Crimes'
+[10:39:58] MP3Player: play() avviato – Ghost Town
+[10:39:58] MP3Player: inizio riproduzione di "Violent Crimes"
+[10:39:58] MP3Player: thread playback avviato
+[10:39:58] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:39:58] PlaybackManager: percentuale attuale = 0
+[10:39:58] MP3Player: player creato, avvio riproduzione
+[10:39:59] PlaybackManager: percentuale attuale = 1
+[10:39:59] Controller: nextSong() chiamato
+[10:39:59] MP3Player: riproduzione completata
+[10:39:59] MP3Player: riproduzione completata
+[10:39:59] MP3Player: riproduzione completata – Violent Crimes
+[10:39:59] MP3Player: isPlaying = false
+[10:39:59] ERRORE: canzone non trovata per titolo: 'I Feel Like That'
+[10:39:59] Titoli disponibili nella playlist:
+[10:39:59]  - 'I Thought About Killing You'
+[10:39:59]  - 'Yikes'
+[10:39:59]  - 'All Mine'
+[10:39:59]  - 'Wouldn't Leave'
+[10:39:59]  - 'No Mistakes'
+[10:39:59]  - 'Ghost Town'
+[10:39:59]  - 'Violent Crimes'
+[10:40:00] PlaybackManager: canzone finita, chiamo nextSong()
+[10:40:00] PlaybackManager: isPlaying prima = false
+[10:40:01] Controller: nextSong() chiamato
+[10:40:01] ERRORE: canzone non trovata per titolo: 'Never Let Me Go'
+[10:40:01] Titoli disponibili nella playlist:
+[10:40:01]  - 'I Thought About Killing You'
+[10:40:01]  - 'Yikes'
+[10:40:01]  - 'All Mine'
+[10:40:01]  - 'Wouldn't Leave'
+[10:40:01]  - 'No Mistakes'
+[10:40:01]  - 'Ghost Town'
+[10:40:01]  - 'Violent Crimes'
+[10:40:02] MP3Player: play() avviato – Violent Crimes
+[10:40:02] MP3Player: inizio riproduzione di "Violent Crimes"
+[10:40:02] MP3Player: thread playback avviato
+[10:40:02] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:40:02] MP3Player: player creato, avvio riproduzione
+[10:40:02] PlaybackManager: percentuale attuale = 0
+[10:40:02] MP3Player: riproduzione completata
+[10:40:02] MP3Player: riproduzione completata
+[10:40:02] MP3Player: riproduzione completata – Violent Crimes
+[10:40:02] MP3Player: isPlaying = false
+[10:40:02] MP3Player: play() avviato – Violent Crimes
+[10:40:02] MP3Player: inizio riproduzione di "Ghost Town"
+[10:40:02] MP3Player: thread playback avviato
+[10:40:02] MP3Player: player creato, avvio riproduzione
+[10:40:03] PlaybackManager: percentuale attuale = 1
+[10:40:03] MP3Player: riproduzione completata
+[10:40:03] MP3Player: riproduzione completata
+[10:40:03] MP3Player: riproduzione completata – Ghost Town
+[10:40:03] MP3Player: isPlaying = false
+[10:40:03] MP3Player: play() avviato – Ghost Town
+[10:40:03] MP3Player: inizio riproduzione di "No Mistakes"
+[10:40:03] MP3Player: thread playback avviato
+[10:40:03] MP3Player: player creato, avvio riproduzione
+[10:40:04] MP3Player: riproduzione completata
+[10:40:04] MP3Player: riproduzione completata
+[10:40:04] MP3Player: riproduzione completata – No Mistakes
+[10:40:04] MP3Player: isPlaying = false
+[10:40:04] MP3Player: play() avviato – No Mistakes
+[10:40:04] MP3Player: inizio riproduzione di "Wouldn't Leave"
+[10:40:04] MP3Player: thread playback avviato
+[10:40:04] MP3Player: player creato, avvio riproduzione
+[10:40:04] PlaybackManager: percentuale attuale = 1
+[10:40:04] MP3Player: riproduzione completata
+[10:40:04] MP3Player: riproduzione completata
+[10:40:04] MP3Player: riproduzione completata – Wouldn't Leave
+[10:40:04] MP3Player: isPlaying = false
+[10:40:04] MP3Player: play() avviato – Wouldn't Leave
+[10:40:04] MP3Player: inizio riproduzione di "All Mine"
+[10:40:04] MP3Player: thread playback avviato
+[10:40:04] MP3Player: player creato, avvio riproduzione
+[10:40:05] MP3Player: riproduzione completata
+[10:40:05] MP3Player: riproduzione completata
+[10:40:05] MP3Player: riproduzione completata – All Mine
+[10:40:05] MP3Player: isPlaying = false
+[10:40:05] MP3Player: play() avviato – All Mine
+[10:40:05] MP3Player: inizio riproduzione di "Yikes"
+[10:40:05] MP3Player: thread playback avviato
+[10:40:05] MP3Player: player creato, avvio riproduzione
+[10:40:05] PlaybackManager: percentuale attuale = 2
+[10:40:05] MP3Player: riproduzione completata
+[10:40:05] MP3Player: riproduzione completata
+[10:40:05] MP3Player: riproduzione completata – Yikes
+[10:40:05] MP3Player: isPlaying = false
+[10:40:05] MP3Player: play() avviato – Yikes
+[10:40:05] MP3Player: inizio riproduzione di "I Thought About Killing You"
+[10:40:05] MP3Player: thread playback avviato
+[10:40:05] MP3Player: player creato, avvio riproduzione
+[10:40:06] PlaybackManager: percentuale attuale = 1
+[10:40:06] Controller: nextSong() chiamato
+[10:40:06] MP3Player: riproduzione completata
+[10:40:06] MP3Player: riproduzione completata
+[10:40:06] MP3Player: riproduzione completata – I Thought About Killing You
+[10:40:06] MP3Player: isPlaying = false
+[10:40:06] ERRORE: canzone non trovata per titolo: 'Creep Theme'
+[10:40:06] Titoli disponibili nella playlist:
+[10:40:06]  - 'I Thought About Killing You'
+[10:40:06]  - 'Yikes'
+[10:40:06]  - 'All Mine'
+[10:40:06]  - 'Wouldn't Leave'
+[10:40:06]  - 'No Mistakes'
+[10:40:06]  - 'Ghost Town'
+[10:40:06]  - 'Violent Crimes'
+[10:40:07] PlaybackManager: canzone finita, chiamo nextSong()
+[10:40:07] PlaybackManager: isPlaying prima = false
+[10:40:07] Controller: nextSong() chiamato
+[10:40:07] ERRORE: canzone non trovata per titolo: 'After You'
+[10:40:07] Titoli disponibili nella playlist:
+[10:40:07]  - 'I Thought About Killing You'
+[10:40:07]  - 'Yikes'
+[10:40:07]  - 'All Mine'
+[10:40:07]  - 'Wouldn't Leave'
+[10:40:07]  - 'No Mistakes'
+[10:40:07]  - 'Ghost Town'
+[10:40:07]  - 'Violent Crimes'
+[10:40:09] MP3Player: play() avviato – I Thought About Killing You
+[10:40:09] MP3Player: inizio riproduzione di "Violent Crimes"
+[10:40:09] MP3Player: thread playback avviato
+[10:40:09] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:40:09] MP3Player: player creato, avvio riproduzione
+[10:40:09] PlaybackManager: percentuale attuale = 0
+[10:40:10] PlaybackManager: percentuale attuale = 1
+[10:40:11] MP3Player: riproduzione completata
+[10:40:11] MP3Player: riproduzione completata
+[10:40:11] MP3Player: riproduzione completata – Violent Crimes
+[10:40:11] MP3Player: isPlaying = false
+[10:40:11] PlaybackManager: percentuale attuale = 0
+[10:40:12] PlaybackManager: percentuale attuale = 22
+[10:40:13] Lista canzoni aggiornate
+[10:40:13] Icone playlist caricate
+[10:40:13] Icone playlist caricate
+[10:40:13] PlaybackManager: percentuale attuale = 23
+[10:40:14] Controller: nextSong() chiamato
+[10:40:14] Riproduco: I Thought About Killing You
+[10:40:14] MP3Player: play() avviato – Violent Crimes
+[10:40:14] MP3Player: inizio riproduzione di "I Thought About Killing You"
+[10:40:14] MP3Player: thread playback avviato
+[10:40:14] MP3Player: player creato, avvio riproduzione
+[10:40:14] Icone aggiornate
+[10:40:14] PlaybackManager: percentuale attuale = 1
+[10:40:15] Controller: nextSong() chiamato
+[10:40:15] MP3Player: riproduzione completata
+[10:40:15] MP3Player: riproduzione completata
+[10:40:15] MP3Player: riproduzione completata – I Thought About Killing You
+[10:40:15] MP3Player: isPlaying = false
+[10:40:15] Riproduco: All Mine
+[10:40:15] MP3Player: play() avviato – I Thought About Killing You
+[10:40:15] MP3Player: inizio riproduzione di "All Mine"
+[10:40:15] MP3Player: thread playback avviato
+[10:40:15] MP3Player: player creato, avvio riproduzione
+[10:40:15] Icone aggiornate
+[10:40:15] PlaybackManager: percentuale attuale = 2
+[10:40:16] MP3Player: riproduzione completata
+[10:40:16] MP3Player: riproduzione completata
+[10:40:16] MP3Player: riproduzione completata – All Mine
+[10:40:16] MP3Player: isPlaying = false
+[10:40:16] MP3Player: play() avviato – All Mine
+[10:40:16] MP3Player: inizio riproduzione di "Yikes"
+[10:40:16] MP3Player: thread playback avviato
+[10:40:16] MP3Player: player creato, avvio riproduzione
+[10:40:16] MP3Player: riproduzione completata
+[10:40:16] MP3Player: riproduzione completata
+[10:40:16] MP3Player: riproduzione completata – Yikes
+[10:40:16] MP3Player: isPlaying = false
+[10:40:16] MP3Player: play() avviato – Yikes
+[10:40:16] MP3Player: inizio riproduzione di "I Thought About Killing You"
+[10:40:16] MP3Player: thread playback avviato
+[10:40:16] MP3Player: player creato, avvio riproduzione
+[10:40:16] PlaybackManager: percentuale attuale = 1
+[10:40:16] MP3Player: riproduzione completata
+[10:40:16] MP3Player: riproduzione completata
+[10:40:16] MP3Player: riproduzione completata – I Thought About Killing You
+[10:40:16] MP3Player: isPlaying = false
+[10:40:16] MP3Player: play() avviato – I Thought About Killing You
+[10:40:16] MP3Player: inizio riproduzione di "Violent Crimes"
+[10:40:16] MP3Player: thread playback avviato
+[10:40:16] MP3Player: player creato, avvio riproduzione
+[10:40:17] Controller: nextSong() chiamato
+[10:40:17] MP3Player: riproduzione completata
+[10:40:17] MP3Player: riproduzione completata
+[10:40:17] MP3Player: riproduzione completata – Violent Crimes
+[10:40:17] MP3Player: isPlaying = false
+[10:40:17] Riproduco: I Thought About Killing You
+[10:40:17] MP3Player: play() avviato – Violent Crimes
+[10:40:17] MP3Player: inizio riproduzione di "I Thought About Killing You"
+[10:40:17] MP3Player: thread playback avviato
+[10:40:17] MP3Player: player creato, avvio riproduzione
+[10:40:17] Icone aggiornate
+[10:40:17] Controller: nextSong() chiamato
+[10:40:17] MP3Player: riproduzione completata
+[10:40:17] MP3Player: riproduzione completata
+[10:40:17] MP3Player: riproduzione completata – I Thought About Killing You
+[10:40:17] MP3Player: isPlaying = false
+[10:40:17] Riproduco: No Mistakes
+[10:40:17] MP3Player: play() avviato – I Thought About Killing You
+[10:40:17] MP3Player: inizio riproduzione di "No Mistakes"
+[10:40:17] MP3Player: thread playback avviato
+[10:40:17] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:40:17] MP3Player: player creato, avvio riproduzione
+[10:40:17] PlaybackManager: canzone finita, chiamo nextSong()
+[10:40:17] PlaybackManager: percentuale attuale = 0
+[10:40:17] PlaybackManager: isPlaying prima = true
+[10:40:17] Icone aggiornate
+[10:40:17] Controller: nextSong() chiamato
+[10:40:17] MP3Player: riproduzione completata
+[10:40:17] MP3Player: riproduzione completata
+[10:40:17] MP3Player: riproduzione completata – No Mistakes
+[10:40:17] MP3Player: isPlaying = false
+[10:40:17] Riproduco: All Mine
+[10:40:17] MP3Player: play() avviato – No Mistakes
+[10:40:17] MP3Player: inizio riproduzione di "All Mine"
+[10:40:17] MP3Player: thread playback avviato
+[10:40:17] MP3Player: player creato, avvio riproduzione
+[10:40:17] Icone aggiornate
+[10:40:18] PlaybackManager: percentuale attuale = 3
+[10:40:19] Lista canzoni aggiornate
+[10:40:19] Icone playlist caricate
+[10:40:19] Icone playlist caricate
+[10:40:19] PlaybackManager: percentuale attuale = 3
+[10:40:20] Controller: nextSong() chiamato
+[10:40:20] MP3Player: riproduzione completata
+[10:40:20] MP3Player: riproduzione completata
+[10:40:20] MP3Player: riproduzione completata – All Mine
+[10:40:20] MP3Player: isPlaying = false
+[10:40:20] ERRORE: canzone non trovata per titolo: 'The World'
+[10:40:20] Titoli disponibili nella playlist:
+[10:40:20]  - 'I Thought About Killing You'
+[10:40:20]  - 'Yikes'
+[10:40:20]  - 'All Mine'
+[10:40:20]  - 'Wouldn't Leave'
+[10:40:20]  - 'No Mistakes'
+[10:40:20]  - 'Ghost Town'
+[10:40:20]  - 'Violent Crimes'
+[10:40:20] PlaybackManager: canzone finita, chiamo nextSong()
+[10:40:20] PlaybackManager: isPlaying prima = false
+[10:40:21] Controller: nextSong() chiamato
+[10:40:21] ERRORE: canzone non trovata per titolo: 'Man Up'
+[10:40:21] Titoli disponibili nella playlist:
+[10:40:21]  - 'I Thought About Killing You'
+[10:40:21]  - 'Yikes'
+[10:40:21]  - 'All Mine'
+[10:40:21]  - 'Wouldn't Leave'
+[10:40:21]  - 'No Mistakes'
+[10:40:21]  - 'Ghost Town'
+[10:40:21]  - 'Violent Crimes'

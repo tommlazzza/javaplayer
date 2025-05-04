@@ -1,0 +1,159 @@
+[Logger inizializzato alle 15:59:52]
+[15:59:52] Window creata
+[15:59:52] Lingua caricata: Italiano
+[15:59:52] Tema caricato dal file config
+[15:59:52] Modalità di riproduzione caricata dal file config
+[15:59:53] Lista canzoni aggiornata
+[15:59:53] Icone playlist caricate
+[15:59:53] Repaint e Revalidate fatto
+[15:59:53] Lingua aggiornata
+[15:59:53] Icone aggiornate
+[15:59:53] Tema applicato
+[15:59:53] Pannello creato
+[15:59:53] Lingua caricata: Italiano
+[15:59:53] Repaint e Revalidate fatto
+[15:59:53] Lingua aggiornata
+[15:59:55] Lista canzoni aggiornata
+[15:59:55] Icone playlist caricate
+[15:59:55] Icone playlist caricate
+[15:59:56] GUN TO MY HEAD
+[15:59:56] MP3Player: play() avviato – GUN TO MY HEAD
+[15:59:56] MP3Player: inizio riproduzione di "GUN TO MY HEAD"
+[15:59:56] MP3Player: thread playback avviato
+[15:59:56] Icone aggiornate
+[15:59:56] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:59:56] PlaybackManager: percentuale attuale = 0
+[15:59:56] MP3Player: player creato, avvio riproduzione
+[15:59:57] PlaybackManager: percentuale attuale = 0
+[15:59:58] MP3Player: riproduzione completata
+[15:59:58] MP3Player: riproduzione completata
+[15:59:58] MP3Player: riproduzione completata – GUN TO MY HEAD
+[15:59:58] MP3Player: isPlaying = false
+[15:59:58] CAN U BE
+[15:59:58] MP3Player: play() avviato – CAN U BE
+[15:59:58] MP3Player: inizio riproduzione di "CAN U BE"
+[15:59:58] MP3Player: thread playback avviato
+[15:59:58] Icone aggiornate
+[15:59:58] MP3Player: player creato, avvio riproduzione
+[15:59:58] PlaybackManager: percentuale attuale = 0
+[15:59:59] PlaybackManager: percentuale attuale = 1
+[16:00:00] PlaybackManager: percentuale attuale = 1
+[16:00:01] PlaybackManager: percentuale attuale = 2
+[16:00:02] PlaybackManager: percentuale attuale = 3
+[16:00:03] PlaybackManager: percentuale attuale = 3
+[16:00:04] PlaybackManager: percentuale attuale = 4
+[16:00:05] PlaybackManager: percentuale attuale = 4
+[16:00:06] PlaybackManager: percentuale attuale = 5
+[16:00:07] PlaybackManager: percentuale attuale = 6
+[16:00:08] PlaybackManager: percentuale attuale = 6
+[16:00:09] PlaybackManager: percentuale attuale = 7
+[16:00:10] PlaybackManager: percentuale attuale = 8
+[16:00:11] PlaybackManager: percentuale attuale = 8
+[16:00:12] PlaybackManager: percentuale attuale = 9
+[16:00:12] Lista canzoni aggiornata
+[16:00:12] Icone playlist caricate
+[16:00:12] Icone playlist caricate
+[16:00:13] PlaybackManager: percentuale attuale = 10
+[16:00:14] PlaybackManager: percentuale attuale = 11
+[16:00:14] Lista canzoni aggiornata
+[16:00:14] Icone playlist caricate
+[16:00:14] Icone playlist caricate
+[16:00:15] PlaybackManager: percentuale attuale = 11
+[16:00:16] PlaybackManager: percentuale attuale = 12
+[16:00:17] PlaybackManager: percentuale attuale = 13
+[16:00:17] Lista canzoni aggiornata
+[16:00:17] Icone playlist caricate
+[16:00:17] Icone playlist caricate
+[16:00:18] PlaybackManager: percentuale attuale = 13
+[16:00:19] PlaybackManager: percentuale attuale = 14
+[16:00:19] Lista canzoni aggiornata
+[16:00:19] Icone playlist caricate
+[16:00:19] Icone playlist caricate
+[16:00:20] PlaybackManager: percentuale attuale = 14
+[16:00:21] PlaybackManager: percentuale attuale = 15
+[16:00:22] MP3Player: riproduzione completata
+[16:00:22] MP3Player: riproduzione completata
+[16:00:22] MP3Player: riproduzione completata – CAN U BE
+[16:00:22] MP3Player: isPlaying = false
+[16:00:22] Power To Survive
+[16:00:22] MP3Player: play() avviato – Power To Survive
+[16:00:22] MP3Player: inizio riproduzione di "Power To Survive"
+[16:00:22] MP3Player: thread playback avviato
+[16:00:22] Icone aggiornate
+[16:00:22] MP3Player: player creato, avvio riproduzione
+[16:00:22] PlaybackManager: percentuale attuale = 0
+[16:00:23] PlaybackManager: percentuale attuale = 0
+[16:00:23] Lista canzoni aggiornata
+[16:00:23] Icone playlist caricate
+[16:00:23] Icone playlist caricate
+[16:00:24] PlaybackManager: percentuale attuale = 0
+[16:00:25] PlaybackManager: percentuale attuale = 1
+[16:00:26] Lista canzoni aggiornata
+[16:00:26] PlaybackManager: percentuale attuale = 1
+[16:00:26] Icone playlist caricate
+[16:00:26] Icone playlist caricate
+[16:00:27] PlaybackManager: percentuale attuale = 1
+[16:00:28] PlaybackManager: percentuale attuale = 1
+[16:00:28] Lista canzoni aggiornata
+[16:00:28] Icone playlist caricate
+[16:00:28] Icone playlist caricate
+[16:00:29] PlaybackManager: percentuale attuale = 2
+[16:00:30] PlaybackManager: percentuale attuale = 2
+[16:00:31] PlaybackManager: percentuale attuale = 2
+[16:00:32] Lista canzoni aggiornata
+[16:00:32] Icone playlist caricate
+[16:00:32] Icone playlist caricate
+[16:00:32] PlaybackManager: percentuale attuale = 2
+[16:00:33] PlaybackManager: percentuale attuale = 3
+[16:00:33] Lista canzoni aggiornata
+[16:00:33] Icone playlist caricate
+[16:00:33] Icone playlist caricate
+[16:00:34] MP3Player: riproduzione completata
+[16:00:34] MP3Player: riproduzione completata
+[16:00:34] MP3Player: riproduzione completata – Power To Survive
+[16:00:34] MP3Player: isPlaying = false
+[16:00:34] Nobody To Love
+[16:00:34] MP3Player: play() avviato – Nobody To Love
+[16:00:34] MP3Player: inizio riproduzione di "Nobody To Love"
+[16:00:34] MP3Player: thread playback avviato
+[16:00:34] MP3Player: player creato, avvio riproduzione
+[16:00:34] Icone aggiornate
+[16:00:34] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[16:00:34] PlaybackManager: percentuale attuale = 26
+[16:00:34] PlaybackManager: canzone finita, chiamo nextSong()
+[16:00:34] PlaybackManager: isPlaying prima = true
+[16:00:35] PlaybackManager: percentuale attuale = 26
+[16:00:36] MP3Player: riproduzione completata
+[16:00:36] MP3Player: riproduzione completata
+[16:00:36] MP3Player: riproduzione completata – Nobody To Love
+[16:00:36] MP3Player: isPlaying = false
+[16:00:36] PlaybackManager: percentuale attuale = 41
+[16:00:37] PlaybackManager: percentuale attuale = 56
+[16:00:38] PlaybackManager: percentuale attuale = 56
+[16:00:39] PlaybackManager: percentuale attuale = 56
+[16:00:40] PlaybackManager: percentuale attuale = 57
+[16:00:41] PlaybackManager: percentuale attuale = 57
+[16:00:42] PlaybackManager: percentuale attuale = 57
+[16:00:43] PlaybackManager: percentuale attuale = 57
+[16:00:43] GOD!
+[16:00:43] MP3Player: play() avviato – GOD!
+[16:00:43] MP3Player: inizio riproduzione di "GOD!"
+[16:00:43] MP3Player: thread playback avviato
+[16:00:43] Icone aggiornate
+[16:00:43] MP3Player: player creato, avvio riproduzione
+[16:00:44] PlaybackManager: percentuale attuale = 26
+[16:00:45] MP3Player: riproduzione completata
+[16:00:45] MP3Player: riproduzione completata
+[16:00:45] MP3Player: riproduzione completata – GOD!
+[16:00:45] MP3Player: isPlaying = false
+[16:00:45] PlaybackManager: percentuale attuale = 0
+[16:00:46] PlaybackManager: percentuale attuale = 52
+[16:00:47] PlaybackManager: percentuale attuale = 52
+[16:00:48] PlaybackManager: percentuale attuale = 53
+[16:00:49] PlaybackManager: percentuale attuale = 53
+[16:00:50] PlaybackManager: percentuale attuale = 53
+[16:00:51] PlaybackManager: percentuale attuale = 53
+[16:00:52] PlaybackManager: percentuale attuale = 54
+[16:00:53] PlaybackManager: percentuale attuale = 54
+[16:00:54] PlaybackManager: percentuale attuale = 54
+[16:00:55] PlaybackManager: percentuale attuale = 54

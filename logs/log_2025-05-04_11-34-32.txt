@@ -1,0 +1,47 @@
+[Logger inizializzato alle 11:34:32]
+[11:34:33] Window creata
+[11:34:33] Lingua caricata: Italiano
+[11:34:33] Tema caricato dal file config
+[11:34:33] Modalità di riproduzione caricata dal file config
+[11:34:33] Lista canzoni aggiornata
+[11:34:33] Icone playlist caricate
+[11:34:33] Repaint e Revalidate fatto
+[11:34:33] Lingua aggiornata
+[11:34:33] Icone aggiornate
+[11:34:33] Tema applicato
+[11:34:33] Pannello creato
+[11:34:33] Lingua caricata: Italiano
+[11:34:33] Repaint e Revalidate fatto
+[11:34:33] Lingua aggiornata
+[11:34:44] Lista canzoni aggiornata
+[11:34:44] Icone playlist caricate
+[11:34:44] Icone playlist caricate
+[11:34:49] Import MP3: Copio in C:\Users\giamm\eclipse-workspace\Sonora\resources\playlists\Non fare la puttana.mp3
+[11:34:49] Lista canzoni aggiornata
+[11:34:49] Lista canzoni aggiornata
+[11:34:49] Icone playlist caricate
+[11:34:49] Lista canzoni aggiornata
+[11:34:57] Non fare la puttana
+[11:34:57] MP3Player: play() avviato – Non fare la puttana
+[11:34:57] MP3Player: inizio riproduzione di "Non fare la puttana"
+[11:34:57] MP3Player: thread playback avviato
+[11:34:57] Icone aggiornate
+[11:34:57] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:34:57] PlaybackManager: percentuale attuale = 0
+[11:34:57] MP3Player: player creato, avvio riproduzione
+[11:34:58] PlaybackManager: percentuale attuale = 24
+[11:34:59] PlaybackManager: percentuale attuale = 25
+[11:35:00] PlaybackManager: percentuale attuale = 25
+[11:35:01] PlaybackManager: percentuale attuale = 25
+[11:35:02] PlaybackManager: percentuale attuale = 26
+[11:35:03] PlaybackManager: percentuale attuale = 26
+[11:35:04] PlaybackManager: percentuale attuale = 27
+[11:35:05] PlaybackManager: percentuale attuale = 27
+[11:35:06] PlaybackManager: percentuale attuale = 28
+[11:35:07] PlaybackManager: percentuale attuale = 28
+[11:35:08] PlaybackManager: percentuale attuale = 28
+[11:35:09] PlaybackManager: percentuale attuale = 29
+[11:35:10] PlaybackManager: percentuale attuale = 29
+[11:35:11] PlaybackManager: percentuale attuale = 29
+[11:35:12] PlaybackManager: percentuale attuale = 30
+[11:35:13] PlaybackManager: percentuale attuale = 30

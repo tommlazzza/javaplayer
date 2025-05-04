@@ -1,0 +1,67 @@
+[Logger inizializzato alle 15:43:27]
+[15:43:27] Window creata
+[15:43:27] Lingua caricata: Italiano
+[15:43:27] Tema caricato dal file config
+[15:43:27] Modalità di riproduzione caricata dal file config
+[15:43:28] Lista canzoni aggiornata
+[15:43:28] Icone playlist caricate
+[15:43:28] Repaint e Revalidate fatto
+[15:43:28] Lingua aggiornata
+[15:43:28] Icone aggiornate
+[15:43:28] Tema applicato
+[15:43:28] Pannello creato
+[15:43:28] Lingua caricata: Italiano
+[15:43:28] Repaint e Revalidate fatto
+[15:43:28] Lingua aggiornata
+[15:43:33] Lista canzoni aggiornata
+[15:43:33] Icone playlist caricate
+[15:43:33] Icone playlist caricate
+[15:43:39] Lista canzoni aggiornata
+[15:43:39] Icone playlist caricate
+[15:43:39] Lista canzoni aggiornata
+[15:43:40] Alien
+[15:43:40] MP3Player: play() avviato – Alien
+[15:43:40] MP3Player: inizio riproduzione di "Alien"
+[15:43:40] MP3Player: thread playback avviato
+[15:43:40] Icone aggiornate
+[15:43:40] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:43:40] PlaybackManager: percentuale attuale = 0
+[15:43:40] MP3Player: player creato, avvio riproduzione
+[15:43:41] PlaybackManager: percentuale attuale = 2
+[15:43:42] PlaybackManager: percentuale attuale = 2
+[15:43:43] PlaybackManager: percentuale attuale = 2
+[15:43:44] PlaybackManager: percentuale attuale = 3
+[15:43:45] PlaybackManager: percentuale attuale = 3
+[15:43:46] PlaybackManager: percentuale attuale = 3
+[15:43:47] PlaybackManager: percentuale attuale = 4
+[15:43:48] PlaybackManager: percentuale attuale = 4
+[15:43:49] PlaybackManager: percentuale attuale = 4
+[15:43:50] PlaybackManager: percentuale attuale = 4
+[15:43:51] PlaybackManager: percentuale attuale = 5
+[15:43:52] PlaybackManager: percentuale attuale = 5
+[15:43:53] PlaybackManager: percentuale attuale = 5
+[15:43:54] PlaybackManager: percentuale attuale = 5
+[15:43:55] PlaybackManager: percentuale attuale = 6
+[15:43:56] PlaybackManager: percentuale attuale = 6
+[15:43:57] PlaybackManager: percentuale attuale = 6
+[15:43:58] PlaybackManager: percentuale attuale = 7
+[15:43:59] PlaybackManager: percentuale attuale = 7
+[15:44:00] PlaybackManager: percentuale attuale = 7
+[15:44:01] PlaybackManager: percentuale attuale = 8
+[15:44:02] PlaybackManager: percentuale attuale = 8
+[15:44:03] PlaybackManager: percentuale attuale = 8
+[15:44:04] PlaybackManager: percentuale attuale = 8
+[15:44:05] PlaybackManager: percentuale attuale = 9
+[15:44:06] PlaybackManager: percentuale attuale = 9
+[15:44:07] PlaybackManager: percentuale attuale = 9
+[15:44:08] PlaybackManager: percentuale attuale = 10
+[15:44:09] PlaybackManager: percentuale attuale = 10
+[15:44:10] PlaybackManager: percentuale attuale = 10
+[15:44:11] PlaybackManager: percentuale attuale = 11
+[15:44:12] PlaybackManager: percentuale attuale = 11
+[15:44:13] PlaybackManager: percentuale attuale = 11
+[15:44:14] PlaybackManager: percentuale attuale = 11
+[15:44:15] PlaybackManager: percentuale attuale = 12
+[15:44:16] PlaybackManager: percentuale attuale = 12
+[15:44:16] Errore nel copiare MP3: resources\playlists\Unreleased YE\On God feat Dua Lipa.mp3 -> resources\playlists\Unreleased YE\On God feat Dua Lipa.mp3
+[15:44:17] PlaybackManager: percentuale attuale = 12

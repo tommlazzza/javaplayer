@@ -15,10 +15,11 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.WindowEvent;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +28,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.Semaphore;
 
@@ -42,6 +42,7 @@ import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
+import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
 import javax.swing.JSlider;
 import javax.swing.JTextArea;
@@ -57,10 +58,15 @@ import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
+import com.dreamteam.data.ConfigManager;
+import com.dreamteam.data.FileManager;
+import com.dreamteam.data.LanguageManager;
 import com.dreamteam.data.PlaylistDataManager;
+import com.dreamteam.languages.Languages;
 import com.dreamteam.model.MP3Player;
 import com.dreamteam.model.Playlist;
 import com.dreamteam.model.Song;
+import com.dreamteam.tools.model.PlaylistCreatorApp;
 import com.dreamteam.view.Panel;
 
 /**
@@ -97,23 +103,31 @@ import com.dreamteam.view.Panel;
  * @see com.dreamteam.model.Playlist
  * @see com.dreamteam.data.PlaylistDataManager
  */
-public class Controller implements ActionListener, ChangeListener, DocumentListener, ListSelectionListener, MouseListener, KeyListener, Runnable 
+public class Controller implements ActionListener, ChangeListener, DocumentListener, ListSelectionListener, MouseListener, KeyListener 
 {
     private final String NAME = "Controller";
     
     public final static String THEME_CONFIG_PATH = "resources/theme.config";
     public final static String PLAYBACK_MODE_CONFIG_PATH = "resources/playbackMode.config";
     public final static String CONFIG_PATH = "config.properties";
+    
+    private final Object songChangeLock;
+    private volatile boolean changingSong;
+    private volatile boolean playingSong;
+    private boolean suppressPlaylistSelection;
+    private boolean suppressComboBoxPlayback;
+    private Playlist playbackPlaylist;
 
     private Panel panel;
-    private Thread thread;
-    private Semaphore mutex;
+    
+    private PlaybackManager playbackManager;
+    private final Semaphore playbackSemaphore;
     private Random random;
 
     private Mode playbackMode = Mode.SEQUENZIALE;
     
     //private Stack<String> playedSongs;
-    private Queue<String> codaPersonalizzata;
+    private QueueManager codaManager;
     private String currentlyPlayingTitle;
 
     /**
@@ -125,13 +139,15 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      */
     public Controller(Panel panel) 
     {
+    	songChangeLock = new Object();
+    	changingSong = false;
+    	playingSong = false;
+    	suppressPlaylistSelection = false;
+    	suppressComboBoxPlayback = false;
+    	
         this.panel = panel;
-        mutex = new Semaphore(0);
+        playbackSemaphore = new Semaphore(0);
         random = new Random();
-
-        thread = new Thread(this);
-        thread.setName(NAME);
-        thread.start();
         
         panel.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke("SPACE"), "playPause");
         panel.getActionMap().put("playPause", new AbstractAction() {
@@ -142,161 +158,10 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
         });
         
         //playedSongs =  new Stack<>();
-        codaPersonalizzata = new LinkedList<>();
+        this.codaManager = new QueueManager();
         currentlyPlayingTitle = null;
-    }
-    
-    /**
-     * Carica la lingua salvata nel file di configurazione.
-     *
-     * @return La lingua caricata, o ITALIANO se non specificata.
-     */
-    public static Languages loadLanguageFromConfig() 
-	{
-	    try 
-	    {
-	        File configFile = new File(CONFIG_PATH);
-	        
-	        if (configFile.exists()) 
-	        {
-	            Properties config = new Properties();
-	            config.load(new FileInputStream(configFile));
-	            
-	            String lang = config.getProperty("language");
-	            
-	            if (lang != null) 
-	            {
-	            	Logger.writeLog("Lingua caricata: " + Languages.valueOf(lang));
-	                return Languages.valueOf(lang);
-	            }
-	        }
-	    } 
-	    catch (Exception e) 
-	    {
-	    	Logger.writeLog("Errore nel caricamento del file di lingua");
-	    }
-	    
-	    Logger.writeLog("Lingua caricata: " + Languages.ITALIANO);
-	    
-	    return Languages.ITALIANO; // default
-	}
-    
-    /**
-     * Carica il tema dal file di configurazione.
-     *
-     * @return true se il tema è "dark", false altrimenti.
-     */
-    public static boolean loadThemeFromConfig() {
-	    try {
-	        File config = new File(THEME_CONFIG_PATH);
-	        if (config.exists()) {
-	            String value = Files.readString(config.toPath()).trim();
-	            Logger.writeLog("Tema caricato dal file config");
-	            return value.equalsIgnoreCase("dark");
-	        }
-	    } catch (IOException e) {}
-	    return false;
-	}
-    
-    /**
-     * Carica la modalità di riproduzione dal file di configurazione.
-     *
-     * @return La modalità di riproduzione caricata, o null se non valida.
-     */
-    public static Mode loadModeFromConfig()
-	{
-		File config = new File(PLAYBACK_MODE_CONFIG_PATH);
-    	
-		String value = "";
-		try {
-			value = Files.readString(config.toPath()).trim();
-		} catch (IOException e) {}
-    	
-		Logger.writeLog("Modalità di riproduzione caricata dal file config");
-    	switch(value)
-    	{
-    		case "SEQUENZIALE":
-    			return Mode.SEQUENZIALE;
-			case "RIPETI":
-	    			return Mode.RIPETI;
-			case "CASUALE":
-	    			return Mode.CASUALE;
-    	}
-		return null;
-	}
-    
-    /**
-     * Carica il numero di riproduzioni da file.
-     *
-     * @return Una mappa contenente il numero di riproduzioni per ciascuna canzone.
-     */
-    private Map<String, Integer> caricaNumeroRiproduzioni() {
-        Map<String, Integer> riproduzioni = new LinkedHashMap<>();
-        File file = new File("resources/plays.count");
-
-        if (file.exists()) {
-            try {
-                List<String> lines = Files.readAllLines(file.toPath());
-                for (String line : lines) {
-                    if (!line.trim().isEmpty() && line.contains("=")) {
-                        String[] parts = line.split("=", 2);
-                        riproduzioni.put(parts[0].trim(), Integer.parseInt(parts[1].trim()));
-                    }
-                }
-            } catch (IOException | NumberFormatException e) {
-                Logger.writeLog("Errore nel caricamento delle riproduzioni: " + e.getMessage());
-            }
-        }
-
-        return riproduzioni;
-    }
-    
-    /**
-     * Carica il numero di ascolti per ogni playlist dal file "playlist_plays.count".
-     * <p>Il formato atteso del file è una serie di righe "nomePlaylist=numero". Le righe non valide vengono ignorate.
-     * In caso di errore di parsing o lettura, viene registrato nel log.</p>
-     *
-     * @return una mappa contenente per ogni playlist il numero totale di ascolti.
-     */
-    private Map<String, Integer> caricaAscoltiPlaylist() {
-        Map<String, Integer> ascolti = new LinkedHashMap<>();
-        File file = new File("resources/playlist_plays.count");
-
-        if (file.exists()) {
-            try {
-                List<String> lines = Files.readAllLines(file.toPath());
-                for (String line : lines) {
-                    if (!line.trim().isEmpty() && line.contains("=")) {
-                        String[] parts = line.split("=", 2);
-                        ascolti.put(parts[0].trim(), Integer.parseInt(parts[1].trim()));
-                    }
-                }
-            } catch (IOException | NumberFormatException e) {
-                Logger.writeLog("Errore lettura ascolti playlist: " + e.getMessage());
-            }
-        }
-
-        return ascolti;
-    }
-
-    /**
-     * Salva il numero di ascolti delle playlist nel file "playlist_plays.count".
-     * <p>Ogni entry della mappa viene salvata nel formato "nomePlaylist=numeroAscolti".</p>
-     * In caso di errore in scrittura, viene generato un messaggio nel log.
-     *
-     * @param ascolti mappa contenente per ogni playlist il numero totale di ascolti.
-     */
-    private void salvaAscoltiPlaylist(Map<String, Integer> ascolti) {
-        File file = new File("resources/playlist_plays.count");
-        List<String> lines = new LinkedList<>();
-        for (Map.Entry<String, Integer> entry : ascolti.entrySet()) {
-            lines.add(entry.getKey() + "=" + entry.getValue());
-        }
-        try {
-            Files.write(file.toPath(), lines);
-        } catch (IOException e) {
-            Logger.writeLog("Errore salvataggio ascolti playlist: " + e.getMessage());
-        }
+        
+        this.playbackManager = new PlaybackManager(panel, playbackSemaphore);
     }
 
     /**
@@ -344,40 +209,103 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                     PlaylistDataManager.savePlaylists(panel.getPlaylists());
                 }
             }
-        } 
-        else if (source == panel.getDeletePlaylistItem()) 
+        }
+        else if (source == panel.getPlaylistConstructor())
         {
+        	PlaylistCreatorApp.main(null);
+        }
+        else if (source == panel.getDeletePlaylistItem()) {
             String selected = panel.getPlaylistList().getSelectedValue();
-            if (selected != null && !selected.equals(LanguageManager.get("playlist.all"))) 
-            {
+            if (selected != null && !selected.equals(LanguageManager.get("playlist.all"))) {
                 int choice = JOptionPane.showConfirmDialog(
-                        panel, 
-                        LanguageManager.get("playlist.delete.confirm") + selected + "?", 
-                        LanguageManager.get("popup.confirm"), 
-                        JOptionPane.YES_NO_OPTION);
+                    panel,
+                    LanguageManager.get("playlist.delete.confirm") + selected + "?",
+                    LanguageManager.get("popup.confirm"),
+                    JOptionPane.YES_NO_OPTION
+                );
 
-                if (choice == JOptionPane.YES_OPTION) 
-                {
+                if (choice == JOptionPane.YES_OPTION) {
+                    //blocca ogni play involontario
+                    suppressComboBoxPlayback = true;
+
+                    // determina se stiamo riproducendo la playlist selezionata
+                    boolean wasPlayingThis = playbackPlaylist != null
+                        && playbackPlaylist.getName().equals(selected);
+
+                    // rimuovi la playlist dai dati e dalla JList
                     panel.getPlaylists().remove(selected);
                     panel.getPlaylistListModel().removeElement(selected);
 
-                    // Elimina anche la cartella della playlist
-                    File playlistDir = new File("resources/playlists/" + selected);
-                    if (playlistDir.exists() && playlistDir.isDirectory()) {
-                        for (File file : playlistDir.listFiles()) file.delete();
-                        playlistDir.delete();
+                    // se era visualizzata, torna a "Tutti i brani"
+                    String all = LanguageManager.get("playlist.all");
+                    if (panel.getPlaylists().containsKey(all)
+                        && panel.getPlaylist().getName().equals(selected)) {
+                        Playlist tutti = panel.getPlaylists().get(all);
+                        panel.setPlaylist(tutti);
+                        panel.getPlaylistList().setSelectedValue(all, true);
+                        panel.refreshCoverImage();
+                        panel.refreshPlaylistTitle();
+                        panel.refreshComboBox();
+                    }
+
+                    // ferma la riproduzione solo se era quella cancellata
+                    if (wasPlayingThis) {
+                        stopPlayback();
+                        playbackPlaylist = null;
+                        currentlyPlayingTitle = null;
+
+                        // azzera UI
+                        panel.setCurrentSongLabel("");
+                        panel.getSlider().setValue(0);
+                        panel.getPlayPauseButton().setEnabled(false);
+                        panel.refreshIcons();
+                    }
+
+                    // sposta tutti gli MP3 nella cartella principale e poi rimuovi la playlist
+                    File dir = new File("resources/playlists/" + selected);
+                    File root = new File("resources/playlists");
+                    if (dir.exists() && dir.isDirectory()) {
+                        // sposto prima tutti i .mp3 nella root
+                        for (File f : dir.listFiles()) {
+                            if (f.isFile() && f.getName().toLowerCase().endsWith(".mp3")) {
+                                Path src = f.toPath();
+                                Path dst = root.toPath().resolve(f.getName());
+                                try {
+                                    Files.move(src, dst, StandardCopyOption.REPLACE_EXISTING);
+                                } catch (IOException ex) {
+                                    Logger.writeLog("Errore spostando " + f.getName() + ": " + ex.getMessage());
+                                }
+                            }
+                        }
+                        // poi pulisco eventuali file residui (es. cover.jpg, data.json) e rimuovo la cartella
+                        for (File f : dir.listFiles()) {
+                            try { f.delete(); } catch (Exception ignore) {}
+                        }
+                        dir.delete();
                     }
 
                     PlaylistDataManager.savePlaylists(panel.getPlaylists());
+
+                    // svuota la selezione nella ComboBox
+                    panel.getComboBox().setSelectedIndex(-1);
+
+                    // riabilita il play automatico
+                    suppressComboBoxPlayback = false;
+
+                    // se stavi ascoltando quella playlist, ora seleziona e avvia la prima canzone di "Tutti i brani"
+                    if (wasPlayingThis && panel.getComboBox().getModel().getSize() > 0) {
+                        panel.getComboBox().setSelectedIndex(0);
+                        panel.getPlayPauseButton().setEnabled(true);
+                        playSelectedSong();
+                    }
                 }
-            }
-            else {
+            } else {
                 JOptionPane.showMessageDialog(panel, LanguageManager.get("playlist.all.readonly"));
             }
         }
         else if (source == panel.getRenamePlaylistItem()) 
         {
-            String selected = panel.getPlaylistList().getSelectedValue();
+        	String selected = panel.getPlaylistList().getSelectedValue();
             if (selected != null) 
             {
                 String newName = JOptionPane.showInputDialog(panel, LanguageManager.get("playlist.name.new"), selected);
@@ -386,15 +314,40 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                     Playlist pl = panel.getPlaylists().remove(selected);
                     pl.setName(newName);
 
-                    // Rinomina la cartella fisica
+                    // Rinominazione cartella
                     File oldDir = new File("resources/playlists/" + selected);
                     File newDir = new File("resources/playlists/" + newName);
-                    if (oldDir.exists()) oldDir.renameTo(newDir);
+                    if (oldDir.exists()) {
+                        boolean renamed = oldDir.renameTo(newDir);
+                        if (renamed && pl.getCoverImage() != null) {
+                            // Se l'immagine era nella vecchia cartella, aggiorna il percorso
+                            File oldCover = new File(pl.getCoverImage());
+                            if (oldCover.getParentFile().getName().equals(selected)) {
+                                File newCover = new File(newDir, "cover.jpg");
+                                pl.setCoverImage(newCover.getPath());
+                            }
+                        }
+                    }
+
+                    // Salva la playlist aggiornata nel nuovo percorso (aggiorna anche data.json)
+                    try {
+                        PlaylistDataManager.exportPlaylist(pl, newDir);
+                    } catch (IOException e1) {
+                        Logger.writeLog("Errore nel salvataggio dopo rinomina: " + e1.getMessage());
+                    }
 
                     panel.getPlaylistListModel().removeElement(selected);
                     panel.getPlaylists().put(newName, pl);
                     panel.getPlaylistListModel().addElement(newName);
+
                     PlaylistDataManager.savePlaylists(panel.getPlaylists());
+
+                    // Aggiorna GUI
+                    panel.getPlaylistList().setSelectedValue(newName, true);
+                    panel.setPlaylist(pl);
+                    panel.refreshCoverImage();
+                    panel.refreshPlaylistTitle();
+                    panel.refreshComboBox();
                 }
             }
         }
@@ -402,7 +355,8 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
         {
             String[] options = {
                 LanguageManager.get("sort.alphabetical"),
-                LanguageManager.get("sort.original")
+                LanguageManager.get("sort.original"),
+                LanguageManager.get("sort.custom")      // nuovo
             };
             
             int choice = JOptionPane.showOptionDialog(
@@ -416,17 +370,104 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                 options[0]
             );
             
-            if (choice == 0) { // Ordine alfabetico
+            if (choice == 0) { 
+                // Ordine alfabetico
                 panel.getPlaylist().sortSongsAlphabetically();
                 panel.refreshComboBox();
                 PlaylistDataManager.savePlaylists(panel.getPlaylists());
-            } else if (choice == 1) { // Ordine originale
+                
+            } else if (choice == 1) { 
+                // Ordine originale
                 panel.getPlaylist().sortSongsOriginalOrder();
                 panel.refreshComboBox();
                 PlaylistDataManager.savePlaylists(panel.getPlaylists());
+                
+            } else if (choice == 2) {
+                // Riordino personalizzato
+                Playlist pl = panel.getPlaylist();
+
+                JDialog dialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(panel),
+                                             LanguageManager.get("sort.custom"),
+                                             true);
+                dialog.setLayout(new BorderLayout());
+                dialog.setSize(400, 400);
+                dialog.setLocationRelativeTo(panel);
+
+                // modello con i titoli correnti
+                DefaultListModel<String> listModel = new DefaultListModel<>();
+                for (String title : pl.getSongTitles()) {
+                    listModel.addElement(title);
+                }
+
+                JList<String> songList = new JList<>(listModel);
+                songList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+                songList.setDragEnabled(true);
+                songList.setDropMode(DropMode.INSERT);
+                songList.setTransferHandler(new TransferHandler() {
+                    private int fromIndex = -1;
+
+                    @Override
+                    public int getSourceActions(JComponent c) {
+                        return MOVE;
+                    }
+
+                    @Override
+                    protected Transferable createTransferable(JComponent c) {
+                        fromIndex = songList.getSelectedIndex();
+                        return new StringSelection(songList.getSelectedValue());
+                    }
+
+                    @Override
+                    public boolean canImport(TransferSupport support) {
+                        return support.isDataFlavorSupported(DataFlavor.stringFlavor);
+                    }
+
+                    @Override
+                    public boolean importData(TransferSupport support) {
+                        try {
+                            int toIndex = ((JList.DropLocation) support.getDropLocation()).getIndex();
+                            String value = (String) support.getTransferable()
+                                                         .getTransferData(DataFlavor.stringFlavor);
+                            if (fromIndex < 0 || toIndex < 0 || fromIndex == toIndex) return false;
+
+                            DefaultListModel<String> model = (DefaultListModel<String>) songList.getModel();
+                            String moved = model.get(fromIndex);
+                            model.remove(fromIndex);
+                            // se toIndex > size, clampa all’ultimo
+                            if (toIndex > model.getSize()) toIndex = model.getSize();
+                            model.add(toIndex, moved);
+                            return true;
+                        } catch (Exception ex) {
+                            Logger.writeLog("Error reordering: " + ex.getMessage());
+                            return false;
+                        }
+                    }
+                });
+
+                dialog.add(new JScrollPane(songList), BorderLayout.CENTER);
+
+                JButton saveBtn = new JButton(LanguageManager.get("label.save"));
+                saveBtn.addActionListener(ev -> {
+                    // ricostruisci List<Song> in base ai titoli nell'ordine scelto
+                    List<Song> newOrderSongs = new ArrayList<>();
+                    for (int i = 0; i < listModel.size(); i++) {
+                        String title = listModel.getElementAt(i);
+                        Song s = pl.getSong(title);
+                        if (s != null) {
+                            newOrderSongs.add(s);
+                        }
+                    }
+                    // applica e salva
+                    pl.setCustomOrder(newOrderSongs);
+                    PlaylistDataManager.savePlaylists(panel.getPlaylists());
+                    panel.refreshComboBox();
+                    dialog.dispose();
+                });
+                dialog.add(saveBtn, BorderLayout.SOUTH);
+
+                dialog.setVisible(true);
             }
         }
-
         else if (source == panel.getCoverMenuItem()) 
         {
             String selected = panel.getPlaylistList().getSelectedValue();
@@ -467,100 +508,94 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                     }
                 }
             }
-        }
-        else if (source == panel.getAddSongItem()) 
-        {
-            File songsDir = new File("resources/playlists/");
-            List<File> files = new ArrayList<>();
-
-            try {
-                Files.walk(songsDir.toPath())
-                     .filter(path -> path.toString().toLowerCase().endsWith(".mp3"))
-                     .forEach(path -> files.add(path.toFile()));
-            } catch (IOException ex) {
-                Logger.writeLog("Errore durante la scansione dei file MP3: " + ex.getMessage());
-            }
-
-            // Prendi playlist corrente e titoli già presenti
-            String selected = panel.getPlaylistList().getSelectedValue();
-            Playlist target = panel.getPlaylists().get(selected);
-            List<String> currentTitles = Arrays.asList(target.getSongTitles());
-
-            // Mappa per evitare duplicati per titolo
-            Map<String, Song> songMap = new LinkedHashMap<>();
-
-            for (File f : files) {
-                String title = f.getName().substring(0, f.getName().length() - 4).replace('_', ' ').trim();
-
-                if (!songMap.containsKey(title) && !currentTitles.contains(title)) {
-                    songMap.put(title, new Song(title, f.getPath()));
-                }
-            }
-
-            List<Song> uniqueSongs = new ArrayList<>(songMap.values());
-
-            String[] allSongTitles = uniqueSongs.stream()
-                .map(Song::getTitle)
-                .sorted(String.CASE_INSENSITIVE_ORDER)
-                .toArray(String[]::new);
-
-            // Crea finestra
-            JDialog dialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(panel), LanguageManager.get("playlist.add.songs"), true);
-            dialog.setLayout(new BorderLayout());
-            dialog.setSize(400, 400);
-            dialog.setLocationRelativeTo(panel);
-
-            JTextField searchField = new JTextField();
-            DefaultListModel<String> listModel = new DefaultListModel<>();
-            JList<String> songList = new JList<>(listModel);
-            songList.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
-            JScrollPane scrollPane = new JScrollPane(songList);
-
-            for (String s : allSongTitles) listModel.addElement(s);
-
-            searchField.getDocument().addDocumentListener(new DocumentListener() {
-                public void insertUpdate(DocumentEvent e) { filter(); }
-                public void removeUpdate(DocumentEvent e) { filter(); }
-                public void changedUpdate(DocumentEvent e) { filter(); }
-
-                private void filter() {
-                    String text = searchField.getText().toLowerCase();
-                    listModel.clear();
-                    for (String song : allSongTitles) {
-                        if (song.toLowerCase().contains(text)) {
-                            listModel.addElement(song);
-                        }
-                    }
-                }
-            });
-
-            JButton addButton = new JButton(LanguageManager.get("label.add"));
-            addButton.addActionListener(ev -> {
-                List<String> selectedTitles = songList.getSelectedValuesList();
-                if (selectedTitles.isEmpty()) return;
-
-                int added = 0;
-                for (String title : selectedTitles) {
-                    Song songToAdd = songMap.get(title);
-                    if (songToAdd != null) {
-                        target.addSong(songToAdd);
-                        added++;
-                    }
-                }
-
-                if (added > 0) {
-                    panel.setPlaylist(target);
-                    PlaylistDataManager.savePlaylists(panel.getPlaylists());
-                }
-                dialog.dispose();
-            });
-
-            dialog.add(searchField, BorderLayout.NORTH);
-            dialog.add(scrollPane, BorderLayout.CENTER);
-            dialog.add(addButton, BorderLayout.SOUTH);
-
-            dialog.setVisible(true);
-        }
+        } 
+	    else if (source == panel.getAddSongItem()) { // AGGIUNTA CANZONI ALLA PLAYLIST
+	        // 1) cartella root da cui partire
+	        File songsRoot = new File("resources/playlists");
+	        List<File> files = new ArrayList<>();
+	
+	        try {
+	            Files.walk(songsRoot.toPath())
+	                 .filter(p -> p.toString().toLowerCase().endsWith(".mp3"))
+	                 .forEach(p -> files.add(p.toFile()));
+	        } catch (IOException ex) {
+	            Logger.writeLog("Errore scansione MP3: " + ex.getMessage());
+	        }
+	
+	        // 2) playlist corrente e titoli già presenti
+	        String plName = panel.getPlaylistList().getSelectedValue();
+	        Playlist target = panel.getPlaylists().get(plName);
+	        List<String> existing = Arrays.asList(target.getSongTitles());
+	
+	        // 3) costruisco mappa titolo→Song con percorso RELATIVO
+	        Map<String,Song> songMap = new LinkedHashMap<>();
+	        Path projectRoot = Paths.get("").toAbsolutePath();
+	        for (File f : files) {
+	            String title = f.getName()
+	                            .substring(0, f.getName().length() - 4)
+	                            .replace('_', ' ')
+	                            .trim();
+	            if (!songMap.containsKey(title) && !existing.contains(title)) {
+	                Path abs = f.toPath().toAbsolutePath();
+	                Path rel = projectRoot.relativize(abs);
+	                String relPath = rel.toString().replace("\\","/");
+	                songMap.put(title, new Song(title, relPath));
+	            }
+	        }
+	
+	        // 4) lista di titoli da mostrare
+	        String[] allTitles = songMap.keySet().stream()
+	                                    .sorted(String.CASE_INSENSITIVE_ORDER)
+	                                    .toArray(String[]::new);
+	
+	        // 5) dialog di selezione
+	        JDialog dialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(panel),
+	                                     LanguageManager.get("playlist.add.songs"), true);
+	        dialog.setLayout(new BorderLayout());
+	        dialog.setSize(400, 400);
+	        dialog.setLocationRelativeTo(panel);
+	
+	        JTextField search = new JTextField();
+	        DefaultListModel<String> model = new DefaultListModel<>();
+	        JList<String> list = new JList<>(model);
+	        list.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+	        JScrollPane scroll = new JScrollPane(list);
+	
+	        // popolo
+	        for (String t : allTitles) model.addElement(t);
+	
+	        // filtro dinamico
+	        search.getDocument().addDocumentListener(new DocumentListener() {
+	            void filter() {
+	                String q = search.getText().toLowerCase();
+	                model.clear();
+	                for (String t : allTitles) {
+	                    if (t.toLowerCase().contains(q)) model.addElement(t);
+	                }
+	            }
+	            public void insertUpdate(DocumentEvent e) { filter(); }
+	            public void removeUpdate(DocumentEvent e) { filter(); }
+	            public void changedUpdate(DocumentEvent e) { filter(); }
+	        });
+	
+	        JButton addBtn = new JButton(LanguageManager.get("label.add"));
+	        addBtn.addActionListener(ev -> {
+	            for (String t : list.getSelectedValuesList()) {
+	                Song s = songMap.get(t);
+	                if (s != null) target.addSong(s);
+	            }
+	            panel.setPlaylist(target);
+	            PlaylistDataManager.savePlaylists(panel.getPlaylists());
+	            panel.refreshComboBox();
+	            dialog.dispose();
+	        });
+	
+	        dialog.add(search, BorderLayout.NORTH);
+	        dialog.add(scroll, BorderLayout.CENTER);
+	        dialog.add(addBtn, BorderLayout.SOUTH);
+	        dialog.setVisible(true);
+	
+	    }
         else if (e.getSource() == panel.getRemoveMP3Item()) 
         {
             JFileChooser fileChooser = new JFileChooser(new File("resources/playlists/"));
@@ -632,75 +667,82 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                 stopPlayback();
             }
 
-        } 
-        else if (source == panel.getImportSongItem()) 
-        {
+        } else if (source == panel.getImportSongItem()) {
             JFileChooser fileChooser = new JFileChooser();
-            
+            fileChooser.setDialogTitle(LanguageManager.get("popup.select.mp3"));
             int result = fileChooser.showOpenDialog(panel);
-            
-            if (result == JFileChooser.APPROVE_OPTION) 
-            {
-                File selectedFile = fileChooser.getSelectedFile();
-                
-                if (!selectedFile.getName().toLowerCase().endsWith(".mp3")) 
-                {
-                    JOptionPane.showMessageDialog(
-                    		panel, 
-                    		LanguageManager.get("popup.select.mp3"), 
-                    		LanguageManager.get("popup.error"), 
-                    		JOptionPane.ERROR_MESSAGE);
+            if (result != JFileChooser.APPROVE_OPTION) return;
+
+            File selectedFile = fileChooser.getSelectedFile();
+            if (!selectedFile.getName().toLowerCase().endsWith(".mp3")) {
+                JOptionPane.showMessageDialog(panel,
+                    LanguageManager.get("popup.select.mp3"),
+                    LanguageManager.get("popup.error"),
+                    JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            String fileName = selectedFile.getName();
+            String title = fileName.substring(0, fileName.length() - 4)
+                                 .replace('_',' ').trim();
+
+            Playlist current = panel.getPlaylist();
+
+            if (title.contains(".") || title.equalsIgnoreCase(current.getName())) {
+                JOptionPane.showMessageDialog(panel,
+                    LanguageManager.get("popup.file.import.error"),
+                    LanguageManager.get("popup.error"),
+                    JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            // Se il titolo non è già presente
+            if (!Arrays.asList(current.getSongTitles()).contains(title)) {
+                // Path di destinazione
+                File targetDir = current.getName().equalsIgnoreCase("Tutti i brani")
+                                 ? new File("resources/playlists/")
+                                 : new File("resources/playlists/" + current.getName());
+
+                if (!targetDir.exists()) targetDir.mkdirs();
+
+                // Nuovo file di destinazione
+                File destFile = new File(targetDir, selectedFile.getName());
+
+                try {
+                    Files.copy(selectedFile.toPath(), destFile.toPath(),
+                               StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException ex) {
+                    Logger.writeLog("Errore copia MP3: " + ex.getMessage());
+                    JOptionPane.showMessageDialog(panel,
+                        LanguageManager.get("popup.copy.error"),
+                        LanguageManager.get("popup.error"),
+                        JOptionPane.ERROR_MESSAGE);
                     return;
                 }
-                
-                File destinationDir = new File("resources/playlists");
-                
-                if (!destinationDir.exists()) destinationDir.mkdirs();
-                
-                File destinationFile = new File(destinationDir, selectedFile.getName());
-                
-                Logger.writeLog("Destination file: " + destinationFile);
-                
-                try 
-                {
-                    Files.copy(selectedFile.toPath(), destinationFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
-                    
-                    // Ottieni il nome del file senza estensione
-                    String title = selectedFile.getName().substring(0, selectedFile.getName().length() - 4).replace('_', ' ').trim();
-                    
-                    Logger.writeLog("Song title: " + title);
-                    
-                    // Aggiungilo alla playlist corrente se non già presente
-                    Playlist currentPlaylist = panel.getPlaylist();
-                    if (!Arrays.asList(currentPlaylist.getSongTitles()).contains(title)) {
-                    	currentPlaylist.addSong(title);
-                        PlaylistDataManager.savePlaylists(panel.getPlaylists());
-                        panel.refreshComboBox();
-                    }
 
-                    // Se il titolo non è già nella coda (comboBox), aggiungilo
-                    DefaultListModel<String> model = (DefaultListModel<String>) panel.getComboBox().getModel();
-                    if (!model.contains(title)) {
-                        model.addElement(title);
-                    }
+                // Percorso relativo al progetto
+                Path projectRoot = Paths.get("").toAbsolutePath();
+                Path rel = projectRoot.relativize(destFile.getAbsoluteFile().toPath());
+                String relPath = rel.toString().replace("\\", "/");
 
-                    JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.song.import.success"));
+                current.addSong(new Song(title, relPath));
+                PlaylistDataManager.savePlaylists(panel.getPlaylists());
+                panel.refreshComboBox();
 
-                } 
-                catch (IOException ex) 
-                {
-                    JOptionPane.showMessageDialog(
-                    		panel, 
-                    		LanguageManager.get("popup.file.import.error"), 
-                    		LanguageManager.get("popup.error"), 
-                    		JOptionPane.ERROR_MESSAGE);
-                }
+                // plays.count per il brano
+                File playsFile = new File("resources/plays.count");
+                Map<String,Integer> plays = FileManager.loadCounts(playsFile);
+                plays.putIfAbsent(title, 0);
+                FileManager.saveCounts(plays, playsFile);
             }
-        } 
+
+            JOptionPane.showMessageDialog(panel,
+                LanguageManager.get("popup.song.import.success"));
+        }
         else if(source == panel.getChangeThemeItem())
         {
             panel.toggleTheme();
-            salvaTema(panel.isDarkMode());
+            ConfigManager.saveTheme(panel.isDarkMode());
             Logger.writeLog(LanguageManager.get("theme.changed"));
         }
         else if (source == panel.getTopSongsItem()) {
@@ -887,9 +929,11 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
         if (e.getSource() == slider && !slider.getValueIsAdjusting()) 
         {
             stopPlayback();
+            panel.getPlayer().setPanel(panel);
+            panel.getPlayer().setSemaphore(playbackSemaphore);
             panel.getPlayer().seekToPercentage(slider.getValue());
             
-            mutex.release();
+            playbackSemaphore.release();
         }
     }
 
@@ -905,6 +949,10 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
         {
             if (e.getSource() == panel.getPlaylistList()) 
             {
+            	if (suppressPlaylistSelection) {
+                    suppressPlaylistSelection = false;
+                    return;
+                }
                 String selected = panel.getPlaylistList().getSelectedValue();
                 Playlist selectedPlaylist = panel.getPlaylists().get(selected);
                 
@@ -917,6 +965,7 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
             } 
             else if (e.getSource() == panel.getComboBox()) 
             {
+            	if (suppressComboBoxPlayback) return;
                 playSelectedSong();
             }
         }
@@ -927,8 +976,11 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      */
     private void stopPlayback() 
     {
-        mutex.drainPermits();
+        playbackSemaphore.drainPermits();
+        panel.getPlayer().setPanel(panel);
+        panel.getPlayer().setSemaphore(playbackSemaphore);
         panel.getPlayer().stop();
+        //playbackManager.interruptAndRestart();
     }
 
     /**
@@ -936,25 +988,30 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      */
     private void togglePlayPause() {
         MP3Player player = panel.getPlayer();
+        panel.getPlayer().setPanel(panel);
+        panel.getPlayer().setSemaphore(playbackSemaphore);
 
-        //if (panel.getPlayPauseButton().getText().equals(">")) {
         if (!player.isPlaying()) {
+            // Se non stiamo già suonando
             if (player.getPausedPosition() == 0) {
-            	if (panel.getComboBox().getSelectedIndex() == -1 && panel.getComboBox().getModel().getSize() > 0) {
-                    panel.getComboBox().setSelectedIndex(0);
+                // Caso “play da zero”
+                if (!suppressComboBoxPlayback) {
+                    // Se non è selezionata alcuna canzone, prendi la prima
+                    if (panel.getComboBox().getSelectedIndex() == -1
+                        && panel.getComboBox().getModel().getSize() > 0) {
+                        panel.getComboBox().setSelectedIndex(0);
+                    }
+                    playSelectedSong();
                 }
-            	
-                playSelectedSong();
             } else {
+                // Caso “riprendi da pausa”
                 player.resume();
             }
-            //panel.getPlayPauseButton().setText("||");
-            mutex.release();
         } else {
+            // Caso “metto in pausa”
             player.pause();
-            //panel.getPlayPauseButton().setText(">");
         }
-        
+
         panel.refreshIcons();
     }
 
@@ -963,49 +1020,75 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      */
     private void playSelectedSong() 
     {
-        String selected = panel.getComboBox().getSelectedValue();
+    	if (playingSong) return;
+        playingSong = true;
         
-        if (!Arrays.asList(panel.getPlaylist().getSongTitles()).contains(selected)) {
-    	    Logger.writeLog("Errore: canzone selezionata non esiste nella playlist corrente");
-    	    return;
-    	}
-
-        if (selected != null) 
-        {
-            MP3Player player = panel.getPlayer();
-
-            stopPlayback();
+    	try
+    	{
+    		String selected = panel.getComboBox().getSelectedValue();
             
-            /*
-            if (currentlyPlayingTitle != null) {
-                playedSongs.push(currentlyPlayingTitle); // salva nello storico
+            if (selected == null) {
+                Logger.writeLog("ATTENZIONE: nessuna canzone selezionata nella comboBox");
+                return;
             }
-            */
+
+            if (!Arrays.asList(panel.getPlaylist().getSongTitles()).contains(selected)) {
+                Logger.writeLog("Errore: canzone selezionata non esiste nella playlist corrente");
+                return;
+            }
             
-            System.out.println(selected);
+            if (!Arrays.asList(panel.getPlaylist().getSongTitles()).contains(selected)) {
+        	    Logger.writeLog("Errore: canzone selezionata non esiste nella playlist corrente");
+        	    return;
+        	}
 
-            player.play(panel.getPlaylist().getSong(selected));
+            if (selected != null) 
+            {
+                MP3Player player = panel.getPlayer();
+                panel.getPlayer().setPanel(panel);
+                panel.getPlayer().setSemaphore(playbackSemaphore);
 
-            panel.getComboBox().setSelectedValue(selected, true);
-            //panel.getPlayPauseButton().setText("||");
-            panel.refreshIcons();
+                stopPlayback();
+                
+                /*
+                if (currentlyPlayingTitle != null) {
+                    playedSongs.push(currentlyPlayingTitle); // salva nello storico
+                }
+                */
 
-            currentlyPlayingTitle = selected; // salva la canzone attuale
+                Logger.writeLog(selected);
 
-            mutex.release();
-        }
-        
-        panel.setCurrentSongLabel(currentlyPlayingTitle);
-        
-        Map<String, Integer> riproduzioni = caricaNumeroRiproduzioni();
-        riproduzioni.put(selected, riproduzioni.getOrDefault(selected, 0) + 1);
-        salvaNumeroRiproduzioni(riproduzioni);
-        
-        Map<String, Integer> ascoltiPlaylist = caricaAscoltiPlaylist();
-        String playlistName = panel.getPlaylist().getName();
-        ascoltiPlaylist.put(playlistName, ascoltiPlaylist.getOrDefault(playlistName, 0) + 1);
-        salvaAscoltiPlaylist(ascoltiPlaylist);
+                panel.getPlayer().setCurrentSong(panel.getPlaylist().getSong(selected));
+   
+                player.play(panel.getPlaylist().getSong(selected));
 
+                panel.getComboBox().setSelectedValue(selected, true);
+                //panel.getPlayPauseButton().setText("||");
+                panel.refreshIcons();
+
+                currentlyPlayingTitle = selected; // salva la canzone attuale
+                playbackPlaylist = panel.getPlaylist(); // salvo la playlist
+                
+                playbackSemaphore.release();
+            }
+            
+            panel.setCurrentSongLabel(currentlyPlayingTitle);
+            
+            File playsFile = new File("resources/plays.count");
+            Map<String,Integer> riproduzioni = FileManager.loadCounts(playsFile);
+            riproduzioni.put(selected, riproduzioni.getOrDefault(selected, 0) + 1);
+            FileManager.saveCounts(riproduzioni, playsFile);
+
+            String plName = playbackPlaylist.getName();
+            File plPlaysFile = new File("resources/playlist_plays.count");
+            Map<String,Integer> ascolti = FileManager.loadCounts(plPlaysFile);
+            ascolti.put(plName, ascolti.getOrDefault(plName, 0) + 1);
+            FileManager.saveCounts(ascolti, plPlaysFile);
+    	}
+    	finally
+    	{
+    		playingSong = false;
+    	}
     }
     
     /**
@@ -1029,199 +1112,193 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      * @return Il titolo della canzone selezionata, oppure {@code null} se la playlist è vuota.
      */
     private String getBranoCasualePonderato() {
-        JList<String> list = panel.getComboBox();
-        Map<String, Integer> riproduzioni = caricaNumeroRiproduzioni();
+        if (playbackPlaylist == null || playbackPlaylist.getSongTitles().length == 0)
+            return null;
 
-        if (list.getModel().getSize() == 0) return null;
+        String[] titles = playbackPlaylist.getSongTitles();
+        Map<String, Integer> riproduzioni = FileManager.loadCounts(new File("resources/plays.count"));
 
         List<String> pool = new LinkedList<>();
         int maxRiproduzioni = 1;
 
-        // Calcola il massimo numero di riproduzioni tra tutte le canzoni
-        for (int i = 0; i < list.getModel().getSize(); i++) {
-            String title = list.getModel().getElementAt(i);
-            int riproduzioniCanzone = riproduzioni.getOrDefault(title, 0);
-            if (riproduzioniCanzone + 1 > maxRiproduzioni) maxRiproduzioni = riproduzioniCanzone + 1;
+        // Trova il massimo numero di riproduzioni
+        for (String title : titles) {
+            int ascolti = riproduzioni.getOrDefault(title, 0);
+            if (ascolti + 1 > maxRiproduzioni) {
+                maxRiproduzioni = ascolti + 1;
+            }
         }
 
-        // Costruisci una lista ponderata
-        for (int i = 0; i < list.getModel().getSize(); i++) {
-            String title = list.getModel().getElementAt(i);
-            int riproduzioniCanzone = riproduzioni.getOrDefault(title, 0);
-            int weight = maxRiproduzioni - riproduzioniCanzone;
+        // Costruisce la lista ponderata
+        for (String title : titles) {
+            int ascolti = riproduzioni.getOrDefault(title, 0);
+            int weight = maxRiproduzioni - ascolti;
 
-            for (int j = 0; j < weight; j++) {
+            for (int i = 0; i < weight; i++) {
                 pool.add(title);
             }
         }
 
-        if (pool.isEmpty()) return list.getModel().getElementAt(0); // fallback
+        if (pool.isEmpty()) return titles[0]; // fallback sicuro
 
         return pool.get(random.nextInt(pool.size()));
     }
 
-
 	/**
 	 * Riproduce la canzone successiva secondo la modalità attuale o la coda personalizzata.
-	 */
-    private void nextSong() 
-    {
-        JList<String> list = panel.getComboBox();
+	 */    
+    public void nextSong() {
+        Logger.writeLog("Controller: nextSong() chiamato");
 
-        String nextTitle = null;
+        if (changingSong) return;
+        changingSong = true;
 
-        // PRIMA: Controlla la coda personalizzata
-        if (!codaPersonalizzata.isEmpty()) {
-            nextTitle = codaPersonalizzata.poll();
-        } else {
-            // TROVA indice della canzone attualmente in riproduzione
-            int currentIndex = -1;
-            for (int i = 0; i < list.getModel().getSize(); i++) {
-                if (list.getModel().getElementAt(i).equals(currentlyPlayingTitle)) {
-                    currentIndex = i;
-                    break;
+        try {
+            if (playbackPlaylist == null || playbackPlaylist.getSongTitles().length == 0) {
+                Logger.writeLog("Nessuna playlist di riproduzione attiva o vuota.");
+                return;
+            }
+
+            String[] titles = playbackPlaylist.getSongTitles();
+            String nextTitle = null;
+
+            // 1. Controlla la coda
+            if (!codaManager.isEmpty()) {
+                nextTitle = codaManager.poll();
+            } else {
+                // 2. Trova l'indice della canzone corrente
+                int currentIndex = -1;
+                for (int i = 0; i < titles.length; i++) {
+                    if (titles[i].equals(currentlyPlayingTitle)) {
+                        currentIndex = i;
+                        break;
+                    }
+                }
+
+                switch (playbackMode) {
+                    case CASUALE:
+                        nextTitle = getBranoCasualePonderato();
+                        break;
+                    case SEQUENZIALE:
+                        int nextIndex = (currentIndex < titles.length - 1 && currentIndex >= 0) ? currentIndex + 1 : 0;
+                        nextTitle = titles[nextIndex];
+                        break;
+                    case RIPETI:
+                        nextTitle = currentlyPlayingTitle;
+                        break;
                 }
             }
 
-            if (currentIndex == -1) {
-                currentIndex = list.getSelectedIndex(); // fallback
+            if (nextTitle == null) return;
+
+            stopPlayback();
+            playbackSemaphore.drainPermits();
+
+            currentlyPlayingTitle = nextTitle;
+            Song song = playbackPlaylist.getSong(nextTitle);
+
+            if (song == null) {
+                Logger.writeLog(LanguageManager.get("popup.song.title.notfound") + nextTitle + "'");
+                Logger.writeLog(LanguageManager.get("popup.song.available"));
+                for (String titolo : playbackPlaylist.getSongTitles()) {
+                    Logger.writeLog(" - '" + titolo + "'");
+                }
+                return;
             }
 
-            switch (playbackMode) 
-            {
-                case CASUALE:
-                    nextTitle = getBranoCasualePonderato();
-                    break;
+            Logger.writeLog(LanguageManager.get("label.play") + nextTitle);
 
-                case SEQUENZIALE:
-                    int nextIndex = (currentIndex < list.getModel().getSize() - 1) ? currentIndex + 1 : 0;
-                    nextTitle = list.getModel().getElementAt(nextIndex);
-                    break;
+            panel.getPlayer().setPanel(panel);
+            panel.getPlayer().setSemaphore(playbackSemaphore);
+            panel.getPlayer().play(song);
+            
+            File playsFile = new File("resources/plays.count");
+            Map<String,Integer> riproduzioni = FileManager.loadCounts(playsFile);
+            riproduzioni.put(song.getTitle(), riproduzioni.getOrDefault(song, 0) + 1);
+            FileManager.saveCounts(riproduzioni, playsFile);
 
-                case RIPETI:
-                    nextTitle = currentlyPlayingTitle;
-                    break;
-            }
+            String plName = playbackPlaylist.getName();
+            File plPlaysFile = new File("resources/playlist_plays.count");
+            Map<String,Integer> ascolti = FileManager.loadCounts(plPlaysFile);
+            ascolti.put(plName, ascolti.getOrDefault(plName, 0) + 1);
+            FileManager.saveCounts(ascolti, plPlaysFile);
+
+            SwingUtilities.invokeLater(() -> {
+                panel.refreshIcons();
+                panel.setCurrentSongLabel(currentlyPlayingTitle);
+                // seleziono la stringa del titolo, non l'oggetto Song
+                panel.getComboBox().setSelectedValue(currentlyPlayingTitle, true);
+                // faccio scrollare la lista in modo che la selezione sia ben visibile
+                int idx = panel.getComboBox().getSelectedIndex();
+                if(idx >= 0) {
+                    panel.getComboBox().ensureIndexIsVisible(idx);
+                }
+            });
+
+            playbackSemaphore.release();
+        } finally {
+            changingSong = false;
         }
-
-        if (nextTitle == null) return;
-
-        // AGGIORNA GUI E RIPRODUZIONE
-        stopPlayback();									// blocca la precedente (drainPermits incluso)
-
-        for(int i = 0; i < list.getModel().getSize(); i++)
-        {
-        	String s = nextTitle;
-        	
-        	if(s.equalsIgnoreCase(list.getModel().getElementAt(i)))
-        	{
-        		list.setSelectedIndex(i);
-        		break;
-        	}
-        }
-        
-        currentlyPlayingTitle = nextTitle;               // aggiorna la canzone in riproduzione
-        
-        var song = panel.getPlaylist().getSong(nextTitle);
-
-        if (song == null) {
-        	Logger.writeLog(LanguageManager.get("popup.song.title.notfound") + nextTitle + "'");
-            Logger.writeLog(LanguageManager.get("popup.song.available"));
-            for (String titolo : panel.getPlaylist().getSongTitles()) {
-            	Logger.writeLog(" - '" + titolo + "'");
-            }
-            return;
-        }
-        
-        Logger.writeLog(LanguageManager.get("label.play") + nextTitle);
-
-        SwingUtilities.invokeLater(() -> {
-            panel.getPlayer().play(song); // parte il nuovo thread già gestito internamente
-            panel.refreshIcons();
-            panel.setCurrentSongLabel(currentlyPlayingTitle);
-            mutex.release(); // rilascia dopo aggiornamento GUI
-        });
     }
     
     /**
      * Torna alla canzone precedente nella lista, oppure all'ultima se si è all'inizio.
      */
-    private void previousSong() 
-    {
+    private void previousSong() {
         try {
-			if(panel.getPlayer().getCurrentPercentage() <= 4)
-			{
-				JList<String> list = panel.getComboBox();
+            if (panel.getPlayer().getCurrentPercentage() <= 4) {
+                if (playbackPlaylist == null || playbackPlaylist.getSongTitles().length == 0) {
+                    Logger.writeLog("Nessuna playlist di riproduzione attiva o vuota.");
+                    return;
+                }
 
-			    int currentIndex = -1;
-			    for (int i = 0; i < list.getModel().getSize(); i++) {
-			        if (list.getModel().getElementAt(i).equals(currentlyPlayingTitle)) {
-			            currentIndex = i;
-			            break;
-			        }
-			    }
+                String[] titles = playbackPlaylist.getSongTitles();
 
-			    if (currentIndex == -1) currentIndex = list.getSelectedIndex(); // fallback di sicurezza
+                int currentIndex = -1;
+                for (int i = 0; i < titles.length; i++) {
+                    if (titles[i].equals(currentlyPlayingTitle)) {
+                        currentIndex = i;
+                        break;
+                    }
+                }
 
-			    int prevIndex = (currentIndex > 0) ? currentIndex - 1 : list.getModel().getSize() - 1;
+                if (currentIndex == -1) currentIndex = 0;
 
-			    list.setSelectedIndex(prevIndex);
-			    currentlyPlayingTitle = list.getModel().getElementAt(prevIndex); // aggiorna titolo in riproduzione
-			    
-			    panel.setCurrentSongLabel(currentlyPlayingTitle);
-			}
-			else
-			{
-				stopPlayback();
-			    panel.getPlayer().seekToPercentage(0);
-			    mutex.release();
-			}
+                int prevIndex = (currentIndex > 0) ? currentIndex - 1 : titles.length - 1;
+
+                currentlyPlayingTitle = titles[prevIndex];
+                panel.setCurrentSongLabel(currentlyPlayingTitle);
+
+                // Riproduci la canzone precedente
+                stopPlayback();
+                Song song = playbackPlaylist.getSong(currentlyPlayingTitle);
+                panel.getPlayer().setPanel(panel);
+                panel.getPlayer().setSemaphore(playbackSemaphore);
+                panel.getPlayer().play(song);
+                playbackSemaphore.release();
+            } else {
+                stopPlayback();
+                panel.getPlayer().setPanel(panel);
+                panel.getPlayer().setSemaphore(playbackSemaphore);
+                panel.getPlayer().seekToPercentage(0);
+                playbackSemaphore.release();
+            }
         } catch (Exception e) {
-			Logger.writeLog(e.getMessage());
-		}
-    	
-    	/*
-    	try {
-			if(panel.getPlayer().getCurrentPercentage() <= 4)
-			{
-				if (!playedSongs.isEmpty()) {
-					JList<String> list = panel.getComboBox();
-			        String previous = playedSongs.pop();
-			        if (previous != null) {
-			        	list.setSelectedValue(previous, true);
-
-			            playSelectedSong();
-			            panel.setCurrentSongLabel(previous);
-			        }
-			    } else {
-			    	stopPlayback();
-			        panel.getPlayer().seekToPercentage(0);
-			        mutex.release();
-			    }
-			}
-			else
-			{
-				stopPlayback();
-			    panel.getPlayer().seekToPercentage(0);
-			    mutex.release();
-			}
-		} catch (Exception e) {
-			Logger.writeLog(e.getMessage());
-		}
-		*/
+            Logger.writeLog(e.getMessage());
+        }
     }
     
     /**
      * Mostra una finestra con la coda attuale di canzoni in attesa.
      */
     private void mostraCoda() {
-        if (codaPersonalizzata.isEmpty()) {
+        if (codaManager.isEmpty()) {
             JOptionPane.showMessageDialog(panel, LanguageManager.get("queue.empty"), LanguageManager.get("queue.queue"), JOptionPane.INFORMATION_MESSAGE);
             return;
         }
 
         StringBuilder sb = new StringBuilder(LanguageManager.get("queue.show") + ":\n");
-        for (String song : codaPersonalizzata) {
+        for (String song : codaManager.asList()) {
             sb.append("- ").append(song).append("\n");
         }
 
@@ -1243,7 +1320,7 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
     private void mostraGestioneCoda() {
         try
         {
-        	if (codaPersonalizzata.isEmpty()) {
+        	if (codaManager.isEmpty()) {
                 JOptionPane.showMessageDialog(panel, LanguageManager.get("queue.empty"), LanguageManager.get("queue.manage"), JOptionPane.INFORMATION_MESSAGE);
                 return;
             }
@@ -1254,7 +1331,9 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
             dialog.setLocationRelativeTo(panel);
 
             DefaultListModel<String> codaModel = new DefaultListModel<>();
-            codaPersonalizzata.forEach(codaModel::addElement);
+            for (String song : codaManager.asList()) {
+                codaModel.addElement(song);
+            }
 
             JList<String> codaList = new JList<>(codaModel);
             codaList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
@@ -1300,7 +1379,7 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                         }
 
                     } catch (Exception e) {
-                        e.printStackTrace();
+                        Logger.writeLog(e.getMessage());
                     }
                     return false;
                 }
@@ -1312,10 +1391,12 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
             JButton salvaButton = new JButton(LanguageManager.get("label.save"));
             salvaButton.addActionListener(e -> {
                 // Aggiorna la vera coda
-                codaPersonalizzata.clear();
-                for (int i = 0; i < codaModel.size(); i++) {
-                    codaPersonalizzata.add(codaModel.getElementAt(i));
-                }
+            	List<String> nuovaCoda = new ArrayList<>();
+            	for (int i = 0; i < codaModel.size(); i++) {
+            	    nuovaCoda.add(codaModel.getElementAt(i));
+            	}
+            	codaManager.replaceAll(nuovaCoda);
+
                 dialog.dispose();
             });
 
@@ -1332,22 +1413,32 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      * Mostra una finestra per aggiungere più canzoni alla coda personalizzata.
      */
     private void mostraAggiungiInCoda() {
-        String[] allSongs = panel.getPlaylist().getAllSongs();
+        // 1) prendo direttamente i titoli dal playlist corrente
+        Playlist current = panel.getPlaylist();
+        String[] allSongs = current.getSongTitles();
         Arrays.sort(allSongs, String.CASE_INSENSITIVE_ORDER);
 
-        JDialog dialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(panel), LanguageManager.get("queue.add"), true);
+        // 2) costruisco la dialog
+        JDialog dialog = new JDialog((Frame) SwingUtilities.getWindowAncestor(panel),
+                                     LanguageManager.get("queue.add"), 
+                                     true);
         dialog.setLayout(new BorderLayout());
         dialog.setSize(400, 400);
         dialog.setLocationRelativeTo(panel);
 
+        // 3) lista e filtro
         JTextField searchField = new JTextField();
         DefaultListModel<String> listModel = new DefaultListModel<>();
         JList<String> songList = new JList<>(listModel);
         songList.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         JScrollPane scrollPane = new JScrollPane(songList);
 
-        for (String s : allSongs) listModel.addElement(s);
+        // riempio subito la lista con tutti i titoli
+        for (String s : allSongs) {
+            listModel.addElement(s);
+        }
 
+        // filtro dinamico
         searchField.getDocument().addDocumentListener(new DocumentListener() {
             public void insertUpdate(DocumentEvent e) { filter(); }
             public void removeUpdate(DocumentEvent e) { filter(); }
@@ -1364,34 +1455,37 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
             }
         });
 
+        // 4) bottone “Aggiungi”
         JButton addButton = new JButton(LanguageManager.get("queue.add"));
         addButton.addActionListener(ev -> {
             List<String> selectedSongs = songList.getSelectedValuesList();
-            if (selectedSongs.isEmpty()) return;
-
-            for (String song : selectedSongs) {
-                if (!codaPersonalizzata.contains(song)) {
-                    codaPersonalizzata.add(song);
+            if (!selectedSongs.isEmpty()) {
+                for (String song : selectedSongs) {
+                    if (!codaManager.contains(song)) {
+                        codaManager.add(song);
+                    }
                 }
+                dialog.dispose();
+                JOptionPane.showMessageDialog(panel,
+                    LanguageManager.get("queue.added.multiple"),
+                    LanguageManager.get("queue.add"),
+                    JOptionPane.INFORMATION_MESSAGE);
             }
-
-            dialog.dispose();
         });
 
+        // 5) compongo la dialog e la mostro
         dialog.add(searchField, BorderLayout.NORTH);
         dialog.add(scrollPane, BorderLayout.CENTER);
         dialog.add(addButton, BorderLayout.SOUTH);
 
         dialog.setVisible(true);
-        
-        JOptionPane.showMessageDialog(panel, LanguageManager.get("queue.added.multiple"));
     }
     
     /**
      * Mostra i 10 brani più ascoltati con un grafico
      */
     private void mostraTopBrani() {
-        Map<String, Integer> riproduzioni = caricaNumeroRiproduzioni();
+    	Map<String, Integer> riproduzioni = FileManager.loadCounts(new File("resources/plays.count"));
 
         List<Map.Entry<String, Integer>> top = new ArrayList<>(riproduzioni.entrySet());
         top.sort((a, b) -> b.getValue() - a.getValue()); // ordinati decrescente
@@ -1425,7 +1519,7 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
     }
     
     private void mostraTopPlaylist() {
-        Map<String, Integer> ascolti = caricaAscoltiPlaylist();
+    	Map<String, Integer> ascolti = FileManager.loadCounts(new File("resources/playlist_plays.count"));
         List<Map.Entry<String, Integer>> top = new ArrayList<>(ascolti.entrySet());
         top.sort((a, b) -> b.getValue() - a.getValue());
 
@@ -1460,9 +1554,10 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      * @param titolo Il titolo della canzone da aggiungere.
      */
     public void aggiungiAllaCoda(String titolo) {
-        if (!codaPersonalizzata.contains(titolo)) {
-            codaPersonalizzata.add(titolo);
+        if (!codaManager.contains(titolo)) {
+        	codaManager.add(titolo);
             Logger.writeLog(LanguageManager.get("queue.added") + titolo);
+            JOptionPane.showMessageDialog(panel, LanguageManager.get("queue.added") + titolo);
         }
     }
     
@@ -1472,17 +1567,10 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
      * @param titolo Il titolo della canzone da posizionare in testa alla coda.
      */
     public void aggiungiAllaCodaTop(String titolo) {
-    	Queue<String> coda = new LinkedList<>();
-    	
-    	if (!codaPersonalizzata.contains(titolo)) {
-    		coda.add(titolo);
-    		
-    		for(String s : codaPersonalizzata)
-    		{
-    			coda.add(s);
-    		}
-    		
-            codaPersonalizzata = coda;
+        if (!codaManager.contains(titolo)) {
+            List<String> attuale = codaManager.asList();
+            attuale.add(0, titolo); // inserisce in testa
+            codaManager.replaceAll(attuale);
             Logger.writeLog(LanguageManager.get("queue.added") + titolo);
         }
     }
@@ -1537,14 +1625,14 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
                 PlaylistDataManager.exportPlaylist(pl, exportFolder);
                 JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.export.success"));
             } catch (IOException e) {
-                e.printStackTrace();
+                Logger.writeLog(e.getMessage());
                 JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.error.export"), LanguageManager.get("popup.error"), JOptionPane.ERROR_MESSAGE);
             }
         }
     }
 
     /**
-     * Importa una playlist da un file `.playlist.json` e copia i relativi MP3 se non presenti.
+     * Importa una playlist da un file `.playlist.json` e copia i relativi MP3 nella struttura corretta.
      */
     private void importaPlaylist() {
         JFileChooser chooser = new JFileChooser();
@@ -1555,36 +1643,59 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
             File file = chooser.getSelectedFile();
 
             try {
+                // 1) import della playlist
                 Playlist imported = PlaylistDataManager.importPlaylist(file);
                 String name = imported.getName();
 
-                if (!panel.getPlaylists().containsKey(name)) {
-                    panel.getPlaylists().put(name, imported);
-                    panel.getPlaylistListModel().addElement(name);
-                    PlaylistDataManager.savePlaylists(panel.getPlaylists());
-                    JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.import.success"));
-                } else {
-                    JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.import.duplicate"));
+                // 2) controllo titoli non validi
+                for (String title : imported.getSongTitles()) {
+                    if (title.contains(".")) {
+                        JOptionPane.showMessageDialog(panel,
+                            "Il brano \"" + title + "\" contiene un punto (.) nel titolo e non può essere importato.\n" +
+                            "Rinomina il file o modifica il titolo prima di procedere.",
+                            "Importazione annullata",
+                            JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
                 }
 
+                // 3) verifica duplicato
+                if (panel.getPlaylists().containsKey(name)) {
+                    JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.import.duplicate"));
+                    return;
+                }
+
+                // 4) aggiungo la playlist all'app
+                panel.getPlaylists().put(name, imported);
+                panel.getPlaylistListModel().addElement(name);
+                PlaylistDataManager.savePlaylists(panel.getPlaylists());
+
+                // ────────────── inizializzo i contatori ──────────────
+
+                // 5) per ogni canzone, assicuro un contatore in plays.count
+                File playsFile = new File("resources/plays.count");
+                Map<String, Integer> plays = FileManager.loadCounts(playsFile);
+                for (String title : imported.getSongTitles()) {
+                    plays.putIfAbsent(title, 0);
+                }
+                FileManager.saveCounts(plays, playsFile);
+
+                // 6) per la playlist appena importata, inizializzo in playlist_plays.count
+                File plPlaysFile = new File("resources/playlist_plays.count");
+                Map<String, Integer> plPlays = FileManager.loadCounts(plPlaysFile);
+                plPlays.putIfAbsent(name, 0);
+                FileManager.saveCounts(plPlays, plPlaysFile);
+
+                // ───────────────────────────────────────────────────────
+
+                JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.import.success"));
             } catch (IOException e) {
-                e.printStackTrace();
-                JOptionPane.showMessageDialog(panel, LanguageManager.get("popup.error.import"), LanguageManager.get("popup.error"), JOptionPane.ERROR_MESSAGE);
+                Logger.writeLog(e.getMessage());
+                JOptionPane.showMessageDialog(panel,
+                    LanguageManager.get("popup.error.import") + "\n" + e.getMessage(),
+                    LanguageManager.get("popup.error"),
+                    JOptionPane.ERROR_MESSAGE);
             }
-        }
-    }
-    
-    /**
-     * Salva la configurazione del tema attuale (dark/light) su file.
-     *
-     * @param isDarkMode true se il tema è scuro, false se chiaro.
-     */
-    private void salvaTema(boolean isDarkMode) {
-        try {
-            File config = new File("resources/theme.config");
-            Files.writeString(config.toPath(), isDarkMode ? "dark" : "light");
-        } catch (IOException e) {
-        	Logger.writeLog("Errore nel salvataggio del tema: " + e.getMessage());
         }
     }
     
@@ -1618,25 +1729,6 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
 		} 
     	catch (IOException e) {}
     }
-    
-    /**
-     * Salva il numero di riproduzioni su file.
-     *
-     * @param riproduzioni Mappa contenente il numero di riproduzioni per ciascuna canzone.
-     */
-    private void salvaNumeroRiproduzioni(Map<String, Integer> riproduzioni) {
-        File file = new File("resources/plays.count");
-        List<String> lines = new LinkedList<>();
-        for (Map.Entry<String, Integer> entry : riproduzioni.entrySet()) {
-            lines.add(entry.getKey() + "=" + entry.getValue());
-        }
-        try {
-            Files.write(file.toPath(), lines);
-        } catch (IOException e) {
-            Logger.writeLog("Errore nel salvataggio delle riproduzioni: " + e.getMessage());
-        }
-    }
-
     
     public void setPlaybackMode(Mode mode)
     {
@@ -1735,39 +1827,11 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
         dialog.setVisible(true);
     }
 
-    
-    /**
-     * Genera la mappa dei comandi dinamici (nome comando → menu di appartenenza).
-     *
-     * @return Mappa dei comandi.
-     */
-    private Map<String, String> generaMappaComandiDinamici() {
-        Map<String, String> comandi = new LinkedHashMap<>(); // Ordine d'inserimento
-
-        var menuBar = panel.getJMenuBar();
-
-        for (int i = 0; i < menuBar.getMenuCount(); i++) {
-            JMenu menu = menuBar.getMenu(i);
-            if (menu == null) continue;
-            String nomeMenu = menu.getText();
-
-            for (int j = 0; j < menu.getItemCount(); j++) {
-                JMenuItem item = menu.getItem(j);
-                if (item != null && item.getText() != null && !item.getText().isBlank()) {
-                    String nomeItem = item.getText();
-                    comandi.put(nomeItem, nomeMenu + " > " + nomeItem);
-                }
-            }
-        }
-
-        return comandi;
-    }
-
     /**
      * Mostra una finestra con le descrizioni dei comandi disponibili.
      */
     private void mostraInformazioniComandi() {
-        Languages lang = loadLanguageFromConfig();
+        Languages lang = ConfigManager.loadLanguageFromConfig();
         String langCode = switch (lang) {
             case ITALIANO -> "it";
             case ENGLISH -> "en";
@@ -1812,44 +1876,6 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
         JOptionPane.showMessageDialog(panel, scrollPane, LanguageManager.get("menu.help"), JOptionPane.INFORMATION_MESSAGE);
     }
 
-    /**
-     * Esegue il thread che aggiorna continuamente la posizione dello slider e avvia la prossima canzone.
-     */
-    @Override
-    public void run() 
-    {
-    	Logger.writeLog("Thread slider partito");
-    	
-        while (true) 
-        {
-            try 
-            {
-                mutex.acquire();
-                
-                while (panel.getPlayer().isPlaying()) {
-                    try {
-                        int perc = panel.getPlayer().getCurrentPercentage();
-                        panel.getSlider().setValue(perc);
-
-                        if (perc >= 99) {
-                            break;
-                        }
-
-                        Thread.sleep(1000);
-                    } catch (Exception ignored) {}
-                }
-
-                if(!panel.getPlayer().isPaused())
-                {
-                	nextSong(); 
-                }
-            } 
-            catch (InterruptedException ignored) {
-            	Logger.writeLog(ignored.getMessage());
-            }
-        }
-    }
-
 	@Override
 	public void keyTyped(KeyEvent e) {}
 
@@ -1872,14 +1898,18 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
 	                } 
 	                else 
 	                {
+	                	panel.getPlayer().setPanel(panel);
+	                	panel.getPlayer().setSemaphore(playbackSemaphore);
 	                    panel.getPlayer().resume();
 	                }
 	                
 	                //panel.getPlayPauseButton().setText("||");
-	                mutex.release();
+	                playbackSemaphore.release();
 	            } 
 	            else 
 	            {
+	            	panel.getPlayer().setPanel(panel);
+	            	panel.getPlayer().setSemaphore(playbackSemaphore);
 	                panel.getPlayer().pause();
 	                //panel.getPlayPauseButton().setText(">");
 	            }
@@ -1904,27 +1934,93 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
 	 */
 	@Override
 	public void mousePressed(MouseEvent e) {
-		if (SwingUtilities.isRightMouseButton(e)) {
-            int index = panel.getComboBox().locationToIndex(e.getPoint());
-            if (index != -1) {
-                // Rimuovi temporaneamente il ListSelectionListener
-                ListSelectionListener[] listeners = panel.getComboBox().getListSelectionListeners();
-                for (ListSelectionListener l : listeners) {
-                	panel.getComboBox().removeListSelectionListener(l);
-                }
+	    if (SwingUtilities.isRightMouseButton(e)) {
 
-                panel.getComboBox().setSelectedIndex(index); // seleziona manualmente
-                panel.getPopupMenu().show(panel.getComboBox(), e.getX(), e.getY());
+	        // MENU CONTESTUALE CANZONI
+	        if (e.getSource() == panel.getComboBox()) {
+	            int index = panel.getComboBox().locationToIndex(e.getPoint());
+	            if (index != -1) {
+	                ListSelectionListener[] listeners = panel.getComboBox().getListSelectionListeners();
+	                for (ListSelectionListener l : listeners) {
+	                    panel.getComboBox().removeListSelectionListener(l);
+	                }
 
-                // Riattacca i listener dopo un piccolo delay (oppure subito dopo il popup)
-                SwingUtilities.invokeLater(() -> {
-                    for (ListSelectionListener l : listeners) {
-                    	panel.getComboBox().addListSelectionListener(l);
-                    }
-                });
-            }
-        }
-		
+	                panel.getComboBox().setSelectedIndex(index);
+	                mostraMenuCanzoni(e.getX(), e.getY());
+
+	                SwingUtilities.invokeLater(() -> {
+	                    for (ListSelectionListener l : listeners) {
+	                        panel.getComboBox().addListSelectionListener(l);
+	                    }
+	                });
+	            }
+	        }
+
+	        // MENU CONTESTUALE PLAYLIST
+	        else if (e.getSource() == panel.getPlaylistList()) {
+	        	suppressPlaylistSelection = true;
+	            int index = panel.getPlaylistList().locationToIndex(e.getPoint());
+	            if (index != -1) {
+	                panel.getPlaylistList().setSelectedIndex(index); // Solo per mostrare highlight nel menu
+	                mostraMenuPlaylist(e.getX(), e.getY());
+	            }
+	        }
+	    }
+	}
+	
+	private void mostraMenuPlaylist(int x, int y) {
+	    String selected = panel.getPlaylistList().getSelectedValue();
+	    if (selected == null || selected.equals(LanguageManager.get("playlist.all"))) return;
+
+	    JPopupMenu popup = new JPopupMenu();
+
+	    JMenuItem aggiungiCanzoni = new JMenuItem(LanguageManager.get("playlist.add.songs"));
+	    aggiungiCanzoni.addActionListener(e -> panel.getAddSongItem().doClick());
+	    popup.add(aggiungiCanzoni);
+
+	    JMenuItem rinomina = new JMenuItem(LanguageManager.get("item.renamePlaylist"));
+	    rinomina.addActionListener(e -> panel.getRenamePlaylistItem().doClick());
+
+	    JMenuItem cambiaCopertina = new JMenuItem(LanguageManager.get("item.coverPlaylist"));
+	    cambiaCopertina.addActionListener(e -> panel.getCoverMenuItem().doClick());
+
+	    JMenuItem esporta = new JMenuItem(LanguageManager.get("item.exportPlaylist"));
+	    esporta.addActionListener(e -> panel.getExportPlaylistItem().doClick());
+
+	    JMenuItem elimina = new JMenuItem(LanguageManager.get("item.deletePlaylist"));
+	    elimina.addActionListener(e -> panel.getDeletePlaylistItem().doClick());
+
+	    popup.add(rinomina);
+	    popup.add(cambiaCopertina);
+	    popup.add(esporta);
+	    popup.addSeparator();
+	    popup.add(elimina);
+
+	    popup.show(panel.getPlaylistList(), x, y);
+	}
+
+	private void mostraMenuCanzoni(int x, int y) {
+	    JPopupMenu popup = new JPopupMenu();
+
+	    JMenuItem aggiungi = new JMenuItem(LanguageManager.get("queue.add"));
+	    aggiungi.addActionListener(e -> panel.getAggiungiAllaCodaItem().doClick());
+
+	    JMenuItem aggiungiTop = new JMenuItem(LanguageManager.get("item.addToQueueTop"));
+	    aggiungiTop.addActionListener(e -> panel.getAggiungiAllaCodaTopItem().doClick());
+
+	    JMenuItem rimuovi = new JMenuItem(LanguageManager.get("item.removeFromPlaylist"));
+	    rimuovi.addActionListener(e -> panel.getRimuoviCanzoneItem().doClick());
+
+	    JMenuItem esporta = new JMenuItem(LanguageManager.get("item.export"));
+	    esporta.addActionListener(e -> panel.getExportSingleMP3Item().doClick());
+
+	    popup.add(aggiungi);
+	    popup.add(aggiungiTop);
+	    popup.add(rimuovi);
+	    popup.addSeparator();
+	    popup.add(esporta);
+
+	    popup.show(panel.getComboBox(), x, y);
 	}
 
 	@Override
@@ -1955,4 +2051,13 @@ public class Controller implements ActionListener, ChangeListener, DocumentListe
 	public void changedUpdate(DocumentEvent e) {panel.filterSongs();}
 	
 	public Mode getPlaybackMode() { return playbackMode; }
+	
+	public Semaphore getPlaybackSemaphore() { return playbackSemaphore; }
+	
+	public void setSuppressComboBoxPlayback(boolean value) {
+	    this.suppressComboBoxPlayback = value;
+	}
+	public boolean isSuppressComboBoxPlayback() {
+	    return this.suppressComboBoxPlayback;
+	}
 }

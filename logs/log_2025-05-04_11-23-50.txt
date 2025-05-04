@@ -1,0 +1,302 @@
+[Logger inizializzato alle 11:23:50]
+[11:23:50] Window creata
+[11:23:50] Lingua caricata: Italiano
+[11:23:50] Tema caricato dal file config
+[11:23:50] Modalità di riproduzione caricata dal file config
+[11:23:51] Lista canzoni aggiornata
+[11:23:51] Icone playlist caricate
+[11:23:51] Repaint e Revalidate fatto
+[11:23:51] Lingua aggiornata
+[11:23:51] Icone aggiornate
+[11:23:51] Tema applicato
+[11:23:51] Pannello creato
+[11:23:51] Lingua caricata: Italiano
+[11:23:51] Repaint e Revalidate fatto
+[11:23:51] Lingua aggiornata
+[11:23:54] Lista canzoni aggiornata
+[11:23:54] Icone playlist caricate
+[11:23:54] Icone playlist caricate
+[11:23:55] No Mistakes
+[11:23:55] MP3Player: play() avviato – No Mistakes
+[11:23:55] MP3Player: inizio riproduzione di "No Mistakes"
+[11:23:55] MP3Player: thread playback avviato
+[11:23:56] Icone aggiornate
+[11:23:56] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:23:56] PlaybackManager: percentuale attuale = 0
+[11:23:56] MP3Player: player creato, avvio riproduzione
+[11:23:57] PlaybackManager: percentuale attuale = 3
+[11:23:57] MP3Player: riproduzione completata
+[11:23:57] MP3Player: riproduzione completata
+[11:23:57] MP3Player: riproduzione completata – No Mistakes
+[11:23:57] MP3Player: isPlaying = false
+[11:23:57] Icone aggiornate
+[11:23:58] PlaybackManager: canzone finita, chiamo nextSong()
+[11:23:58] PlaybackManager: isPlaying prima = false
+[11:23:58] MP3Player: ripresa riproduzione di "No Mistakes"
+[11:23:58] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:23:58] MP3Player: mutex rilasciato dopo resume()
+[11:23:58] PlaybackManager: percentuale attuale = 3
+[11:23:58] Icone aggiornate
+[11:23:59] PlaybackManager: percentuale attuale = 4
+[11:23:59] MP3Player: riproduzione completata – No Mistakes
+[11:23:59] MP3Player: isPlaying = false
+[11:23:59] Icone aggiornate
+[11:24:00] MP3Player: ripresa riproduzione di "No Mistakes"
+[11:24:00] MP3Player: mutex rilasciato dopo resume()
+[11:24:00] Icone aggiornate
+[11:24:00] PlaybackManager: percentuale attuale = 5
+[11:24:01] PlaybackManager: percentuale attuale = 6
+[11:24:01] MP3Player: riproduzione completata – No Mistakes
+[11:24:01] MP3Player: isPlaying = false
+[11:24:02] PlaybackManager: percentuale attuale = 57
+[11:24:02] Icone aggiornate
+[11:24:03] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:03] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:03] PlaybackManager: isPlaying prima = false
+[11:24:03] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:03] PlaybackManager: isPlaying prima = false
+[11:24:04] MP3Player: ripresa riproduzione di "No Mistakes"
+[11:24:04] MP3Player: mutex rilasciato dopo resume()
+[11:24:04] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:04] PlaybackManager: percentuale attuale = 57
+[11:24:04] Icone aggiornate
+[11:24:05] PlaybackManager: percentuale attuale = 59
+[11:24:06] PlaybackManager: percentuale attuale = 59
+[11:24:07] MP3Player: riproduzione completata – No Mistakes
+[11:24:07] MP3Player: isPlaying = false
+[11:24:07] Icone aggiornate
+[11:24:07] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:07] PlaybackManager: isPlaying prima = false
+[11:24:09] MP3Player: ripresa riproduzione di "No Mistakes"
+[11:24:09] MP3Player: mutex rilasciato dopo resume()
+[11:24:09] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:09] PlaybackManager: percentuale attuale = 59
+[11:24:09] Icone aggiornate
+[11:24:10] PlaybackManager: percentuale attuale = 61
+[11:24:11] PlaybackManager: percentuale attuale = 61
+[11:24:11] MP3Player: riproduzione completata – No Mistakes
+[11:24:11] MP3Player: isPlaying = false
+[11:24:12] PlaybackManager: percentuale attuale = 3
+[11:24:13] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:13] PlaybackManager: percentuale attuale = 0
+[11:24:13] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:13] PlaybackManager: isPlaying prima = false
+[11:24:13] MP3Player: isPlaying impostato a false
+[11:24:13] Controller: nextSong() chiamato
+[11:24:13] Riproduco: Wouldn't Leave
+[11:24:13] MP3Player: play() avviato – No Mistakes
+[11:24:13] MP3Player: inizio riproduzione di "Wouldn't Leave"
+[11:24:13] MP3Player: thread playback avviato
+[11:24:13] MP3Player: player creato, avvio riproduzione
+[11:24:13] PlaybackManager: nextSong() chiamato
+[11:24:13] Icone aggiornate
+[11:24:14] PlaybackManager: percentuale attuale = 2
+[11:24:15] PlaybackManager: percentuale attuale = 2
+[11:24:16] MP3Player: riproduzione completata
+[11:24:16] MP3Player: riproduzione completata
+[11:24:16] MP3Player: riproduzione completata – Wouldn't Leave
+[11:24:16] MP3Player: isPlaying = false
+[11:24:16] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:16] PlaybackManager: percentuale attuale = 0
+[11:24:16] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:16] PlaybackManager: isPlaying prima = false
+[11:24:16] MP3Player: isPlaying impostato a false
+[11:24:16] Controller: nextSong() chiamato
+[11:24:16] Riproduco: I Thought About Killing You
+[11:24:16] MP3Player: play() avviato – Wouldn't Leave
+[11:24:16] MP3Player: inizio riproduzione di "I Thought About Killing You"
+[11:24:16] MP3Player: thread playback avviato
+[11:24:16] PlaybackManager: nextSong() chiamato
+[11:24:16] MP3Player: player creato, avvio riproduzione
+[11:24:16] Icone aggiornate
+[11:24:17] PlaybackManager: percentuale attuale = 1
+[11:24:18] PlaybackManager: percentuale attuale = 2
+[11:24:19] PlaybackManager: percentuale attuale = 2
+[11:24:20] PlaybackManager: percentuale attuale = 2
+[11:24:21] PlaybackManager: percentuale attuale = 3
+[11:24:22] PlaybackManager: percentuale attuale = 3
+[11:24:23] PlaybackManager: percentuale attuale = 3
+[11:24:24] PlaybackManager: percentuale attuale = 4
+[11:24:25] PlaybackManager: percentuale attuale = 4
+[11:24:26] PlaybackManager: percentuale attuale = 5
+[11:24:27] PlaybackManager: percentuale attuale = 5
+[11:24:28] PlaybackManager: percentuale attuale = 5
+[11:24:29] PlaybackManager: percentuale attuale = 6
+[11:24:30] PlaybackManager: percentuale attuale = 6
+[11:24:31] PlaybackManager: percentuale attuale = 6
+[11:24:32] PlaybackManager: percentuale attuale = 7
+[11:24:33] PlaybackManager: percentuale attuale = 7
+[11:24:34] PlaybackManager: percentuale attuale = 7
+[11:24:35] PlaybackManager: percentuale attuale = 8
+[11:24:36] MP3Player: riproduzione completata
+[11:24:36] MP3Player: riproduzione completata
+[11:24:36] MP3Player: riproduzione completata – I Thought About Killing You
+[11:24:36] MP3Player: isPlaying = false
+[11:24:36] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:36] PlaybackManager: percentuale attuale = 0
+[11:24:36] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:36] PlaybackManager: isPlaying prima = false
+[11:24:36] MP3Player: isPlaying impostato a false
+[11:24:36] Controller: nextSong() chiamato
+[11:24:36] Riproduco: Wouldn't Leave
+[11:24:36] MP3Player: play() avviato – I Thought About Killing You
+[11:24:36] MP3Player: inizio riproduzione di "Wouldn't Leave"
+[11:24:36] MP3Player: thread playback avviato
+[11:24:36] PlaybackManager: nextSong() chiamato
+[11:24:36] MP3Player: player creato, avvio riproduzione
+[11:24:36] Icone aggiornate
+[11:24:37] PlaybackManager: percentuale attuale = 2
+[11:24:38] MP3Player: riproduzione completata
+[11:24:38] MP3Player: riproduzione completata
+[11:24:38] MP3Player: riproduzione completata – Wouldn't Leave
+[11:24:38] MP3Player: isPlaying = false
+[11:24:38] PlaybackManager: percentuale attuale = 19
+[11:24:39] PlaybackManager: percentuale attuale = 48
+[11:24:40] PlaybackManager: percentuale attuale = 80
+[11:24:41] PlaybackManager: percentuale attuale = 95
+[11:24:42] PlaybackManager: percentuale attuale = 95
+[11:24:43] PlaybackManager: percentuale attuale = 96
+[11:24:44] PlaybackManager: percentuale attuale = 96
+[11:24:45] PlaybackManager: percentuale attuale = 97
+[11:24:46] PlaybackManager: percentuale attuale = 97
+[11:24:47] Violent Crimes
+[11:24:47] MP3Player: play() avviato – Violent Crimes
+[11:24:47] MP3Player: inizio riproduzione di "Violent Crimes"
+[11:24:47] MP3Player: thread playback avviato
+[11:24:47] MP3Player: player creato, avvio riproduzione
+[11:24:47] Icone aggiornate
+[11:24:47] PlaybackManager: percentuale attuale = 1
+[11:24:48] PlaybackManager: percentuale attuale = 2
+[11:24:49] PlaybackManager: percentuale attuale = 2
+[11:24:50] MP3Player: riproduzione completata
+[11:24:50] MP3Player: riproduzione completata
+[11:24:50] MP3Player: riproduzione completata – Violent Crimes
+[11:24:50] MP3Player: isPlaying = false
+[11:24:50] PlaybackManager: percentuale attuale = 2
+[11:24:51] PlaybackManager: percentuale attuale = 3
+[11:24:52] PlaybackManager: percentuale attuale = 93
+[11:24:53] PlaybackManager: percentuale attuale = 93
+[11:24:53] Controller: nextSong() chiamato
+[11:24:54] Riproduco: Ghost Town
+[11:24:54] MP3Player: play() avviato – Violent Crimes
+[11:24:54] MP3Player: inizio riproduzione di "Ghost Town"
+[11:24:54] MP3Player: thread playback avviato
+[11:24:54] MP3Player: player creato, avvio riproduzione
+[11:24:54] Icone aggiornate
+[11:24:54] PlaybackManager: percentuale attuale = 1
+[11:24:55] MP3Player: riproduzione completata
+[11:24:55] MP3Player: riproduzione completata
+[11:24:55] MP3Player: riproduzione completata – Ghost Town
+[11:24:55] MP3Player: isPlaying = false
+[11:24:55] Icone aggiornate
+[11:24:55] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:55] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:55] PlaybackManager: isPlaying prima = false
+[11:24:55] PlaybackManager: canzone finita, chiamo nextSong()
+[11:24:55] PlaybackManager: isPlaying prima = false
+[11:24:56] MP3Player: ripresa riproduzione di "Ghost Town"
+[11:24:56] MP3Player: mutex rilasciato dopo resume()
+[11:24:56] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:24:56] PlaybackManager: percentuale attuale = 1
+[11:24:56] Icone aggiornate
+[11:24:57] PlaybackManager: percentuale attuale = 2
+[11:24:57] MP3Player: riproduzione completata – Ghost Town
+[11:24:57] MP3Player: isPlaying = false
+[11:24:58] PlaybackManager: percentuale attuale = 13
+[11:24:58] Icone aggiornate
+[11:24:59] MP3Player: ripresa riproduzione di "Ghost Town"
+[11:24:59] MP3Player: mutex rilasciato dopo resume()
+[11:24:59] Icone aggiornate
+[11:24:59] PlaybackManager: percentuale attuale = 13
+[11:25:00] PlaybackManager: percentuale attuale = 14
+[11:25:01] PlaybackManager: percentuale attuale = 14
+[11:25:02] PlaybackManager: percentuale attuale = 14
+[11:25:03] PlaybackManager: percentuale attuale = 15
+[11:25:04] PlaybackManager: percentuale attuale = 15
+[11:25:05] PlaybackManager: percentuale attuale = 15
+[11:25:06] PlaybackManager: percentuale attuale = 16
+[11:25:07] PlaybackManager: percentuale attuale = 16
+[11:25:08] PlaybackManager: percentuale attuale = 17
+[11:25:09] PlaybackManager: percentuale attuale = 17
+[11:25:10] PlaybackManager: percentuale attuale = 17
+[11:25:11] PlaybackManager: percentuale attuale = 18
+[11:25:12] PlaybackManager: percentuale attuale = 18
+[11:25:13] PlaybackManager: percentuale attuale = 18
+[11:25:14] PlaybackManager: percentuale attuale = 19
+[11:25:15] PlaybackManager: percentuale attuale = 19
+[11:25:16] PlaybackManager: percentuale attuale = 20
+[11:25:17] PlaybackManager: percentuale attuale = 20
+[11:25:18] PlaybackManager: percentuale attuale = 20
+[11:25:19] PlaybackManager: percentuale attuale = 21
+[11:25:20] PlaybackManager: percentuale attuale = 21
+[11:25:20] Lista canzoni aggiornata
+[11:25:20] Icone playlist caricate
+[11:25:20] Icone playlist caricate
+[11:25:21] Lista canzoni aggiornata
+[11:25:21] Icone playlist caricate
+[11:25:21] Icone playlist caricate
+[11:25:21] PlaybackManager: percentuale attuale = 21
+[11:25:22] Lista canzoni aggiornata
+[11:25:22] Icone playlist caricate
+[11:25:22] Icone playlist caricate
+[11:25:22] PlaybackManager: percentuale attuale = 22
+[11:25:23] PlaybackManager: percentuale attuale = 22
+[11:25:24] Lista canzoni aggiornata
+[11:25:24] Icone playlist caricate
+[11:25:24] Lista canzoni aggiornata
+[11:25:24] Icone playlist caricate
+[11:25:24] Icone playlist caricate
+[11:25:24] Icone playlist caricate
+[11:25:24] Lista canzoni aggiornata
+[11:25:24] MP3Player: riproduzione completata – Ghost Town
+[11:25:24] MP3Player: isPlaying = false
+[11:25:24] 2009
+[11:25:24] MP3Player: play() avviato – 2009
+[11:25:24] MP3Player: inizio riproduzione di "2009"
+[11:25:24] MP3Player: thread playback avviato
+[11:25:24] MP3Player: player creato, avvio riproduzione
+[11:25:24] Icone aggiornate
+[11:25:24] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:25:24] PlaybackManager: percentuale attuale = 32
+[11:25:24] MP3Player: riproduzione completata
+[11:25:24] MP3Player: riproduzione completata
+[11:25:24] MP3Player: riproduzione completata – 2009
+[11:25:24] MP3Player: isPlaying = false
+[11:25:24] 2009
+[11:25:24] MP3Player: play() avviato – 2009
+[11:25:24] MP3Player: inizio riproduzione di "2009"
+[11:25:24] MP3Player: thread playback avviato
+[11:25:24] MP3Player: player creato, avvio riproduzione
+[11:25:24] Icone aggiornate
+[11:25:24] PlaybackManager: canzone finita, chiamo nextSong()
+[11:25:24] PlaybackManager: isPlaying prima = true
+[11:25:25] PlaybackManager: percentuale attuale = 32
+[11:25:25] Lista canzoni aggiornata
+[11:25:25] Icone playlist caricate
+[11:25:25] Icone playlist caricate
+[11:25:26] PlaybackManager: percentuale attuale = 33
+[11:25:26] MP3Player: riproduzione completata
+[11:25:26] MP3Player: riproduzione completata
+[11:25:26] MP3Player: riproduzione completata – 2009
+[11:25:26] MP3Player: isPlaying = false
+[11:25:26] DEAD
+[11:25:26] MP3Player: play() avviato – DEAD
+[11:25:26] MP3Player: inizio riproduzione di "DEAD"
+[11:25:26] MP3Player: thread playback avviato
+[11:25:26] MP3Player: player creato, avvio riproduzione
+[11:25:26] Icone aggiornate
+[11:25:27] PlaybackManager: percentuale attuale = 1
+[11:25:28] PlaybackManager: percentuale attuale = 2
+[11:25:29] PlaybackManager: percentuale attuale = 2
+[11:25:29] Lista canzoni aggiornata
+[11:25:29] Icone playlist caricate
+[11:25:29] Lista canzoni aggiornata
+[11:25:29] Icone playlist caricate
+[11:25:29] Icone playlist caricate
+[11:25:29] Icone playlist caricate
+[11:25:29] Lista canzoni aggiornata
+[11:25:29] MP3Player: riproduzione completata
+[11:25:29] MP3Player: riproduzione completata
+[11:25:29] MP3Player: riproduzione completata – DEAD
+[11:25:29] MP3Player: isPlaying = false
+[11:25:29] PlaybackManager: interrotto durante sleep - esco dal ciclo di monitoraggio

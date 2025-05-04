@@ -1,0 +1,53 @@
+[Logger inizializzato alle 11:12:40]
+[11:12:40] Window creata
+[11:12:40] Lingua caricata: Italiano
+[11:12:40] Tema caricato dal file config
+[11:12:40] Modalità di riproduzione caricata dal file config
+[11:12:41] Lista canzoni aggiornata
+[11:12:41] Icone playlist caricate
+[11:12:41] Repaint e Revalidate fatto
+[11:12:41] Lingua aggiornata
+[11:12:41] Icone aggiornate
+[11:12:41] Tema applicato
+[11:12:41] Pannello creato
+[11:12:41] Lingua caricata: Italiano
+[11:12:41] Repaint e Revalidate fatto
+[11:12:41] Lingua aggiornata
+[11:12:46] Lista canzoni aggiornata
+[11:12:46] Icone playlist caricate
+[11:12:46] Icone playlist caricate
+[11:12:51] Lista canzoni aggiornata
+[11:12:51] Icone playlist caricate
+[11:12:51] Amazing
+[11:12:51] MP3Player: play() avviato – Amazing
+[11:12:51] MP3Player: inizio riproduzione di "Amazing"
+[11:12:51] MP3Player: thread playback avviato
+[11:12:51] Icone aggiornate
+[11:12:51] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:12:51] PlaybackManager: percentuale attuale = 0
+[11:12:51] MP3Player: player creato, avvio riproduzione
+[11:12:52] PlaybackManager: percentuale attuale = 0
+[11:12:53] PlaybackManager: percentuale attuale = 0
+[11:12:54] PlaybackManager: percentuale attuale = 1
+[11:12:55] PlaybackManager: percentuale attuale = 1
+[11:12:56] PlaybackManager: percentuale attuale = 2
+[11:12:57] PlaybackManager: percentuale attuale = 2
+[11:12:58] Lista canzoni aggiornata
+[11:12:58] Icone playlist caricate
+[11:12:58] Lista canzoni aggiornata
+[11:12:58] Icone playlist caricate
+[11:12:58] Icone playlist caricate
+[11:12:58] Icone playlist caricate
+[11:12:58] Lista canzoni aggiornata
+[11:12:58] MP3Player: riproduzione completata
+[11:12:58] MP3Player: riproduzione completata
+[11:12:58] MP3Player: riproduzione completata – Amazing
+[11:12:58] MP3Player: isPlaying = false
+[11:12:58] Lista canzoni aggiornata
+[11:12:58] Icone playlist caricate
+[11:12:58] Icone playlist caricate
+[11:12:58] Lista canzoni aggiornata
+[11:12:58] Icone aggiornate
+[11:12:58] PlaybackManager: percentuale attuale = 0
+[11:12:59] PlaybackManager: percentuale attuale = 0
+[11:13:00] PlaybackManager: percentuale attuale = 1

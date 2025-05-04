@@ -1,0 +1,150 @@
+[Logger inizializzato alle 11:20:41]
+[11:20:41] Window creata
+[11:20:41] Lingua caricata: Italiano
+[11:20:41] Tema caricato dal file config
+[11:20:41] Modalità di riproduzione caricata dal file config
+[11:20:42] Lista canzoni aggiornata
+[11:20:42] Icone playlist caricate
+[11:20:42] Repaint e Revalidate fatto
+[11:20:42] Lingua aggiornata
+[11:20:42] Icone aggiornate
+[11:20:42] Tema applicato
+[11:20:42] Pannello creato
+[11:20:42] Lingua caricata: Italiano
+[11:20:42] Repaint e Revalidate fatto
+[11:20:42] Lingua aggiornata
+[11:20:50] Lista canzoni aggiornata
+[11:20:50] Icone playlist caricate
+[11:20:50] Icone playlist caricate
+[11:20:53] Lista canzoni aggiornata
+[11:20:53] Icone playlist caricate
+[11:20:54] DEAD
+[11:20:54] MP3Player: play() avviato – DEAD
+[11:20:54] MP3Player: inizio riproduzione di "DEAD"
+[11:20:54] MP3Player: thread playback avviato
+[11:20:54] Icone aggiornate
+[11:20:54] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:20:54] PlaybackManager: percentuale attuale = 0
+[11:20:54] MP3Player: player creato, avvio riproduzione
+[11:20:55] PlaybackManager: percentuale attuale = 1
+[11:20:55] MP3Player: riproduzione completata
+[11:20:55] MP3Player: riproduzione completata
+[11:20:55] MP3Player: riproduzione completata – DEAD
+[11:20:55] MP3Player: isPlaying = false
+[11:20:56] Icone aggiornate
+[11:20:56] PlaybackManager: percentuale attuale = 52
+[11:20:56] Icone aggiornate
+[11:20:57] PlaybackManager: percentuale attuale = 52
+[11:20:57] Icone aggiornate
+[11:20:58] PlaybackManager: percentuale attuale = 53
+[11:20:59] PlaybackManager: percentuale attuale = 53
+[11:20:59] Icone aggiornate
+[11:21:00] PlaybackManager: percentuale attuale = 0
+[11:21:00] Icone aggiornate
+[11:21:01] PlaybackManager: percentuale attuale = 30
+[11:21:01] Icone aggiornate
+[11:21:02] PlaybackManager: percentuale attuale = 30
+[11:21:03] PlaybackManager: percentuale attuale = 31
+[11:21:04] Lista canzoni aggiornata
+[11:21:04] Icone playlist caricate
+[11:21:04] Icone playlist caricate
+[11:21:04] PlaybackManager: percentuale attuale = 31
+[11:21:05] Icone aggiornate
+[11:21:05] PlaybackManager: percentuale attuale = 32
+[11:21:05] Wouldn't Leave
+[11:21:05] MP3Player: play() avviato – Wouldn't Leave
+[11:21:05] MP3Player: inizio riproduzione di "Wouldn't Leave"
+[11:21:05] MP3Player: thread playback avviato
+[11:21:05] MP3Player: player creato, avvio riproduzione
+[11:21:05] Icone aggiornate
+[11:21:06] PlaybackManager: percentuale attuale = 2
+[11:21:06] Icone aggiornate
+[11:21:07] Icone aggiornate
+[11:21:07] PlaybackManager: percentuale attuale = 2
+[11:21:08] PlaybackManager: percentuale attuale = 3
+[11:21:09] PlaybackManager: percentuale attuale = 3
+[11:21:09] Lista canzoni aggiornata
+[11:21:09] Icone playlist caricate
+[11:21:09] Icone playlist caricate
+[11:21:10] PlaybackManager: percentuale attuale = 3
+[11:21:11] PlaybackManager: percentuale attuale = 4
+[11:21:12] PlaybackManager: percentuale attuale = 4
+[11:21:13] PlaybackManager: percentuale attuale = 5
+[11:21:14] PlaybackManager: percentuale attuale = 5
+[11:21:15] PlaybackManager: percentuale attuale = 6
+[11:21:16] PlaybackManager: percentuale attuale = 6
+[11:21:17] PlaybackManager: percentuale attuale = 7
+[11:21:18] PlaybackManager: percentuale attuale = 7
+[11:21:19] PlaybackManager: percentuale attuale = 8
+[11:21:20] PlaybackManager: percentuale attuale = 8
+[11:21:21] PlaybackManager: percentuale attuale = 9
+[11:21:22] PlaybackManager: percentuale attuale = 9
+[11:21:23] PlaybackManager: percentuale attuale = 10
+[11:21:24] PlaybackManager: percentuale attuale = 10
+[11:21:25] PlaybackManager: percentuale attuale = 11
+[11:21:26] PlaybackManager: percentuale attuale = 11
+[11:21:27] PlaybackManager: percentuale attuale = 12
+[11:21:28] PlaybackManager: percentuale attuale = 12
+[11:21:29] PlaybackManager: percentuale attuale = 13
+[11:21:30] PlaybackManager: percentuale attuale = 13
+[11:21:31] PlaybackManager: percentuale attuale = 13
+[11:21:32] PlaybackManager: percentuale attuale = 14
+[11:21:33] PlaybackManager: percentuale attuale = 14
+[11:21:34] PlaybackManager: percentuale attuale = 15
+[11:21:35] PlaybackManager: percentuale attuale = 15
+[11:21:36] PlaybackManager: percentuale attuale = 16
+[11:21:37] PlaybackManager: percentuale attuale = 16
+[11:21:38] PlaybackManager: percentuale attuale = 17
+[11:21:39] PlaybackManager: percentuale attuale = 17
+[11:21:40] PlaybackManager: percentuale attuale = 18
+[11:21:41] PlaybackManager: percentuale attuale = 18
+[11:21:42] PlaybackManager: percentuale attuale = 19
+[11:21:43] PlaybackManager: percentuale attuale = 19
+[11:21:44] PlaybackManager: percentuale attuale = 20
+[11:21:45] PlaybackManager: percentuale attuale = 20
+[11:21:46] PlaybackManager: percentuale attuale = 21
+[11:21:47] PlaybackManager: percentuale attuale = 21
+[11:21:48] PlaybackManager: percentuale attuale = 22
+[11:21:49] PlaybackManager: percentuale attuale = 22
+[11:21:50] PlaybackManager: percentuale attuale = 23
+[11:21:51] PlaybackManager: percentuale attuale = 23
+[11:21:52] PlaybackManager: percentuale attuale = 24
+[11:21:53] PlaybackManager: percentuale attuale = 24
+[11:21:54] PlaybackManager: percentuale attuale = 25
+[11:21:55] PlaybackManager: percentuale attuale = 25
+[11:21:56] PlaybackManager: percentuale attuale = 26
+[11:21:57] PlaybackManager: percentuale attuale = 26
+[11:21:58] PlaybackManager: percentuale attuale = 26
+[11:21:59] PlaybackManager: percentuale attuale = 27
+[11:22:00] PlaybackManager: percentuale attuale = 27
+[11:22:01] PlaybackManager: percentuale attuale = 28
+[11:22:02] PlaybackManager: percentuale attuale = 28
+[11:22:03] PlaybackManager: percentuale attuale = 29
+[11:22:04] Icone aggiornate
+[11:22:04] PlaybackManager: percentuale attuale = 29
+[11:22:05] PlaybackManager: percentuale attuale = 30
+[11:22:05] MP3Player: riproduzione completata
+[11:22:05] MP3Player: riproduzione completata
+[11:22:05] MP3Player: riproduzione completata – Wouldn't Leave
+[11:22:05] MP3Player: isPlaying = false
+[11:22:05] DEAD
+[11:22:05] MP3Player: play() avviato – DEAD
+[11:22:05] MP3Player: inizio riproduzione di "DEAD"
+[11:22:05] MP3Player: thread playback avviato
+[11:22:05] MP3Player: player creato, avvio riproduzione
+[11:22:05] Icone aggiornate
+[11:22:06] PlaybackManager: percentuale attuale = 1
+[11:22:07] PlaybackManager: percentuale attuale = 2
+[11:22:08] PlaybackManager: percentuale attuale = 2
+[11:22:09] Lista canzoni aggiornata
+[11:22:09] Icone playlist caricate
+[11:22:09] Lista canzoni aggiornata
+[11:22:09] Icone playlist caricate
+[11:22:09] Icone playlist caricate
+[11:22:09] Icone playlist caricate
+[11:22:09] Lista canzoni aggiornata
+[11:22:09] MP3Player: riproduzione completata
+[11:22:09] MP3Player: riproduzione completata
+[11:22:09] MP3Player: riproduzione completata – DEAD
+[11:22:09] MP3Player: isPlaying = false
+[11:22:09] PlaybackManager: interrotto durante sleep - esco dal ciclo di monitoraggio

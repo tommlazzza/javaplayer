@@ -1,0 +1,228 @@
+[Logger inizializzato alle 16:06:54]
+[16:06:54] Window creata
+[16:06:54] Lingua caricata: Italiano
+[16:06:54] Tema caricato dal file config
+[16:06:54] Modalità di riproduzione caricata dal file config
+[16:06:54] Lista canzoni aggiornata
+[16:06:54] Icone playlist caricate
+[16:06:55] Repaint e Revalidate fatto
+[16:06:55] Lingua aggiornata
+[16:06:55] Icone aggiornate
+[16:06:55] Tema applicato
+[16:06:55] Pannello creato
+[16:06:55] Lingua caricata: Italiano
+[16:06:55] Repaint e Revalidate fatto
+[16:06:55] Lingua aggiornata
+[16:06:57] Lista canzoni aggiornata
+[16:06:57] Icone playlist caricate
+[16:06:57] Icone playlist caricate
+[16:06:58] Lista canzoni aggiornata
+[16:06:58] Icone playlist caricate
+[16:06:58] Icone playlist caricate
+[16:07:00] Lista canzoni aggiornata
+[16:07:00] Icone playlist caricate
+[16:07:01] Icone playlist caricate
+[16:07:01] After You
+[16:07:01] MP3Player: play() avviato – After You
+[16:07:01] MP3Player: inizio riproduzione di "After You"
+[16:07:01] MP3Player: thread playback avviato
+[16:07:01] Icone aggiornate
+[16:07:01] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[16:07:01] PlaybackManager: percentuale attuale = 0
+[16:07:02] MP3Player: player creato, avvio riproduzione
+[16:07:02] PlaybackManager: percentuale attuale = 1
+[16:07:03] PlaybackManager: percentuale attuale = 2
+[16:07:04] PlaybackManager: percentuale attuale = 2
+[16:07:05] PlaybackManager: percentuale attuale = 2
+[16:07:06] PlaybackManager: percentuale attuale = 3
+[16:07:07] PlaybackManager: percentuale attuale = 3
+[16:07:08] PlaybackManager: percentuale attuale = 3
+[16:07:09] PlaybackManager: percentuale attuale = 4
+[16:07:10] PlaybackManager: percentuale attuale = 4
+[16:07:11] PlaybackManager: percentuale attuale = 4
+[16:07:12] PlaybackManager: percentuale attuale = 5
+[16:07:13] PlaybackManager: percentuale attuale = 5
+[16:07:14] PlaybackManager: percentuale attuale = 5
+[16:07:15] PlaybackManager: percentuale attuale = 6
+[16:07:16] PlaybackManager: percentuale attuale = 6
+[16:07:17] PlaybackManager: percentuale attuale = 6
+[16:07:18] PlaybackManager: percentuale attuale = 7
+[16:07:19] PlaybackManager: percentuale attuale = 7
+[16:07:20] PlaybackManager: percentuale attuale = 7
+[16:07:21] PlaybackManager: percentuale attuale = 8
+[16:07:22] PlaybackManager: percentuale attuale = 8
+[16:07:23] PlaybackManager: percentuale attuale = 8
+[16:07:24] PlaybackManager: percentuale attuale = 9
+[16:07:25] PlaybackManager: percentuale attuale = 9
+[16:07:26] PlaybackManager: percentuale attuale = 9
+[16:07:27] PlaybackManager: percentuale attuale = 10
+[16:07:28] PlaybackManager: percentuale attuale = 10
+[16:07:29] PlaybackManager: percentuale attuale = 10
+[16:07:30] PlaybackManager: percentuale attuale = 11
+[16:07:31] PlaybackManager: percentuale attuale = 11
+[16:07:32] PlaybackManager: percentuale attuale = 11
+[16:07:33] PlaybackManager: percentuale attuale = 12
+[16:07:34] PlaybackManager: percentuale attuale = 12
+[16:07:35] PlaybackManager: percentuale attuale = 12
+[16:07:36] PlaybackManager: percentuale attuale = 13
+[16:07:37] PlaybackManager: percentuale attuale = 13
+[16:07:38] PlaybackManager: percentuale attuale = 13
+[16:07:39] PlaybackManager: percentuale attuale = 14
+[16:07:40] PlaybackManager: percentuale attuale = 14
+[16:07:41] PlaybackManager: percentuale attuale = 14
+[16:07:42] PlaybackManager: percentuale attuale = 15
+[16:07:43] PlaybackManager: percentuale attuale = 15
+[16:07:44] PlaybackManager: percentuale attuale = 15
+[16:07:45] PlaybackManager: percentuale attuale = 16
+[16:07:46] PlaybackManager: percentuale attuale = 16
+[16:07:47] PlaybackManager: percentuale attuale = 16
+[16:07:48] PlaybackManager: percentuale attuale = 17
+[16:07:49] PlaybackManager: percentuale attuale = 17
+[16:07:50] PlaybackManager: percentuale attuale = 17
+[16:07:51] PlaybackManager: percentuale attuale = 18
+[16:07:52] PlaybackManager: percentuale attuale = 18
+[16:07:53] PlaybackManager: percentuale attuale = 18
+[16:07:54] PlaybackManager: percentuale attuale = 18
+[16:07:55] PlaybackManager: percentuale attuale = 19
+[16:07:56] PlaybackManager: percentuale attuale = 19
+[16:07:57] PlaybackManager: percentuale attuale = 20
+[16:07:58] PlaybackManager: percentuale attuale = 20
+[16:07:59] PlaybackManager: percentuale attuale = 20
+[16:08:00] PlaybackManager: percentuale attuale = 21
+[16:08:01] PlaybackManager: percentuale attuale = 21
+[16:08:02] PlaybackManager: percentuale attuale = 21
+[16:08:03] PlaybackManager: percentuale attuale = 21
+[16:08:04] PlaybackManager: percentuale attuale = 22
+[16:08:05] PlaybackManager: percentuale attuale = 22
+[16:08:06] PlaybackManager: percentuale attuale = 22
+[16:08:07] PlaybackManager: percentuale attuale = 23
+[16:08:08] PlaybackManager: percentuale attuale = 23
+[16:08:09] PlaybackManager: percentuale attuale = 23
+[16:08:10] PlaybackManager: percentuale attuale = 24
+[16:08:11] PlaybackManager: percentuale attuale = 24
+[16:08:12] PlaybackManager: percentuale attuale = 24
+[16:08:13] PlaybackManager: percentuale attuale = 25
+[16:08:14] PlaybackManager: percentuale attuale = 25
+[16:08:15] PlaybackManager: percentuale attuale = 25
+[16:08:16] PlaybackManager: percentuale attuale = 26
+[16:08:18] PlaybackManager: percentuale attuale = 26
+[16:08:19] PlaybackManager: percentuale attuale = 26
+[16:08:20] PlaybackManager: percentuale attuale = 27
+[16:08:21] PlaybackManager: percentuale attuale = 27
+[16:08:22] PlaybackManager: percentuale attuale = 27
+[16:08:23] PlaybackManager: percentuale attuale = 28
+[16:08:24] PlaybackManager: percentuale attuale = 28
+[16:08:25] PlaybackManager: percentuale attuale = 28
+[16:08:26] PlaybackManager: percentuale attuale = 29
+[16:08:27] PlaybackManager: percentuale attuale = 29
+[16:08:28] PlaybackManager: percentuale attuale = 29
+[16:08:29] PlaybackManager: percentuale attuale = 30
+[16:08:30] PlaybackManager: percentuale attuale = 30
+[16:08:31] PlaybackManager: percentuale attuale = 30
+[16:08:32] PlaybackManager: percentuale attuale = 31
+[16:08:33] PlaybackManager: percentuale attuale = 31
+[16:08:34] PlaybackManager: percentuale attuale = 31
+[16:08:35] PlaybackManager: percentuale attuale = 32
+[16:08:36] PlaybackManager: percentuale attuale = 32
+[16:08:37] PlaybackManager: percentuale attuale = 32
+[16:08:38] PlaybackManager: percentuale attuale = 33
+[16:08:39] PlaybackManager: percentuale attuale = 33
+[16:08:40] PlaybackManager: percentuale attuale = 33
+[16:08:41] PlaybackManager: percentuale attuale = 34
+[16:08:42] PlaybackManager: percentuale attuale = 34
+[16:08:43] PlaybackManager: percentuale attuale = 34
+[16:08:44] PlaybackManager: percentuale attuale = 35
+[16:08:45] PlaybackManager: percentuale attuale = 35
+[16:08:46] PlaybackManager: percentuale attuale = 35
+[16:08:47] PlaybackManager: percentuale attuale = 36
+[16:08:48] PlaybackManager: percentuale attuale = 36
+[16:08:49] PlaybackManager: percentuale attuale = 36
+[16:08:50] PlaybackManager: percentuale attuale = 37
+[16:08:51] PlaybackManager: percentuale attuale = 37
+[16:08:52] PlaybackManager: percentuale attuale = 37
+[16:08:53] PlaybackManager: percentuale attuale = 38
+[16:08:54] PlaybackManager: percentuale attuale = 38
+[16:08:55] PlaybackManager: percentuale attuale = 38
+[16:08:56] PlaybackManager: percentuale attuale = 39
+[16:08:57] PlaybackManager: percentuale attuale = 39
+[16:08:58] PlaybackManager: percentuale attuale = 39
+[16:08:59] PlaybackManager: percentuale attuale = 39
+[16:09:00] PlaybackManager: percentuale attuale = 40
+[16:09:01] PlaybackManager: percentuale attuale = 40
+[16:09:02] PlaybackManager: percentuale attuale = 40
+[16:09:03] PlaybackManager: percentuale attuale = 41
+[16:09:04] PlaybackManager: percentuale attuale = 41
+[16:09:05] PlaybackManager: percentuale attuale = 41
+[16:09:06] PlaybackManager: percentuale attuale = 42
+[16:09:07] PlaybackManager: percentuale attuale = 42
+[16:09:08] PlaybackManager: percentuale attuale = 42
+[16:09:09] PlaybackManager: percentuale attuale = 43
+[16:09:10] PlaybackManager: percentuale attuale = 43
+[16:09:11] PlaybackManager: percentuale attuale = 43
+[16:09:12] PlaybackManager: percentuale attuale = 44
+[16:09:13] PlaybackManager: percentuale attuale = 44
+[16:09:14] PlaybackManager: percentuale attuale = 44
+[16:09:15] PlaybackManager: percentuale attuale = 45
+[16:09:16] PlaybackManager: percentuale attuale = 45
+[16:09:17] PlaybackManager: percentuale attuale = 45
+[16:09:18] PlaybackManager: percentuale attuale = 46
+[16:09:19] PlaybackManager: percentuale attuale = 46
+[16:09:20] PlaybackManager: percentuale attuale = 46
+[16:09:21] PlaybackManager: percentuale attuale = 47
+[16:09:22] PlaybackManager: percentuale attuale = 47
+[16:09:23] PlaybackManager: percentuale attuale = 47
+[16:09:24] PlaybackManager: percentuale attuale = 48
+[16:09:25] PlaybackManager: percentuale attuale = 48
+[16:09:26] PlaybackManager: percentuale attuale = 48
+[16:09:27] PlaybackManager: percentuale attuale = 49
+[16:09:28] PlaybackManager: percentuale attuale = 49
+[16:09:29] PlaybackManager: percentuale attuale = 49
+[16:09:30] PlaybackManager: percentuale attuale = 50
+[16:09:31] PlaybackManager: percentuale attuale = 50
+[16:09:32] PlaybackManager: percentuale attuale = 50
+[16:09:33] PlaybackManager: percentuale attuale = 51
+[16:09:34] PlaybackManager: percentuale attuale = 51
+[16:09:35] PlaybackManager: percentuale attuale = 51
+[16:09:36] PlaybackManager: percentuale attuale = 52
+[16:09:37] PlaybackManager: percentuale attuale = 52
+[16:09:38] PlaybackManager: percentuale attuale = 52
+[16:09:39] PlaybackManager: percentuale attuale = 53
+[16:09:40] PlaybackManager: percentuale attuale = 53
+[16:09:41] PlaybackManager: percentuale attuale = 53
+[16:09:42] PlaybackManager: percentuale attuale = 54
+[16:09:43] PlaybackManager: percentuale attuale = 54
+[16:09:44] PlaybackManager: percentuale attuale = 54
+[16:09:45] PlaybackManager: percentuale attuale = 55
+[16:09:46] PlaybackManager: percentuale attuale = 55
+[16:09:47] PlaybackManager: percentuale attuale = 55
+[16:09:48] PlaybackManager: percentuale attuale = 56
+[16:09:49] PlaybackManager: percentuale attuale = 56
+[16:09:50] PlaybackManager: percentuale attuale = 56
+[16:09:51] PlaybackManager: percentuale attuale = 57
+[16:09:52] PlaybackManager: percentuale attuale = 57
+[16:09:53] PlaybackManager: percentuale attuale = 57
+[16:09:54] PlaybackManager: percentuale attuale = 58
+[16:09:55] PlaybackManager: percentuale attuale = 58
+[16:09:56] PlaybackManager: percentuale attuale = 58
+[16:09:57] PlaybackManager: percentuale attuale = 59
+[16:09:58] PlaybackManager: percentuale attuale = 59
+[16:09:59] PlaybackManager: percentuale attuale = 59
+[16:10:00] PlaybackManager: percentuale attuale = 59
+[16:10:01] PlaybackManager: percentuale attuale = 60
+[16:10:02] PlaybackManager: percentuale attuale = 60
+[16:10:03] PlaybackManager: percentuale attuale = 60
+[16:10:04] PlaybackManager: percentuale attuale = 61
+[16:10:05] PlaybackManager: percentuale attuale = 61
+[16:10:06] PlaybackManager: percentuale attuale = 61
+[16:10:07] PlaybackManager: percentuale attuale = 62
+[16:10:08] PlaybackManager: percentuale attuale = 62
+[16:10:09] PlaybackManager: percentuale attuale = 62
+[16:10:10] PlaybackManager: percentuale attuale = 63
+[16:10:11] PlaybackManager: percentuale attuale = 63
+[16:10:12] PlaybackManager: percentuale attuale = 63
+[16:10:13] PlaybackManager: percentuale attuale = 64
+[16:10:14] PlaybackManager: percentuale attuale = 64
+[16:10:15] PlaybackManager: percentuale attuale = 64
+[16:10:16] PlaybackManager: percentuale attuale = 65
+[16:10:17] PlaybackManager: percentuale attuale = 65
+[16:10:18] PlaybackManager: percentuale attuale = 65

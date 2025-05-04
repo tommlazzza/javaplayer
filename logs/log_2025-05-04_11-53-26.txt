@@ -1,0 +1,100 @@
+[Logger inizializzato alle 11:53:26]
+[11:53:26] Window creata
+[11:53:26] Lingua caricata: Italiano
+[11:53:26] Tema caricato dal file config
+[11:53:26] Modalità di riproduzione caricata dal file config
+[11:53:27] Lista canzoni aggiornata
+[11:53:27] Icone playlist caricate
+[11:53:27] Repaint e Revalidate fatto
+[11:53:27] Lingua aggiornata
+[11:53:27] Icone aggiornate
+[11:53:27] Tema applicato
+[11:53:27] Pannello creato
+[11:53:27] Lingua caricata: Italiano
+[11:53:27] Repaint e Revalidate fatto
+[11:53:27] Lingua aggiornata
+[11:53:31] Lista canzoni aggiornata
+[11:53:31] Icone playlist caricate
+[11:53:31] Icone playlist caricate
+[11:53:31] All Dreams Real
+[11:53:31] MP3Player: play() avviato – All Dreams Real
+[11:53:31] MP3Player: inizio riproduzione di "All Dreams Real"
+[11:53:31] MP3Player: thread playback avviato
+[11:53:31] Icone aggiornate
+[11:53:31] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:53:31] PlaybackManager: percentuale attuale = 0
+[11:53:32] MP3Player: player creato, avvio riproduzione
+[11:53:33] PlaybackManager: percentuale attuale = 3
+[11:53:34] PlaybackManager: percentuale attuale = 4
+[11:53:35] PlaybackManager: percentuale attuale = 4
+[11:53:36] PlaybackManager: percentuale attuale = 5
+[11:53:37] PlaybackManager: percentuale attuale = 5
+[11:53:38] PlaybackManager: percentuale attuale = 6
+[11:53:39] PlaybackManager: percentuale attuale = 6
+[11:53:40] PlaybackManager: percentuale attuale = 7
+[11:53:41] PlaybackManager: percentuale attuale = 7
+[11:53:42] PlaybackManager: percentuale attuale = 8
+[11:53:43] PlaybackManager: percentuale attuale = 8
+[11:53:44] PlaybackManager: percentuale attuale = 9
+[11:53:45] PlaybackManager: percentuale attuale = 9
+[11:53:45] Controller: nextSong() chiamato
+[11:53:45] MP3Player: riproduzione completata
+[11:53:45] MP3Player: riproduzione completata
+[11:53:45] MP3Player: riproduzione completata – All Dreams Real
+[11:53:45] MP3Player: isPlaying = false
+[11:53:45] Riproduco: Balaclava
+[11:53:45] MP3Player: play() avviato – All Dreams Real
+[11:53:45] MP3Player: inizio riproduzione di "Balaclava"
+[11:53:45] MP3Player: thread playback avviato
+[11:53:45] MP3Player: player creato, avvio riproduzione
+[11:53:45] Icone aggiornate
+[11:53:46] PlaybackManager: percentuale attuale = 1
+[11:53:46] Controller: nextSong() chiamato
+[11:53:46] MP3Player: riproduzione completata
+[11:53:46] MP3Player: riproduzione completata
+[11:53:46] MP3Player: riproduzione completata – Balaclava
+[11:53:46] MP3Player: isPlaying = false
+[11:53:46] Riproduco: BBE
+[11:53:46] MP3Player: play() avviato – Balaclava
+[11:53:46] MP3Player: inizio riproduzione di "BBE"
+[11:53:46] MP3Player: thread playback avviato
+[11:53:46] MP3Player: player creato, avvio riproduzione
+[11:53:46] Icone aggiornate
+[11:53:47] PlaybackManager: percentuale attuale = 2
+[11:53:47] Controller: nextSong() chiamato
+[11:53:47] MP3Player: riproduzione completata
+[11:53:47] MP3Player: riproduzione completata
+[11:53:47] MP3Player: riproduzione completata – BBE
+[11:53:47] MP3Player: isPlaying = false
+[11:53:47] Riproduco: Beat It
+[11:53:47] MP3Player: play() avviato – BBE
+[11:53:47] MP3Player: inizio riproduzione di "Beat It"
+[11:53:47] MP3Player: thread playback avviato
+[11:53:47] MP3Player: player creato, avvio riproduzione
+[11:53:47] Icone aggiornate
+[11:53:48] PlaybackManager: percentuale attuale = 1
+[11:53:48] Controller: nextSong() chiamato
+[11:53:48] MP3Player: riproduzione completata
+[11:53:48] MP3Player: riproduzione completata
+[11:53:48] MP3Player: riproduzione completata – Beat It
+[11:53:48] MP3Player: isPlaying = false
+[11:53:48] Riproduco: You Aint No Model
+[11:53:48] MP3Player: play() avviato – Beat It
+[11:53:48] MP3Player: inizio riproduzione di "You Aint No Model"
+[11:53:48] MP3Player: thread playback avviato
+[11:53:48] MP3Player: player creato, avvio riproduzione
+[11:53:48] Icone aggiornate
+[11:53:49] PlaybackManager: percentuale attuale = 2
+[11:53:49] Controller: nextSong() chiamato
+[11:53:49] MP3Player: riproduzione completata
+[11:53:49] MP3Player: riproduzione completata
+[11:53:49] MP3Player: riproduzione completata – You Aint No Model
+[11:53:49] MP3Player: isPlaying = false
+[11:53:49] Riproduco: FEEL
+[11:53:49] MP3Player: play() avviato – You Aint No Model
+[11:53:49] MP3Player: inizio riproduzione di "FEEL"
+[11:53:49] MP3Player: thread playback avviato
+[11:53:49] MP3Player: player creato, avvio riproduzione
+[11:53:49] Icone aggiornate
+[11:53:50] PlaybackManager: percentuale attuale = 0
+[11:53:51] PlaybackManager: percentuale attuale = 0

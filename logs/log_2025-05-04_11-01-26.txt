@@ -1,0 +1,42 @@
+[Logger inizializzato alle 11:01:26]
+[11:01:26] Window creata
+[11:01:26] Lingua caricata: Italiano
+[11:01:26] Tema caricato dal file config
+[11:01:26] Modalità di riproduzione caricata dal file config
+[11:01:27] Lista canzoni aggiornata
+[11:01:27] Icone playlist caricate
+[11:01:27] Repaint e Revalidate fatto
+[11:01:27] Lingua aggiornata
+[11:01:27] Icone aggiornate
+[11:01:27] Tema applicato
+[11:01:27] Pannello creato
+[11:01:27] Lingua caricata: Italiano
+[11:01:27] Repaint e Revalidate fatto
+[11:01:27] Lingua aggiornata
+[11:01:35] Lista canzoni aggiornata
+[11:01:35] Icone playlist caricate
+[11:01:35] Icone playlist caricate
+[11:01:42] Lista canzoni aggiornata
+[11:01:42] Icone playlist caricate
+[11:01:44] FEEL
+[11:01:44] MP3Player: play() avviato – FEEL
+[11:01:44] MP3Player: inizio riproduzione di "FEEL"
+[11:01:44] MP3Player: thread playback avviato
+[11:01:44] Icone aggiornate
+[11:01:44] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:01:44] PlaybackManager: percentuale attuale = 0
+[11:01:44] Icone aggiornate
+[11:01:45] MP3Player: player creato, avvio riproduzione
+[11:01:45] PlaybackManager: percentuale attuale = 0
+[11:01:46] PlaybackManager: percentuale attuale = 0
+[11:01:47] PlaybackManager: percentuale attuale = 1
+[11:01:48] PlaybackManager: percentuale attuale = 1
+[11:01:49] PlaybackManager: percentuale attuale = 2
+[11:01:50] PlaybackManager: percentuale attuale = 2
+[11:01:51] PlaybackManager: percentuale attuale = 3
+[11:01:52] PlaybackManager: percentuale attuale = 3
+[11:01:53] PlaybackManager: percentuale attuale = 4
+[11:01:54] PlaybackManager: percentuale attuale = 4
+[11:01:55] PlaybackManager: percentuale attuale = 5
+[11:01:56] PlaybackManager: percentuale attuale = 5
+[11:01:57] PlaybackManager: percentuale attuale = 6

@@ -1,0 +1,72 @@
+[Logger inizializzato alle 11:02:00]
+[11:02:00] Window creata
+[11:02:00] Lingua caricata: Italiano
+[11:02:00] Tema caricato dal file config
+[11:02:00] Modalità di riproduzione caricata dal file config
+[11:02:01] Lista canzoni aggiornata
+[11:02:01] Icone playlist caricate
+[11:02:01] Repaint e Revalidate fatto
+[11:02:01] Lingua aggiornata
+[11:02:01] Icone aggiornate
+[11:02:01] Tema applicato
+[11:02:01] Pannello creato
+[11:02:01] Lingua caricata: Italiano
+[11:02:01] Repaint e Revalidate fatto
+[11:02:01] Lingua aggiornata
+[11:02:03] Lista canzoni aggiornata
+[11:02:03] Icone playlist caricate
+[11:02:03] Icone playlist caricate
+[11:02:09] Lista canzoni aggiornata
+[11:02:09] Icone playlist caricate
+[11:02:09] CIRCLES
+[11:02:09] MP3Player: play() avviato – CIRCLES
+[11:02:09] MP3Player: inizio riproduzione di "CIRCLES"
+[11:02:09] MP3Player: thread playback avviato
+[11:02:09] Icone aggiornate
+[11:02:09] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:02:09] PlaybackManager: percentuale attuale = 0
+[11:02:09] MP3Player: player creato, avvio riproduzione
+[11:02:10] PlaybackManager: percentuale attuale = 0
+[11:02:11] PlaybackManager: percentuale attuale = 1
+[11:02:12] PlaybackManager: percentuale attuale = 1
+[11:02:13] PlaybackManager: percentuale attuale = 2
+[11:02:14] PlaybackManager: percentuale attuale = 3
+[11:02:15] Lista canzoni aggiornata
+[11:02:15] Icone playlist caricate
+[11:02:15] Lista canzoni aggiornata
+[11:02:15] Icone playlist caricate
+[11:02:15] Icone playlist caricate
+[11:02:15] Icone playlist caricate
+[11:02:15] Lista canzoni aggiornata
+[11:02:15] MP3Player: riproduzione completata
+[11:02:15] MP3Player: riproduzione completata
+[11:02:15] MP3Player: riproduzione completata – CIRCLES
+[11:02:15] MP3Player: isPlaying = false
+[11:02:15] Lista canzoni aggiornata
+[11:02:15] Icone playlist caricate
+[11:02:15] Icone playlist caricate
+[11:02:15] Lista canzoni aggiornata
+[11:02:15] Icone aggiornate
+[11:02:15] PlaybackManager: percentuale attuale = 0
+[11:02:16] PlaybackManager: percentuale attuale = 1
+[11:02:16] ANTHEM
+[11:02:16] MP3Player: play() avviato – ANTHEM
+[11:02:16] MP3Player: inizio riproduzione di "ANTHEM"
+[11:02:16] MP3Player: thread playback avviato
+[11:02:16] Icone aggiornate
+[11:02:16] MP3Player: player creato, avvio riproduzione
+[11:02:17] PlaybackManager: percentuale attuale = 0
+[11:02:18] PlaybackManager: percentuale attuale = 1
+[11:02:19] MP3Player: riproduzione completata
+[11:02:19] MP3Player: riproduzione completata
+[11:02:19] MP3Player: riproduzione completata – ANTHEM
+[11:02:19] MP3Player: isPlaying = false
+[11:02:19] Beat It
+[11:02:19] MP3Player: play() avviato – Beat It
+[11:02:19] MP3Player: inizio riproduzione di "Beat It"
+[11:02:19] MP3Player: thread playback avviato
+[11:02:19] Icone aggiornate
+[11:02:19] MP3Player: player creato, avvio riproduzione
+[11:02:19] PlaybackManager: percentuale attuale = 1
+[11:02:20] PlaybackManager: percentuale attuale = 1
+[11:02:21] PlaybackManager: percentuale attuale = 1

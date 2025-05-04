@@ -1,4 +1,4 @@
-package com.dreamteam.control;
+package com.dreamteam.languages;
 
 public enum Languages 
 {

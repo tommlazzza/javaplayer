@@ -1,0 +1,99 @@
+[Logger inizializzato alle 15:25:57]
+[15:25:57] Window creata
+[15:25:57] Lingua caricata: Italiano
+[15:25:57] Tema caricato dal file config
+[15:25:57] Modalità di riproduzione caricata dal file config
+[15:25:58] Lista canzoni aggiornate
+[15:25:58] Icone playlist caricate
+[15:25:58] Repaint e Revalidate fatto
+[15:25:58] Lingua aggiornata
+[15:25:58] Icone aggiornate
+[15:25:58] Tema applicato
+[15:25:58] Pannello creato
+[15:25:58] Lingua caricata: Italiano
+[15:25:58] Repaint e Revalidate fatto
+[15:25:58] Lingua aggiornata
+[15:26:00] Lista canzoni aggiornate
+[15:26:00] Icone playlist caricate
+[15:26:00] Icone playlist caricate
+[15:26:00] Black&Blue
+[15:26:00] MP3Player: play() avviato – Black&Blue
+[15:26:00] MP3Player: inizio riproduzione di "Black&Blue"
+[15:26:00] MP3Player: thread playback avviato
+[15:26:00] Icone aggiornate
+[15:26:00] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:26:00] PlaybackManager: percentuale attuale = 0
+[15:26:00] MP3Player: player creato, avvio riproduzione
+[15:26:01] PlaybackManager: percentuale attuale = 0
+[15:26:02] PlaybackManager: percentuale attuale = 1
+[15:26:03] MP3Player: riproduzione completata
+[15:26:03] MP3Player: riproduzione completata
+[15:26:03] MP3Player: riproduzione completata – Black&Blue
+[15:26:03] MP3Player: isPlaying = false
+[15:26:03] PlaybackManager: percentuale attuale = 0
+[15:26:04] PlaybackManager: percentuale attuale = 35
+[15:26:05] PlaybackManager: percentuale attuale = 36
+[15:26:06] PlaybackManager: percentuale attuale = 0
+[15:26:07] PlaybackManager: percentuale attuale = 64
+[15:26:08] Icone aggiornate
+[15:26:08] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:26:08] PlaybackManager: canzone finita, chiamo nextSong()
+[15:26:08] PlaybackManager: isPlaying prima = false
+[15:26:08] PlaybackManager: canzone finita, chiamo nextSong()
+[15:26:08] PlaybackManager: isPlaying prima = false
+[15:26:10] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:26:10] PlaybackManager: percentuale attuale = 65
+[15:26:10] MP3Player: ripresa riproduzione di "Black&Blue"
+[15:26:10] MP3Player: mutex rilasciato dopo resume()
+[15:26:10] Icone aggiornate
+[15:26:11] PlaybackManager: percentuale attuale = 65
+[15:26:12] PlaybackManager: percentuale attuale = 66
+[15:26:13] PlaybackManager: percentuale attuale = 66
+[15:26:13] MP3Player: riproduzione completata – Black&Blue
+[15:26:13] MP3Player: isPlaying = false
+[15:26:13] Icone aggiornate
+[15:26:14] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:26:14] PlaybackManager: canzone finita, chiamo nextSong()
+[15:26:14] PlaybackManager: isPlaying prima = false
+[15:26:14] PlaybackManager: canzone finita, chiamo nextSong()
+[15:26:14] PlaybackManager: isPlaying prima = false
+[15:26:15] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:26:15] MP3Player: ripresa riproduzione di "Black&Blue"
+[15:26:15] PlaybackManager: percentuale attuale = 67
+[15:26:15] MP3Player: mutex rilasciato dopo resume()
+[15:26:15] Icone aggiornate
+[15:26:16] PlaybackManager: percentuale attuale = 67
+[15:26:17] PlaybackManager: percentuale attuale = 68
+[15:26:18] PlaybackManager: percentuale attuale = 68
+[15:26:18] MP3Player: riproduzione completata – Black&Blue
+[15:26:18] MP3Player: isPlaying = false
+[15:26:18] X-Wing
+[15:26:18] MP3Player: play() avviato – X-Wing
+[15:26:18] MP3Player: inizio riproduzione di "X-Wing"
+[15:26:18] MP3Player: thread playback avviato
+[15:26:18] MP3Player: player creato, avvio riproduzione
+[15:26:18] Icone aggiornate
+[15:26:19] PlaybackManager: percentuale attuale = 0
+[15:26:20] PlaybackManager: percentuale attuale = 1
+[15:26:21] PlaybackManager: percentuale attuale = 1
+[15:26:22] PlaybackManager: percentuale attuale = 2
+[15:26:23] PlaybackManager: percentuale attuale = 3
+[15:26:23] MP3Player: riproduzione completata
+[15:26:23] MP3Player: riproduzione completata
+[15:26:23] MP3Player: riproduzione completata – X-Wing
+[15:26:23] MP3Player: isPlaying = false
+[15:26:24] PlaybackManager: percentuale attuale = 94
+[15:26:25] PlaybackManager: percentuale attuale = 95
+[15:26:26] PlaybackManager: percentuale attuale = 95
+[15:26:27] PlaybackManager: percentuale attuale = 96
+[15:26:28] PlaybackManager: percentuale attuale = 96
+[15:26:29] PlaybackManager: percentuale attuale = 97
+[15:26:30] PlaybackManager: percentuale attuale = 97
+[15:26:31] PlaybackManager: percentuale attuale = 98
+[15:26:32] PlaybackManager: percentuale attuale = 99
+[15:26:32] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:26:32] PlaybackManager: canzone finita, chiamo nextSong()
+[15:26:32] PlaybackManager: percentuale attuale = 99
+[15:26:32] PlaybackManager: isPlaying prima = false
+[15:26:32] PlaybackManager: canzone finita, chiamo nextSong()
+[15:26:32] PlaybackManager: isPlaying prima = false

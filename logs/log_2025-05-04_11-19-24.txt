@@ -1,0 +1,45 @@
+[Logger inizializzato alle 11:19:24]
+[11:19:24] Window creata
+[11:19:24] Lingua caricata: Italiano
+[11:19:24] Tema caricato dal file config
+[11:19:24] Modalità di riproduzione caricata dal file config
+[11:19:25] Lista canzoni aggiornata
+[11:19:25] Icone playlist caricate
+[11:19:25] Repaint e Revalidate fatto
+[11:19:25] Lingua aggiornata
+[11:19:25] Icone aggiornate
+[11:19:25] Tema applicato
+[11:19:25] Pannello creato
+[11:19:25] Lingua caricata: Italiano
+[11:19:25] Repaint e Revalidate fatto
+[11:19:25] Lingua aggiornata
+[11:19:31] Lista canzoni aggiornata
+[11:19:31] Icone playlist caricate
+[11:19:31] Icone playlist caricate
+[11:19:36] Lista canzoni aggiornata
+[11:19:36] Icone playlist caricate
+[11:19:37] DO IT
+[11:19:37] MP3Player: play() avviato – DO IT
+[11:19:37] MP3Player: inizio riproduzione di "DO IT"
+[11:19:37] MP3Player: thread playback avviato
+[11:19:37] Icone aggiornate
+[11:19:37] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:19:37] PlaybackManager: percentuale attuale = 0
+[11:19:37] MP3Player: player creato, avvio riproduzione
+[11:19:38] PlaybackManager: percentuale attuale = 13
+[11:19:39] PlaybackManager: percentuale attuale = 14
+[11:19:39] Lista canzoni aggiornata
+[11:19:39] Icone playlist caricate
+[11:19:39] Lista canzoni aggiornata
+[11:19:40] Icone playlist caricate
+[11:19:40] Icone playlist caricate
+[11:19:40] Icone playlist caricate
+[11:19:40] Lista canzoni aggiornata
+[11:19:40] MP3Player: riproduzione completata
+[11:19:40] MP3Player: riproduzione completata
+[11:19:40] MP3Player: riproduzione completata – DO IT
+[11:19:40] MP3Player: isPlaying = false
+[11:19:40] Icone aggiornate
+[11:19:40] PlaybackManager: percentuale attuale = 0
+[11:19:41] PlaybackManager: percentuale attuale = 14
+[11:19:42] PlaybackManager: percentuale attuale = 14

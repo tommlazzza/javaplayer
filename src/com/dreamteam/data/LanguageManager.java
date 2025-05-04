@@ -1,7 +1,9 @@
-package com.dreamteam.control;
+package com.dreamteam.data;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
+
+import com.dreamteam.languages.Languages;
 
 public abstract class LanguageManager {
     private static ResourceBundle bundle;

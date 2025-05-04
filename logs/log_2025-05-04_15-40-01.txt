@@ -1,0 +1,62 @@
+[Logger inizializzato alle 15:40:01]
+[15:40:01] Window creata
+[15:40:01] Lingua caricata: Italiano
+[15:40:01] Tema caricato dal file config
+[15:40:01] Modalità di riproduzione caricata dal file config
+[15:40:01] Lista canzoni aggiornata
+[15:40:02] Icone playlist caricate
+[15:40:02] Repaint e Revalidate fatto
+[15:40:02] Lingua aggiornata
+[15:40:02] Icone aggiornate
+[15:40:02] Tema applicato
+[15:40:02] Pannello creato
+[15:40:02] Lingua caricata: Italiano
+[15:40:02] Repaint e Revalidate fatto
+[15:40:02] Lingua aggiornata
+[15:40:05] Lista canzoni aggiornata
+[15:40:05] Icone playlist caricate
+[15:40:05] Icone playlist caricate
+[15:40:09] Errore durante la scansione dei file MP3: resources\songs
+[15:40:48] Lista canzoni aggiornata
+[15:40:48] Icone playlist caricate
+[15:40:48] Icone playlist caricate
+[15:40:48] PROBLEMATIC
+[15:40:48] MP3Player: play() avviato – PROBLEMATIC
+[15:40:48] MP3Player: inizio riproduzione di "PROBLEMATIC"
+[15:40:48] MP3Player: thread playback avviato
+[15:40:48] Icone aggiornate
+[15:40:48] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:40:48] PlaybackManager: percentuale attuale = 0
+[15:40:48] MP3Player: player creato, avvio riproduzione
+[15:40:49] PlaybackManager: percentuale attuale = 15
+[15:40:50] PlaybackManager: percentuale attuale = 16
+[15:40:51] PlaybackManager: percentuale attuale = 16
+[15:40:52] PlaybackManager: percentuale attuale = 17
+[15:40:53] PlaybackManager: percentuale attuale = 17
+[15:40:54] PlaybackManager: percentuale attuale = 17
+[15:40:55] PlaybackManager: percentuale attuale = 18
+[15:40:56] PlaybackManager: percentuale attuale = 18
+[15:40:57] PlaybackManager: percentuale attuale = 19
+[15:40:58] PlaybackManager: percentuale attuale = 19
+[15:40:59] PlaybackManager: percentuale attuale = 20
+[15:41:00] PlaybackManager: percentuale attuale = 20
+[15:41:01] PlaybackManager: percentuale attuale = 21
+[15:41:02] PlaybackManager: percentuale attuale = 21
+[15:41:03] PlaybackManager: percentuale attuale = 21
+[15:41:04] PlaybackManager: percentuale attuale = 22
+[15:41:05] PlaybackManager: percentuale attuale = 22
+[15:41:06] PlaybackManager: percentuale attuale = 23
+[15:41:07] PlaybackManager: percentuale attuale = 23
+[15:41:08] PlaybackManager: percentuale attuale = 24
+[15:41:09] PlaybackManager: percentuale attuale = 24
+[15:41:10] PlaybackManager: percentuale attuale = 24
+[15:41:11] PlaybackManager: percentuale attuale = 25
+[15:41:12] PlaybackManager: percentuale attuale = 25
+[15:41:13] PlaybackManager: percentuale attuale = 26
+[15:41:14] PlaybackManager: percentuale attuale = 26
+[15:41:15] PlaybackManager: percentuale attuale = 27
+[15:41:16] PlaybackManager: percentuale attuale = 27
+[15:41:17] PlaybackManager: percentuale attuale = 27
+[15:41:18] PlaybackManager: percentuale attuale = 28
+[15:41:19] PlaybackManager: percentuale attuale = 28
+[15:41:20] PlaybackManager: percentuale attuale = 29

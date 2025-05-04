@@ -10,10 +10,10 @@ import java.util.Properties;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
-import com.dreamteam.control.Controller;
-import com.dreamteam.control.Languages;
 import com.dreamteam.control.Logger;
 import com.dreamteam.control.WindowController;
+import com.dreamteam.data.ConfigManager;
+import com.dreamteam.languages.Languages;
 import com.dreamteam.model.MP3Player;
 import com.dreamteam.model.Playlist;
 
@@ -37,10 +37,11 @@ public class Window extends JFrame
 		playlist = new Playlist();
 		player = new MP3Player();
 		panel = new Panel(playlist, player, this);
+		player.setPanel(panel);
 		
 		windowController = new WindowController(this, panel);
 		
-		Languages lang = Controller.loadLanguageFromConfig();
+		Languages lang = ConfigManager.loadLanguageFromConfig();
 		panel.updateLanguage(lang);
 		
 		try {
@@ -78,7 +79,7 @@ public class Window extends JFrame
 		setResizable(true);
 		addWindowListener(windowController);
 		
-		setMinimumSize(new Dimension(WIDTH, HEIGHT));
+		setMinimumSize(new Dimension(720, 480));
 		setSize(WIDTH, HEIGHT);
 		setLocationRelativeTo(null);
 		

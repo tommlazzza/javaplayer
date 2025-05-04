@@ -1,0 +1,56 @@
+[Logger inizializzato alle 11:27:23]
+[11:27:23] Window creata
+[11:27:23] Lingua caricata: Italiano
+[11:27:23] Tema caricato dal file config
+[11:27:23] Modalità di riproduzione caricata dal file config
+[11:27:24] Lista canzoni aggiornata
+[11:27:24] Icone playlist caricate
+[11:27:24] Repaint e Revalidate fatto
+[11:27:24] Lingua aggiornata
+[11:27:24] Icone aggiornate
+[11:27:24] Tema applicato
+[11:27:24] Pannello creato
+[11:27:24] Lingua caricata: Italiano
+[11:27:24] Repaint e Revalidate fatto
+[11:27:24] Lingua aggiornata
+[11:27:26] Lista canzoni aggiornata
+[11:27:26] Icone playlist caricate
+[11:27:26] Icone playlist caricate
+[11:27:26] DEAD
+[11:27:26] MP3Player: play() avviato – DEAD
+[11:27:26] MP3Player: inizio riproduzione di "DEAD"
+[11:27:26] MP3Player: thread playback avviato
+[11:27:26] Icone aggiornate
+[11:27:26] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:27:26] PlaybackManager: percentuale attuale = 0
+[11:27:27] MP3Player: player creato, avvio riproduzione
+[11:27:28] PlaybackManager: percentuale attuale = 1
+[11:27:28] MP3Player: riproduzione completata
+[11:27:28] MP3Player: riproduzione completata
+[11:27:28] MP3Player: riproduzione completata – DEAD
+[11:27:28] MP3Player: isPlaying = false
+[11:27:29] PlaybackManager: percentuale attuale = 0
+[11:27:30] PlaybackManager: percentuale attuale = 35
+[11:27:30] Icone aggiornate
+[11:27:31] PlaybackManager: canzone finita, chiamo nextSong()
+[11:27:31] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:27:31] PlaybackManager: isPlaying prima = false
+[11:27:31] PlaybackManager: canzone finita, chiamo nextSong()
+[11:27:31] PlaybackManager: isPlaying prima = false
+[11:27:31] MP3Player: ripresa riproduzione di "DEAD"
+[11:27:31] MP3Player: mutex rilasciato dopo resume()
+[11:27:31] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:27:31] PlaybackManager: percentuale attuale = 35
+[11:27:31] Icone aggiornate
+[11:27:32] PlaybackManager: percentuale attuale = 36
+[11:27:33] PlaybackManager: percentuale attuale = 36
+[11:27:34] Lista canzoni aggiornata
+[11:27:34] Icone playlist caricate
+[11:27:34] Lista canzoni aggiornata
+[11:27:34] Icone playlist caricate
+[11:27:34] Icone playlist caricate
+[11:27:34] Icone playlist caricate
+[11:27:34] Lista canzoni aggiornata
+[11:27:34] MP3Player: riproduzione completata – DEAD
+[11:27:34] MP3Player: isPlaying = false
+[11:27:34] PlaybackManager: interrotto in acquire - attesa riproduzione

@@ -1,0 +1,25 @@
+[Logger inizializzato alle 10:22:21]
+[10:22:21] Window creata
+[10:22:21] Lingua caricata: Italiano
+[10:22:21] Tema caricato dal file config
+[10:22:21] Modalità di riproduzione caricata dal file config
+[10:22:22] Lista canzoni aggiornate
+[10:22:22] Icone playlist caricate
+[10:22:22] Repaint e Revalidate fatto
+[10:22:22] Lingua aggiornata
+[10:22:22] Icone aggiornate
+[10:22:22] Tema applicato
+[10:22:22] Pannello creato
+[10:22:22] Lingua caricata: Italiano
+[10:22:22] Repaint e Revalidate fatto
+[10:22:22] Lingua aggiornata
+[10:22:31] Lista canzoni aggiornate
+[10:22:31] Icone playlist caricate
+[10:22:31] Icone playlist caricate
+[10:22:38] Lista canzoni aggiornate
+[10:22:38] Icone playlist caricate
+[10:22:38] Icone playlist caricate
+[10:22:38] Lista canzoni aggiornate
+[10:22:38] Icone playlist caricate
+[10:22:38] Icone playlist caricate
+[10:22:38] Lista canzoni aggiornate

@@ -1,0 +1,55 @@
+[Logger inizializzato alle 11:46:30]
+[11:46:31] Window creata
+[11:46:31] Lingua caricata: Italiano
+[11:46:31] Tema caricato dal file config
+[11:46:31] Modalità di riproduzione caricata dal file config
+[11:46:31] Lista canzoni aggiornata
+[11:46:31] Icone playlist caricate
+[11:46:31] Repaint e Revalidate fatto
+[11:46:31] Lingua aggiornata
+[11:46:31] Icone aggiornate
+[11:46:31] Tema applicato
+[11:46:31] Pannello creato
+[11:46:31] Lingua caricata: Italiano
+[11:46:31] Repaint e Revalidate fatto
+[11:46:31] Lingua aggiornata
+[11:46:33] Lista canzoni aggiornata
+[11:46:33] Icone playlist caricate
+[11:46:33] Icone playlist caricate
+[11:46:57] HIGHS AND LOWS
+[11:46:57] MP3Player: play() avviato – HIGHS AND LOWS
+[11:46:57] MP3Player: inizio riproduzione di "HIGHS AND LOWS"
+[11:46:57] MP3Player: thread playback avviato
+[11:46:57] Icone aggiornate
+[11:46:57] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:46:57] PlaybackManager: percentuale attuale = 0
+[11:46:57] MP3Player: player creato, avvio riproduzione
+[11:46:58] PlaybackManager: percentuale attuale = 0
+[11:46:59] PlaybackManager: percentuale attuale = 1
+[11:47:00] PlaybackManager: percentuale attuale = 2
+[11:47:01] PlaybackManager: percentuale attuale = 3
+[11:47:02] PlaybackManager: percentuale attuale = 4
+[11:47:03] PlaybackManager: percentuale attuale = 5
+[11:47:04] PlaybackManager: percentuale attuale = 6
+[11:47:05] PlaybackManager: percentuale attuale = 7
+[11:47:06] PlaybackManager: percentuale attuale = 8
+[11:47:07] PlaybackManager: percentuale attuale = 9
+[11:47:08] PlaybackManager: percentuale attuale = 10
+[11:47:09] PlaybackManager: percentuale attuale = 11
+[11:47:10] PlaybackManager: percentuale attuale = 12
+[11:47:11] PlaybackManager: percentuale attuale = 13
+[11:47:12] PlaybackManager: percentuale attuale = 14
+[11:47:13] PlaybackManager: percentuale attuale = 14
+[11:47:14] PlaybackManager: percentuale attuale = 15
+[11:47:15] PlaybackManager: percentuale attuale = 16
+[11:47:16] PlaybackManager: percentuale attuale = 17
+[11:47:17] PlaybackManager: percentuale attuale = 18
+[11:47:18] PlaybackManager: percentuale attuale = 19
+[11:47:19] PlaybackManager: percentuale attuale = 20
+[11:47:20] PlaybackManager: percentuale attuale = 21
+[11:47:21] PlaybackManager: percentuale attuale = 22
+[11:47:22] PlaybackManager: percentuale attuale = 23
+[11:47:23] PlaybackManager: percentuale attuale = 24
+[11:47:24] PlaybackManager: percentuale attuale = 25
+[11:47:25] PlaybackManager: percentuale attuale = 26
+[11:47:26] PlaybackManager: percentuale attuale = 27

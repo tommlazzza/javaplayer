@@ -1,0 +1,55 @@
+[Logger inizializzato alle 10:58:34]
+[10:58:34] Window creata
+[10:58:34] Lingua caricata: Italiano
+[10:58:34] Tema caricato dal file config
+[10:58:34] Modalità di riproduzione caricata dal file config
+[10:58:34] Lista canzoni aggiornata
+[10:58:35] Icone playlist caricate
+[10:58:35] Repaint e Revalidate fatto
+[10:58:35] Lingua aggiornata
+[10:58:35] Icone aggiornate
+[10:58:35] Tema applicato
+[10:58:35] Pannello creato
+[10:58:35] Lingua caricata: Italiano
+[10:58:35] Repaint e Revalidate fatto
+[10:58:35] Lingua aggiornata
+[10:58:42] Lista canzoni aggiornata
+[10:58:42] Icone playlist caricate
+[10:58:42] Icone playlist caricate
+[10:58:47] Lista canzoni aggiornata
+[10:58:47] Icone playlist caricate
+[10:58:49] Nessuna playlist di riproduzione attiva o vuota.
+[10:58:49] All Dreams Real
+[10:58:49] MP3Player: play() avviato – All Dreams Real
+[10:58:49] MP3Player: inizio riproduzione di "All Dreams Real"
+[10:58:49] MP3Player: thread playback avviato
+[10:58:49] Icone aggiornate
+[10:58:49] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:58:49] PlaybackManager: percentuale attuale = 0
+[10:58:49] Icone aggiornate
+[10:58:49] MP3Player: player creato, avvio riproduzione
+[10:58:50] PlaybackManager: percentuale attuale = 3
+[10:58:51] PlaybackManager: percentuale attuale = 4
+[10:58:52] MP3Player: riproduzione completata
+[10:58:52] MP3Player: riproduzione completata
+[10:58:52] MP3Player: riproduzione completata – All Dreams Real
+[10:58:52] MP3Player: isPlaying = false
+[10:58:52] PlaybackManager: percentuale attuale = 46
+[10:58:53] PlaybackManager: percentuale attuale = 46
+[10:58:54] PlaybackManager: percentuale attuale = 47
+[10:58:55] Lista canzoni aggiornata
+[10:58:55] Icone playlist caricate
+[10:58:55] Lista canzoni aggiornata
+[10:58:55] Icone playlist caricate
+[10:58:55] Icone playlist caricate
+[10:58:55] Icone playlist caricate
+[10:58:55] Lista canzoni aggiornata
+[10:58:55] Lista canzoni aggiornata
+[10:58:55] Icone playlist caricate
+[10:58:55] Icone playlist caricate
+[10:58:55] Lista canzoni aggiornata
+[10:58:55] Icone aggiornate
+[10:58:55] PlaybackManager: percentuale attuale = 0
+[10:58:56] PlaybackManager: percentuale attuale = 3
+[10:58:57] PlaybackManager: percentuale attuale = 4
+[10:58:58] PlaybackManager: percentuale attuale = 4

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import com.dreamteam.control.PackageFiles;
+import com.dreamteam.data.PackageFilesManager;
 
 public class Playlist implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -17,6 +17,7 @@ public class Playlist implements Serializable {
 
     private List<Song> songs;
     private List<Song> originalOrder;
+    private List<Song> customOrder;
     private String coverImagePath; // Percorso copertina
 
     /**
@@ -25,6 +26,7 @@ public class Playlist implements Serializable {
     public Playlist() {
         songs = new ArrayList<>();
         originalOrder = new ArrayList<>();
+        customOrder = new ArrayList<>();
         coverImagePath = DEFAULT_IMAGE_PATH; // Percorso di default
     }
 
@@ -190,5 +192,18 @@ public class Playlist implements Serializable {
      */
     public void sortSongsOriginalOrder() {
         songs = new ArrayList<>(originalOrder);
+    }
+    
+    /**
+     * Imposta l'ordine personalizzato (titoli) e lo applica a songs.
+     */
+    public void setCustomOrder(List<Song> order) {
+        this.customOrder = new ArrayList<>(order);
+        applyCustomOrder();
+    }
+    
+    /** Ordina songs secondo customOrder */
+    private void applyCustomOrder() {
+        this.songs = customOrder;
     }
 }

@@ -1,0 +1,81 @@
+[Logger inizializzato alle 10:44:22]
+[10:44:22] Window creata
+[10:44:22] Lingua caricata: Italiano
+[10:44:22] Tema caricato dal file config
+[10:44:22] Modalità di riproduzione caricata dal file config
+[10:44:23] Lista canzoni aggiornate
+[10:44:23] Icone playlist caricate
+[10:44:23] Repaint e Revalidate fatto
+[10:44:23] Lingua aggiornata
+[10:44:23] Icone aggiornate
+[10:44:23] Tema applicato
+[10:44:23] Pannello creato
+[10:44:23] Lingua caricata: Italiano
+[10:44:23] Repaint e Revalidate fatto
+[10:44:23] Lingua aggiornata
+[10:44:25] Lista canzoni aggiornate
+[10:44:25] Icone playlist caricate
+[10:44:25] Icone playlist caricate
+[10:44:26] I CAN’T BARE
+[10:44:26] MP3Player: play() avviato – I CAN’T BARE
+[10:44:26] MP3Player: inizio riproduzione di "I CAN’T BARE"
+[10:44:26] MP3Player: thread playback avviato
+[10:44:26] Icone aggiornate
+[10:44:26] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:44:26] PlaybackManager: percentuale attuale = 0
+[10:44:26] MP3Player: player creato, avvio riproduzione
+[10:44:27] PlaybackManager: percentuale attuale = 0
+[10:44:28] PlaybackManager: percentuale attuale = 1
+[10:44:29] PlaybackManager: percentuale attuale = 2
+[10:44:30] PlaybackManager: percentuale attuale = 3
+[10:44:31] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:44:31] Lista canzoni aggiornate
+[10:44:31] Icone playlist caricate
+[10:44:31] Lista canzoni aggiornate
+[10:44:31] Icone playlist caricate
+[10:44:31] Icone playlist caricate
+[10:44:31] Icone playlist caricate
+[10:44:31] Lista canzoni aggiornate
+[10:44:31] MP3Player: riproduzione completata
+[10:44:31] MP3Player: riproduzione completata
+[10:44:31] MP3Player: riproduzione completata – I CAN’T BARE
+[10:44:31] MP3Player: isPlaying = false
+[10:44:31] PlaybackManager: canzone finita, chiamo nextSong()
+[10:44:31] PlaybackManager: isPlaying prima = false
+[10:44:32] Lista canzoni aggiornate
+[10:44:32] Icone playlist caricate
+[10:44:32] Icone playlist caricate
+[10:44:33] BBE
+[10:44:33] MP3Player: play() avviato – BBE
+[10:44:33] MP3Player: inizio riproduzione di "BBE"
+[10:44:33] MP3Player: thread playback avviato
+[10:44:33] MP3Player: player creato, avvio riproduzione
+[10:44:33] Icone aggiornate
+[10:44:33] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:44:33] PlaybackManager: percentuale attuale = 1
+[10:44:34] PlaybackManager: percentuale attuale = 2
+[10:44:35] PlaybackManager: percentuale attuale = 3
+[10:44:36] PlaybackManager: percentuale attuale = 3
+[10:44:37] PlaybackManager: percentuale attuale = 3
+[10:44:38] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:44:38] Lista canzoni aggiornate
+[10:44:38] Icone playlist caricate
+[10:44:38] Lista canzoni aggiornate
+[10:44:38] Icone playlist caricate
+[10:44:38] Icone playlist caricate
+[10:44:38] Icone playlist caricate
+[10:44:38] Lista canzoni aggiornate
+[10:44:38] MP3Player: riproduzione completata
+[10:44:38] MP3Player: riproduzione completata
+[10:44:38] MP3Player: riproduzione completata – BBE
+[10:44:38] MP3Player: isPlaying = false
+[10:44:39] PlaybackManager: canzone finita, chiamo nextSong()
+[10:44:39] PlaybackManager: isPlaying prima = false
+[10:44:42] 2009
+[10:44:42] MP3Player: play() avviato – 2009
+[10:44:42] MP3Player: inizio riproduzione di "2009"
+[10:44:42] MP3Player: thread playback avviato
+[10:44:42] Icone aggiornate
+[10:44:42] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:44:42] PlaybackManager: percentuale attuale = 0
+[10:44:42] MP3Player: player creato, avvio riproduzione

@@ -1,0 +1,50 @@
+[Logger inizializzato alle 11:09:12]
+[11:09:12] Window creata
+[11:09:12] Lingua caricata: Italiano
+[11:09:12] Tema caricato dal file config
+[11:09:12] Modalità di riproduzione caricata dal file config
+[11:09:13] Lista canzoni aggiornata
+[11:09:13] Icone playlist caricate
+[11:09:13] Repaint e Revalidate fatto
+[11:09:13] Lingua aggiornata
+[11:09:13] Icone aggiornate
+[11:09:13] Tema applicato
+[11:09:13] Pannello creato
+[11:09:13] Lingua caricata: Italiano
+[11:09:13] Repaint e Revalidate fatto
+[11:09:13] Lingua aggiornata
+[11:09:23] Lista canzoni aggiornata
+[11:09:23] Icone playlist caricate
+[11:09:23] Icone playlist caricate
+[11:09:29] Lista canzoni aggiornata
+[11:09:29] Icone playlist caricate
+[11:09:30] Dark Thoughts
+[11:09:30] MP3Player: play() avviato – Dark Thoughts
+[11:09:30] MP3Player: inizio riproduzione di "Dark Thoughts"
+[11:09:30] MP3Player: thread playback avviato
+[11:09:30] Icone aggiornate
+[11:09:30] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:09:30] PlaybackManager: percentuale attuale = 0
+[11:09:30] MP3Player: player creato, avvio riproduzione
+[11:09:31] PlaybackManager: percentuale attuale = 2
+[11:09:32] PlaybackManager: percentuale attuale = 3
+[11:09:33] PlaybackManager: percentuale attuale = 4
+[11:09:33] Lista canzoni aggiornata
+[11:09:33] Icone playlist caricate
+[11:09:33] Lista canzoni aggiornata
+[11:09:33] Icone playlist caricate
+[11:09:33] Icone playlist caricate
+[11:09:33] Icone playlist caricate
+[11:09:33] Lista canzoni aggiornata
+[11:09:33] MP3Player: riproduzione completata
+[11:09:33] MP3Player: riproduzione completata
+[11:09:33] MP3Player: riproduzione completata – Dark Thoughts
+[11:09:33] MP3Player: isPlaying = false
+[11:09:33] Lista canzoni aggiornata
+[11:09:33] Icone playlist caricate
+[11:09:33] Icone playlist caricate
+[11:09:33] Lista canzoni aggiornata
+[11:09:33] Icone aggiornate
+[11:09:34] PlaybackManager: percentuale attuale = 0
+[11:09:35] PlaybackManager: percentuale attuale = 2
+[11:09:36] PlaybackManager: percentuale attuale = 3

@@ -1,0 +1,66 @@
+[Logger inizializzato alle 15:28:29]
+[15:28:29] Window creata
+[15:28:29] Lingua caricata: Italiano
+[15:28:29] Tema caricato dal file config
+[15:28:29] Modalità di riproduzione caricata dal file config
+[15:28:30] Lista canzoni aggiornate
+[15:28:30] Icone playlist caricate
+[15:28:30] Repaint e Revalidate fatto
+[15:28:30] Lingua aggiornata
+[15:28:30] Icone aggiornate
+[15:28:30] Tema applicato
+[15:28:30] Pannello creato
+[15:28:30] Lingua caricata: Italiano
+[15:28:30] Repaint e Revalidate fatto
+[15:28:30] Lingua aggiornata
+[15:28:31] Lista canzoni aggiornate
+[15:28:31] Icone playlist caricate
+[15:28:31] Icone playlist caricate
+[15:28:33] Billie Bossa Nova
+[15:28:33] MP3Player: play() avviato – Billie Bossa Nova
+[15:28:33] MP3Player: inizio riproduzione di "Billie Bossa Nova"
+[15:28:33] MP3Player: thread playback avviato
+[15:28:33] Icone aggiornate
+[15:28:33] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:28:33] PlaybackManager: percentuale attuale = 0
+[15:28:33] MP3Player: player creato, avvio riproduzione
+[15:28:34] PlaybackManager: percentuale attuale = 0
+[15:28:35] MP3Player: riproduzione completata
+[15:28:35] MP3Player: riproduzione completata
+[15:28:35] MP3Player: riproduzione completata – Billie Bossa Nova
+[15:28:35] MP3Player: isPlaying = false
+[15:28:35] PlaybackManager: percentuale attuale = 0
+[15:28:36] PlaybackManager: percentuale attuale = 51
+[15:28:37] PlaybackManager: percentuale attuale = 52
+[15:28:38] Icone aggiornate
+[15:28:38] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:28:38] PlaybackManager: canzone finita, chiamo nextSong()
+[15:28:38] PlaybackManager: isPlaying prima = false
+[15:28:38] PlaybackManager: canzone finita, chiamo nextSong()
+[15:28:38] PlaybackManager: isPlaying prima = false
+[15:28:38] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:28:38] PlaybackManager: percentuale attuale = 52
+[15:28:38] MP3Player: ripresa riproduzione di "Billie Bossa Nova"
+[15:28:38] MP3Player: mutex rilasciato dopo resume()
+[15:28:38] Icone aggiornate
+[15:28:39] PlaybackManager: percentuale attuale = 53
+[15:28:40] PlaybackManager: percentuale attuale = 53
+[15:28:41] MP3Player: riproduzione completata – Billie Bossa Nova
+[15:28:41] MP3Player: isPlaying = false
+[15:28:41] PlaybackManager: percentuale attuale = 0
+[15:28:42] PlaybackManager: percentuale attuale = 94
+[15:28:43] PlaybackManager: percentuale attuale = 95
+[15:28:44] PlaybackManager: percentuale attuale = 95
+[15:28:45] PlaybackManager: percentuale attuale = 96
+[15:28:46] PlaybackManager: percentuale attuale = 96
+[15:28:47] PlaybackManager: percentuale attuale = 97
+[15:28:48] PlaybackManager: percentuale attuale = 97
+[15:28:49] PlaybackManager: percentuale attuale = 98
+[15:28:50] PlaybackManager: percentuale attuale = 98
+[15:28:51] PlaybackManager: percentuale attuale = 99
+[15:28:51] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:28:51] PlaybackManager: canzone finita, chiamo nextSong()
+[15:28:51] PlaybackManager: percentuale attuale = 99
+[15:28:51] PlaybackManager: isPlaying prima = false
+[15:28:51] PlaybackManager: canzone finita, chiamo nextSong()
+[15:28:51] PlaybackManager: isPlaying prima = false

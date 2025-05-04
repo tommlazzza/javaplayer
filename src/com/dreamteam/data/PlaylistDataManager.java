@@ -10,7 +10,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.dreamteam.control.LanguageManager;
 import com.dreamteam.control.Logger;
 import com.dreamteam.model.Playlist;
 import com.dreamteam.model.Song;
@@ -50,10 +49,10 @@ public abstract class PlaylistDataManager {
 
         for (Map.Entry<String, Playlist> entry : playlists.entrySet()) {
             String name = entry.getKey();
-            
-            if(name != LanguageManager.get("playlist.all"))
-            {
-            	Playlist playlist = entry.getValue();
+
+            // Salta la playlist "Tutti i brani"
+            if (!name.equals(LanguageManager.get("playlist.all"))) {
+                Playlist playlist = entry.getValue();
 
                 // Crea cartella per la playlist
                 File playlistDir = new File(baseDir, name);
@@ -67,26 +66,7 @@ public abstract class PlaylistDataManager {
                     Logger.writeLog("Errore nel salvataggio JSON per playlist " + name + ": " + e.getMessage());
                 }
 
-                // Copia i file MP3 nella cartella
-                for (String title : playlist.getSongTitles()) {
-                    Song song = playlist.getSong(title);
-                    if (song == null) continue;
-
-                    File original = new File(song.getPath());
-                    File target = new File(playlistDir, original.getName());
-
-                    try {
-                        if (!target.exists()) {
-                            Files.copy(original.toPath(), target.toPath(), StandardCopyOption.REPLACE_EXISTING);
-                        }
-                        // aggiorna path per mantenerlo relativo alla cartella
-                        song.setPath(target.getPath());
-                    } catch (IOException e) {
-                        Logger.writeLog("Errore nel copiare MP3: " + original + " -> " + target);
-                    }
-                }
-
-                // Copia e rinomina copertina
+                // Copia e rinomina copertina (opzionale)
                 if (playlist.getCoverImage() != null) {
                     File coverSrc = new File(playlist.getCoverImage());
                     if (coverSrc.exists()) {
@@ -246,7 +226,7 @@ public abstract class PlaylistDataManager {
                 Song song = pl.getSong(title);
                 if (song != null) {
                     File songFile = new File(dir, new File(song.getPath()).getName());
-                    File dest = new File("songs/" + songFile.getName());
+                    File dest = new File("resources/playlists/" + songFile.getName());
                     if (!dest.exists() && songFile.exists()) {
                         Files.copy(songFile.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
                     }
@@ -285,29 +265,38 @@ public abstract class PlaylistDataManager {
             }
         }
 
-     // Carica file MP3 presenti direttamente nelle sottocartelle di resources/playlists
+        // Carica tutti i file MP3 presenti nelle sottocartelle di resources/playlists
         File baseDir = new File("resources/playlists");
         if (baseDir.exists()) {
-            File[] rootMp3Files = baseDir.listFiles((d, name) -> name.toLowerCase().endsWith(".mp3"));
-            if (rootMp3Files != null) {
-                for (File mp3 : rootMp3Files) {
-                    String title = mp3.getName().substring(0, mp3.getName().length() - 4).replace('_', ' ').trim();
-                    if (!unici.containsKey(title)) {
-                        Song s = new Song(title, mp3.getPath());
-                        unici.put(title, s);
-                    }
-                }
-            }
+            caricaMP3Ricorsivamente(baseDir, unici);
         }
 
         // Aggiungi tutti i brani alla playlist "Tutti i Brani"
         unici.entrySet().stream()
-        .sorted(Map.Entry.comparingByKey(String.CASE_INSENSITIVE_ORDER))
-        .forEach(entry -> tutti.addSong(entry.getValue()));
+            .sorted(Map.Entry.comparingByKey(String.CASE_INSENSITIVE_ORDER))
+            .forEach(entry -> tutti.addSong(entry.getValue()));
 
         tutti.setName(LanguageManager.get("playlist.all"));
         tutti.setCoverImage(PLAYLIST_ALL_ICON);
         
         return tutti;
+    }
+    
+    private static void caricaMP3Ricorsivamente(File dir, Map<String, Song> unici) {
+        File[] files = dir.listFiles();
+        if (files == null) return;
+
+        for (File file : files) {
+            if (file.isDirectory()) {
+                caricaMP3Ricorsivamente(file, unici);
+            } else if (file.getName().toLowerCase().endsWith(".mp3")) {
+                String title = file.getName().substring(0, file.getName().length() - 4)
+                    .replace('_', ' ').trim();
+                if (!unici.containsKey(title)) {
+                    Song s = new Song(title, file.getPath());
+                    unici.put(title, s);
+                }
+            }
+        }
     }
 }

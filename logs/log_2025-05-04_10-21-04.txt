@@ -1,0 +1,109 @@
+[Logger inizializzato alle 10:21:04]
+[10:21:04] Window creata
+[10:21:04] Lingua caricata: Italiano
+[10:21:04] Tema caricato dal file config
+[10:21:04] Modalità di riproduzione caricata dal file config
+[10:21:05] Lista canzoni aggiornate
+[10:21:05] Icone playlist caricate
+[10:21:05] Repaint e Revalidate fatto
+[10:21:05] Lingua aggiornata
+[10:21:05] Icone aggiornate
+[10:21:05] Tema applicato
+[10:21:05] Pannello creato
+[10:21:05] Lingua caricata: Italiano
+[10:21:05] Repaint e Revalidate fatto
+[10:21:05] Lingua aggiornata
+[10:21:07] Lista canzoni aggiornate
+[10:21:07] Icone playlist caricate
+[10:21:07] Icone playlist caricate
+[10:21:09] Lista canzoni aggiornate
+[10:21:09] Icone playlist caricate
+[10:21:09] Icone playlist caricate
+[10:21:10] Lista canzoni aggiornate
+[10:21:10] Icone playlist caricate
+[10:21:10] Icone playlist caricate
+[10:21:17] Lista canzoni aggiornate
+[10:21:17] Icone playlist caricate
+[10:21:19] EVERYBODY
+[10:21:19] MP3Player: play() avviato – EVERYBODY
+[10:21:19] MP3Player: inizio riproduzione di "EVERYBODY"
+[10:21:19] MP3Player: thread playback avviato
+[10:21:19] Icone aggiornate
+[10:21:19] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:21:19] PlaybackManager: percentuale attuale = 0
+[10:21:19] MP3Player: player creato, avvio riproduzione
+[10:21:20] PlaybackManager: percentuale attuale = 0
+[10:21:21] PlaybackManager: percentuale attuale = 0
+[10:21:21] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:21:21] Lista canzoni aggiornate
+[10:21:22] PlaybackManager: percentuale attuale = 1
+[10:21:22] Lista canzoni aggiornate
+[10:21:22] Icone playlist caricate
+[10:21:22] Icone playlist caricate
+[10:21:23] PlaybackManager: percentuale attuale = 1
+[10:21:23] MP3Player: riproduzione completata
+[10:21:23] MP3Player: riproduzione completata
+[10:21:23] MP3Player: riproduzione completata – EVERYBODY
+[10:21:23] MP3Player: isPlaying = false
+[10:21:23] BEAUTY AND THE BEAST
+[10:21:23] MP3Player: play() avviato – BEAUTY AND THE BEAST
+[10:21:23] MP3Player: inizio riproduzione di "BEAUTY AND THE BEAST"
+[10:21:23] MP3Player: thread playback avviato
+[10:21:23] Icone aggiornate
+[10:21:23] MP3Player: player creato, avvio riproduzione
+[10:21:24] PlaybackManager: percentuale attuale = 0
+[10:21:25] PlaybackManager: percentuale attuale = 1
+[10:21:26] PlaybackManager: percentuale attuale = 2
+[10:21:27] PlaybackManager: percentuale attuale = 3
+[10:21:28] PlaybackManager: percentuale attuale = 4
+[10:21:29] PlaybackManager: percentuale attuale = 5
+[10:21:30] PlaybackManager: percentuale attuale = 6
+[10:21:31] PlaybackManager: percentuale attuale = 7
+[10:21:32] PlaybackManager: percentuale attuale = 8
+[10:21:33] PlaybackManager: percentuale attuale = 9
+[10:21:34] PlaybackManager: percentuale attuale = 10
+[10:21:35] PlaybackManager: percentuale attuale = 11
+[10:21:36] PlaybackManager: percentuale attuale = 12
+[10:21:37] PlaybackManager: percentuale attuale = 13
+[10:21:38] PlaybackManager: percentuale attuale = 14
+[10:21:39] PlaybackManager: percentuale attuale = 15
+[10:21:40] PlaybackManager: percentuale attuale = 16
+[10:21:41] PlaybackManager: percentuale attuale = 17
+[10:21:42] PlaybackManager: percentuale attuale = 18
+[10:21:43] PlaybackManager: percentuale attuale = 18
+[10:21:44] PlaybackManager: percentuale attuale = 19
+[10:21:45] PlaybackManager: percentuale attuale = 20
+[10:21:46] PlaybackManager: percentuale attuale = 21
+[10:21:47] PlaybackManager: percentuale attuale = 22
+[10:21:48] PlaybackManager: percentuale attuale = 23
+[10:21:49] PlaybackManager: percentuale attuale = 24
+[10:21:50] PlaybackManager: percentuale attuale = 25
+[10:21:51] PlaybackManager: percentuale attuale = 26
+[10:21:52] PlaybackManager: percentuale attuale = 27
+[10:21:53] PlaybackManager: percentuale attuale = 28
+[10:21:54] PlaybackManager: percentuale attuale = 29
+[10:21:55] PlaybackManager: percentuale attuale = 30
+[10:21:56] PlaybackManager: percentuale attuale = 31
+[10:21:57] PlaybackManager: percentuale attuale = 32
+[10:21:58] PlaybackManager: percentuale attuale = 33
+[10:21:59] PlaybackManager: percentuale attuale = 34
+[10:22:00] PlaybackManager: percentuale attuale = 35
+[10:22:01] PlaybackManager: percentuale attuale = 36
+[10:22:02] PlaybackManager: percentuale attuale = 36
+[10:22:03] PlaybackManager: percentuale attuale = 37
+[10:22:04] PlaybackManager: percentuale attuale = 38
+[10:22:05] PlaybackManager: percentuale attuale = 39
+[10:22:06] PlaybackManager: percentuale attuale = 40
+[10:22:07] PlaybackManager: percentuale attuale = 41
+[10:22:08] PlaybackManager: percentuale attuale = 42
+[10:22:09] PlaybackManager: percentuale attuale = 43
+[10:22:10] PlaybackManager: percentuale attuale = 44
+[10:22:11] PlaybackManager: percentuale attuale = 45
+[10:22:12] PlaybackManager: percentuale attuale = 46
+[10:22:13] PlaybackManager: percentuale attuale = 47
+[10:22:14] PlaybackManager: percentuale attuale = 48
+[10:22:15] PlaybackManager: percentuale attuale = 49
+[10:22:16] PlaybackManager: percentuale attuale = 50
+[10:22:17] PlaybackManager: percentuale attuale = 51
+[10:22:18] PlaybackManager: percentuale attuale = 52
+[10:22:19] PlaybackManager: percentuale attuale = 53

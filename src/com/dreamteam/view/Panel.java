@@ -36,11 +36,12 @@ import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 
 import com.dreamteam.control.Controller;
-import com.dreamteam.control.LanguageManager;
-import com.dreamteam.control.Languages;
 import com.dreamteam.control.Logger;
 import com.dreamteam.control.PlaylistRenderer;
+import com.dreamteam.data.ConfigManager;
+import com.dreamteam.data.LanguageManager;
 import com.dreamteam.data.PlaylistDataManager;
+import com.dreamteam.languages.Languages;
 import com.dreamteam.model.MP3Player;
 import com.dreamteam.model.Playlist;
 import com.dreamteam.model.Song;
@@ -143,7 +144,9 @@ public class Panel extends JPanel {
 					informazioniSonora,
 					sortPlaylistItem,
 					topSongsItem,
-					topPlaylistItem;
+					topPlaylistItem,
+					playlistConstructor,
+					customOrderItem;
 	private JMenuItem[] languagesItem;
 	private JLabel coverImageLabel, currentSongLabel, playlistTitleLabel;
 	private JList<String> comboBox, playlistList;
@@ -188,9 +191,9 @@ public class Panel extends JPanel {
 	{
 		this.window = window;
 		
-		Languages langs = Controller.loadLanguageFromConfig();
+		Languages langs = ConfigManager.loadLanguageFromConfig();
 		LanguageManager.load(langs);
-		isDarkMode = Controller.loadThemeFromConfig();
+		isDarkMode = ConfigManager.loadThemeFromConfig();
 		
 		this.controller = new Controller(this);
 		this.player = player;
@@ -200,7 +203,7 @@ public class Panel extends JPanel {
 		requestFocusInWindow();
 		addKeyListener(controller);
 		
-		controller.setPlaybackMode(Controller.loadModeFromConfig());
+		controller.setPlaybackMode(ConfigManager.loadModeFromConfig());
 
 		playlists = new LinkedHashMap<>();
 		playlists.putAll(PlaylistDataManager.loadPlaylistsFromFolders());
@@ -262,6 +265,7 @@ public class Panel extends JPanel {
 
 		playlistMenu = new JMenu(LanguageManager.get("menu.playlist"));
 		
+		playlistConstructor = new JMenuItem(LanguageManager.get("playlist.constructor"));
 		createPlaylistItem = new JMenuItem(LanguageManager.get("item.createPlaylist"));
 		deletePlaylistItem = new JMenuItem(LanguageManager.get("item.deletePlaylist"));
 		exportPlaylistItem = new JMenuItem(LanguageManager.get("item.renamePlaylist"));
@@ -274,6 +278,8 @@ public class Panel extends JPanel {
 		topPlaylistItem = new JMenuItem(LanguageManager.get("item.topPlaylist"));
 		
 
+		playlistMenu.add(playlistConstructor);
+		playlistMenu.addSeparator();
 		playlistMenu.add(createPlaylistItem);
 		playlistMenu.add(deletePlaylistItem);
 		playlistMenu.add(exportPlaylistItem);
@@ -288,6 +294,7 @@ public class Panel extends JPanel {
 		playlistMenu.addSeparator();
 		playlistMenu.add(topPlaylistItem);
 
+		playlistConstructor.addActionListener(controller);
 		createPlaylistItem.addActionListener(controller);
 		deletePlaylistItem.addActionListener(controller);
 		renamePlaylistItem.addActionListener(controller);
@@ -395,6 +402,7 @@ public class Panel extends JPanel {
 		playlistScrollPane.setPreferredSize(new Dimension(calculateMaxPlaylistWidth(), 0)); // <- larghezza dinamica
 		leftPanel.add(playlistScrollPane, BorderLayout.CENTER);
 		add(leftPanel, BorderLayout.WEST);
+		playlistList.addMouseListener(controller);
 
 		// Centro layout con immagine, campo ricerca e lista canzoni
 		centerPanel = new JPanel();
@@ -546,14 +554,18 @@ public class Panel extends JPanel {
      * Cancella e ricarica tutti i titoli nel modello della comboBox.
      */
 	public void refreshComboBox() {
-		if (playlist != null) {
-			comboBoxModel.clear();
-			for (String title : playlist.getSongTitles()) {
-				comboBoxModel.addElement(title);
-			}
-		}
-		
-		Logger.writeLog("Lista canzoni aggiornate");
+	    if (controller != null) controller.setSuppressComboBoxPlayback(true);
+
+	    comboBoxModel.clear();
+	    if (playlist != null) {
+	        for (String title : playlist.getSongTitles()) {
+	            comboBoxModel.addElement(title);
+	        }
+	    }
+
+	    Logger.writeLog("Lista canzoni aggiornata");
+
+	    if (controller != null) controller.setSuppressComboBoxPlayback(false);
 	}
 	
 	/**
@@ -678,7 +690,7 @@ public class Panel extends JPanel {
 	        config.setProperty("language", selectedLang.name());
 	        config.store(new FileOutputStream(configFile), null);
 	    } catch (Exception e) {
-	        e.printStackTrace();
+	        Logger.writeLog(e.getMessage());
 	    }
 
 	    // Menu principali
@@ -992,6 +1004,7 @@ public class Panel extends JPanel {
 	public JMenuItem getEsci() { return esciItem; }
 	public JMenuItem getTopSongsItem() { return topSongsItem; }
 	public JMenuItem getTopPlaylistItem() { return topPlaylistItem; }
+	public JMenuItem getPlaylistConstructor() { return playlistConstructor; }
 	
 	public Controller getController() { return controller; }
 	public Window getWindow() { return window; }

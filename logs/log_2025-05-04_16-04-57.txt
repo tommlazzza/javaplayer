@@ -1,0 +1,31 @@
+[Logger inizializzato alle 16:04:57]
+[16:04:57] Window creata
+[16:04:57] Lingua caricata: Italiano
+[16:04:57] Tema caricato dal file config
+[16:04:57] Modalità di riproduzione caricata dal file config
+[16:04:58] Lista canzoni aggiornata
+[16:04:58] Icone playlist caricate
+[16:04:58] Repaint e Revalidate fatto
+[16:04:58] Lingua aggiornata
+[16:04:58] Icone aggiornate
+[16:04:58] Tema applicato
+[16:04:58] Pannello creato
+[16:04:58] Lingua caricata: Italiano
+[16:04:58] Repaint e Revalidate fatto
+[16:04:58] Lingua aggiornata
+[16:05:00] Lista canzoni aggiornata
+[16:05:00] Icone playlist caricate
+[16:05:00] Icone playlist caricate
+[16:05:01] Lista canzoni aggiornata
+[16:05:01] Icone playlist caricate
+[16:05:01] Icone playlist caricate
+[16:05:02] All Eyez On Me
+[16:05:02] MP3Player: play() avviato – All Eyez On Me
+[16:05:02] MP3Player: inizio riproduzione di "All Eyez On Me"
+[16:05:02] MP3Player: thread playback avviato
+[16:05:02] Icone aggiornate
+[16:05:02] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[16:05:02] PlaybackManager: percentuale attuale = 0
+[16:05:02] MP3Player: player creato, avvio riproduzione
+[16:05:03] PlaybackManager: percentuale attuale = 0
+[16:05:04] PlaybackManager: percentuale attuale = 1

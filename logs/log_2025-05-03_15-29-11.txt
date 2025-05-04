@@ -1,0 +1,123 @@
+[Logger inizializzato alle 15:29:11]
+[15:29:11] Window creata
+[15:29:11] Lingua caricata: Italiano
+[15:29:11] Tema caricato dal file config
+[15:29:11] Modalità di riproduzione caricata dal file config
+[15:29:12] Lista canzoni aggiornate
+[15:29:12] Icone playlist caricate
+[15:29:12] Repaint e Revalidate fatto
+[15:29:12] Lingua aggiornata
+[15:29:12] Icone aggiornate
+[15:29:12] Tema applicato
+[15:29:12] Pannello creato
+[15:29:12] Lingua caricata: Italiano
+[15:29:12] Repaint e Revalidate fatto
+[15:29:12] Lingua aggiornata
+[15:29:13] Lista canzoni aggiornate
+[15:29:13] Icone playlist caricate
+[15:29:13] Icone playlist caricate
+[15:29:14] BIRDS OF A FEATHER
+[15:29:14] MP3Player: play() avviato – BIRDS OF A FEATHER
+[15:29:14] MP3Player: inizio riproduzione di "BIRDS OF A FEATHER"
+[15:29:14] MP3Player: thread playback avviato
+[15:29:14] Icone aggiornate
+[15:29:14] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:29:14] PlaybackManager: percentuale attuale = 0
+[15:29:14] MP3Player: player creato, avvio riproduzione
+[15:29:15] PlaybackManager: percentuale attuale = 0
+[15:29:15] Controller: nextSong() chiamato
+[15:29:15] MP3Player: riproduzione completata
+[15:29:15] MP3Player: riproduzione completata
+[15:29:15] MP3Player: riproduzione completata – BIRDS OF A FEATHER
+[15:29:15] MP3Player: isPlaying = false
+[15:29:15] Count Me Out
+[15:29:15] MP3Player: play() avviato – Count Me Out
+[15:29:15] MP3Player: inizio riproduzione di "Count Me Out"
+[15:29:15] MP3Player: thread playback avviato
+[15:29:15] Icone aggiornate
+[15:29:15] Riproduco: Count Me Out
+[15:29:15] Icone aggiornate
+[15:29:15] MP3Player: player creato, avvio riproduzione
+[15:29:16] PlaybackManager: percentuale attuale = 0
+[15:29:16] Controller: nextSong() chiamato
+[15:29:16] MP3Player: riproduzione completata
+[15:29:16] MP3Player: riproduzione completata
+[15:29:16] MP3Player: riproduzione completata – Count Me Out
+[15:29:16] MP3Player: isPlaying = false
+[15:29:16] Fell In Luv
+[15:29:16] MP3Player: play() avviato – Fell In Luv
+[15:29:16] MP3Player: inizio riproduzione di "Fell In Luv"
+[15:29:16] MP3Player: thread playback avviato
+[15:29:16] MP3Player: player creato, avvio riproduzione
+[15:29:16] Icone aggiornate
+[15:29:16] Riproduco: Fell In Luv
+[15:29:16] Icone aggiornate
+[15:29:17] Controller: nextSong() chiamato
+[15:29:17] MP3Player: riproduzione completata
+[15:29:17] MP3Player: riproduzione completata
+[15:29:17] MP3Player: riproduzione completata – Fell In Luv
+[15:29:17] MP3Player: isPlaying = false
+[15:29:17] FRIED
+[15:29:17] MP3Player: play() avviato – FRIED
+[15:29:17] MP3Player: inizio riproduzione di "FRIED"
+[15:29:17] MP3Player: thread playback avviato
+[15:29:17] MP3Player: player creato, avvio riproduzione
+[15:29:17] Icone aggiornate
+[15:29:17] Riproduco: FRIED
+[15:29:17] Icone aggiornate
+[15:29:17] PlaybackManager: percentuale attuale = 2
+[15:29:17] Controller: nextSong() chiamato
+[15:29:17] MP3Player: riproduzione completata
+[15:29:17] MP3Player: riproduzione completata
+[15:29:17] MP3Player: riproduzione completata – FRIED
+[15:29:17] MP3Player: isPlaying = false
+[15:29:17] New Slaves
+[15:29:17] MP3Player: play() avviato – New Slaves
+[15:29:17] MP3Player: inizio riproduzione di "New Slaves"
+[15:29:17] MP3Player: thread playback avviato
+[15:29:17] MP3Player: player creato, avvio riproduzione
+[15:29:17] Icone aggiornate
+[15:29:17] Riproduco: New Slaves
+[15:29:17] Icone aggiornate
+[15:29:18] Controller: nextSong() chiamato
+[15:29:18] MP3Player: riproduzione completata
+[15:29:18] MP3Player: riproduzione completata
+[15:29:18] MP3Player: riproduzione completata – New Slaves
+[15:29:18] MP3Player: isPlaying = false
+[15:29:18] Your Power
+[15:29:18] MP3Player: play() avviato – Your Power
+[15:29:18] MP3Player: inizio riproduzione di "Your Power"
+[15:29:18] MP3Player: thread playback avviato
+[15:29:18] Icone aggiornate
+[15:29:18] Riproduco: Your Power
+[15:29:18] MP3Player: player creato, avvio riproduzione
+[15:29:18] Icone aggiornate
+[15:29:18] PlaybackManager: percentuale attuale = 0
+[15:29:19] PlaybackManager: percentuale attuale = 0
+[15:29:20] MP3Player: riproduzione completata
+[15:29:20] MP3Player: riproduzione completata
+[15:29:20] MP3Player: riproduzione completata – Your Power
+[15:29:20] MP3Player: isPlaying = false
+[15:29:20] PlaybackManager: percentuale attuale = 0
+[15:29:21] PlaybackManager: percentuale attuale = 96
+[15:29:22] PlaybackManager: percentuale attuale = 96
+[15:29:23] PlaybackManager: percentuale attuale = 97
+[15:29:24] PlaybackManager: percentuale attuale = 97
+[15:29:25] PlaybackManager: percentuale attuale = 98
+[15:29:26] PlaybackManager: percentuale attuale = 98
+[15:29:27] PlaybackManager: percentuale attuale = 99
+[15:29:27] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:29:27] PlaybackManager: canzone finita, chiamo nextSong()
+[15:29:27] PlaybackManager: percentuale attuale = 99
+[15:29:27] PlaybackManager: isPlaying prima = false
+[15:29:27] PlaybackManager: canzone finita, chiamo nextSong()
+[15:29:27] PlaybackManager: isPlaying prima = false
+[15:29:39] Calm (Interlude)
+[15:29:39] MP3Player: play() avviato – Calm (Interlude)
+[15:29:39] MP3Player: inizio riproduzione di "Calm (Interlude)"
+[15:29:39] MP3Player: thread playback avviato
+[15:29:39] Icone aggiornate
+[15:29:39] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[15:29:39] PlaybackManager: percentuale attuale = 0
+[15:29:39] MP3Player: player creato, avvio riproduzione
+[15:29:40] PlaybackManager: percentuale attuale = 11

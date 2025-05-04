@@ -1,0 +1,37 @@
+[Logger inizializzato alle 11:23:18]
+[11:23:19] Window creata
+[11:23:19] Lingua caricata: Italiano
+[11:23:19] Tema caricato dal file config
+[11:23:19] Modalità di riproduzione caricata dal file config
+[11:23:19] Lista canzoni aggiornata
+[11:23:19] Icone playlist caricate
+[11:23:19] Repaint e Revalidate fatto
+[11:23:19] Lingua aggiornata
+[11:23:19] Icone aggiornate
+[11:23:19] Tema applicato
+[11:23:19] Pannello creato
+[11:23:19] Lingua caricata: Italiano
+[11:23:19] Repaint e Revalidate fatto
+[11:23:19] Lingua aggiornata
+[11:23:21] Lista canzoni aggiornata
+[11:23:21] Icone playlist caricate
+[11:23:21] Icone playlist caricate
+[11:23:21] All Mine
+[11:23:21] MP3Player: play() avviato – All Mine
+[11:23:21] MP3Player: inizio riproduzione di "All Mine"
+[11:23:21] MP3Player: thread playback avviato
+[11:23:21] Icone aggiornate
+[11:23:21] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:23:21] PlaybackManager: percentuale attuale = 0
+[11:23:22] MP3Player: player creato, avvio riproduzione
+[11:23:22] PlaybackManager: percentuale attuale = 2
+[11:23:23] PlaybackManager: percentuale attuale = 3
+[11:23:24] PlaybackManager: percentuale attuale = 4
+[11:23:25] Icone aggiornate
+[11:23:25] Icone aggiornate
+[11:23:25] Icone aggiornate
+[11:23:25] Icone aggiornate
+[11:23:25] PlaybackManager: percentuale attuale = 4
+[11:23:26] Icone aggiornate
+[11:23:26] PlaybackManager: percentuale attuale = 5
+[11:23:27] PlaybackManager: percentuale attuale = 6

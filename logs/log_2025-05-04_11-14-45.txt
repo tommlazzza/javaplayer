@@ -1,0 +1,50 @@
+[Logger inizializzato alle 11:14:45]
+[11:14:46] Window creata
+[11:14:46] Lingua caricata: Italiano
+[11:14:46] Tema caricato dal file config
+[11:14:46] Modalità di riproduzione caricata dal file config
+[11:14:46] Lista canzoni aggiornata
+[11:14:46] Icone playlist caricate
+[11:14:46] Repaint e Revalidate fatto
+[11:14:46] Lingua aggiornata
+[11:14:46] Icone aggiornate
+[11:14:46] Tema applicato
+[11:14:46] Pannello creato
+[11:14:46] Lingua caricata: Italiano
+[11:14:46] Repaint e Revalidate fatto
+[11:14:46] Lingua aggiornata
+[11:14:53] Lista canzoni aggiornata
+[11:14:53] Icone playlist caricate
+[11:14:53] Icone playlist caricate
+[11:14:58] Lista canzoni aggiornata
+[11:14:58] Icone playlist caricate
+[11:14:59] CAN'T SAY
+[11:14:59] MP3Player: play() avviato – CAN'T SAY
+[11:14:59] MP3Player: inizio riproduzione di "CAN'T SAY"
+[11:14:59] MP3Player: thread playback avviato
+[11:14:59] Icone aggiornate
+[11:14:59] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:14:59] PlaybackManager: percentuale attuale = 0
+[11:14:59] MP3Player: player creato, avvio riproduzione
+[11:15:00] PlaybackManager: percentuale attuale = 2
+[11:15:01] PlaybackManager: percentuale attuale = 3
+[11:15:02] PlaybackManager: percentuale attuale = 3
+[11:15:02] Lista canzoni aggiornata
+[11:15:02] Icone playlist caricate
+[11:15:02] Lista canzoni aggiornata
+[11:15:02] Icone playlist caricate
+[11:15:02] Icone playlist caricate
+[11:15:02] Icone playlist caricate
+[11:15:02] Lista canzoni aggiornata
+[11:15:02] MP3Player: riproduzione completata
+[11:15:02] MP3Player: riproduzione completata
+[11:15:02] MP3Player: riproduzione completata – CAN'T SAY
+[11:15:02] MP3Player: isPlaying = false
+[11:15:02] Lista canzoni aggiornata
+[11:15:02] Icone playlist caricate
+[11:15:02] Icone playlist caricate
+[11:15:02] Lista canzoni aggiornata
+[11:15:02] Icone aggiornate
+[11:15:03] PlaybackManager: percentuale attuale = 2
+[11:15:04] PlaybackManager: percentuale attuale = 3
+[11:15:05] PlaybackManager: percentuale attuale = 3

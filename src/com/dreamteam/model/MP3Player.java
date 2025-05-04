@@ -3,6 +3,12 @@ package com.dreamteam.model;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicBoolean;
+
+import com.dreamteam.control.Logger;
+import com.dreamteam.control.PlaybackManager;
+import com.dreamteam.view.Panel;
 
 import javazoom.jl.player.advanced.AdvancedPlayer;
 
@@ -14,12 +20,19 @@ public class MP3Player {
     private long fileSize;
     private boolean isPaused;
     private Thread playbackThread;
-
+    private volatile int currentPercentage;
+    private final Object lock;
+    private Panel panel;
+    private Semaphore semaphore;
+    private AtomicBoolean isPlaying = new AtomicBoolean(false);
+    private final AtomicBoolean advancing = new AtomicBoolean(false);
+    
     /**
      * Costruttore del player MP3.
      * Inizializza i campi con valori di default e imposta lo stato su "pausato".
      */
     public MP3Player() {
+    	lock = new Object();
         fileSize = 0;
         pausedPosition = 0;
         isPaused = true;
@@ -32,31 +45,83 @@ public class MP3Player {
      * @param song La canzone da riprodurre.
      */
     public void play(Song song) {
-        stop();
+    	if (isPlaying.get()) {
+    	    return; // già in riproduzione
+    	}
+    	isPlaying.set(true);
+    	
+    	Logger.writeLog("MP3Player: play() avviato – " + currentSong.getTitle());
+    	
+        synchronized(lock)
+        {
+        	stop();
+            currentSong = song;
+            pausedPosition = 0;
+            isPaused = false;
 
-        currentSong = song;
-        pausedPosition = 0;
-        isPaused = false;
+            Logger.writeLog("MP3Player: inizio riproduzione di \"" + song.getTitle() + "\"");
 
-        playbackThread = new Thread(() -> {
-            try {
-                File file = new File(song.getPath());
-                fileSize = file.length();
-                fileInputStream = new FileInputStream(file);
-                player = new AdvancedPlayer(fileInputStream);
+            playbackThread = new Thread(() -> {
+                try {
+                    File file = new File(song.getPath());
+                    if (!file.exists()) {
+                        Logger.writeLog("MP3Player: file non trovato - " + file.getAbsolutePath());
+                        return;
+                    }
 
-                player.play();
+                    fileSize = file.length();
+                    fileInputStream = new FileInputStream(file);
+                    player = new AdvancedPlayer(fileInputStream);
 
-            } 
-            catch (Exception e) {} 
-            finally {
-                player = null;
-            }
-        });
+                    isPlaying.set(true);
+                    
+                    Logger.writeLog("MP3Player: player creato, avvio riproduzione");
 
-        playbackThread.start();
+                    // Thread per aggiornare la percentuale
+                    Thread monitor = new Thread(() -> {
+                        while (!isPaused && player != null) {
+                            try {
+                                int available = fileInputStream.available();
+                                int bytesRead = (int) (fileSize - available);
+                                currentPercentage = (int) ((bytesRead * 100L) / fileSize);
+                                Thread.sleep(500);
+                            } catch (Exception ignored) {
+                                break;
+                            }
+                        }
+                    });
+                    monitor.start();
+
+                    player.play();
+
+                    Logger.writeLog("MP3Player: riproduzione completata");
+                } catch (Exception e) {
+                    Logger.writeLog("MP3Player: errore durante play() - " + e.getMessage());
+                } finally {
+                    Logger.writeLog("MP3Player: riproduzione completata");
+                    player = null;
+                    fileInputStream = null;
+                    
+                    /* Rilascio il playbackSemaphore DOPO aver avviato il player
+                    SwingUtilities.invokeLater(() -> {
+                        if (panel.getController() != null) {
+                            panel.getController().getPlaybackSemaphore().release();
+                        }
+                    });
+                    */
+                    isPlaying.set(false);
+                    
+                    Logger.writeLog("MP3Player: riproduzione completata – " + currentSong.getTitle());
+                    Logger.writeLog("MP3Player: isPlaying = " + isPlaying.get());
+
+                }
+            });
+
+            playbackThread.start();
+            Logger.writeLog("MP3Player: thread playback avviato");
+        }
     }
-
+    
     /**
      * Riprende la riproduzione da dove era stata interrotta (messa in pausa).
      */
@@ -64,28 +129,53 @@ public class MP3Player {
         if (!isPaused || currentSong == null) return;
 
         isPaused = false;
+        isPlaying.set(true);
 
         Thread thread = new Thread(() -> {
             try {
                 File file = new File(currentSong.getPath());
                 fileInputStream = new FileInputStream(file);
                 fileInputStream.skipNBytes(pausedPosition);
+                fileSize = file.length();
 
-                AdvancedPlayer resumedPlayer = new AdvancedPlayer(fileInputStream);
-                player = resumedPlayer;
+                player = new AdvancedPlayer(fileInputStream);
 
-                resumedPlayer.play();
+                Logger.writeLog("MP3Player: ripresa riproduzione di \"" + currentSong.getTitle() + "\"");
 
-                player = null;
+                if (semaphore != null) {
+                    semaphore.release();
+                    Logger.writeLog("MP3Player: mutex rilasciato dopo resume()");
+                }
+                
+                Thread monitor = new Thread(() -> {
+                    while (!isPaused && player != null) {
+                        try {
+                            int available = fileInputStream.available();
+                            int bytesRead = (int) (fileSize - available);
+                            currentPercentage = (int) ((bytesRead * 100L) / fileSize);
+                            Thread.sleep(500);
+                        } catch (Exception ignored) {
+                            break;
+                        }
+                    }
+                });
+                monitor.start();
 
+                player.play();
+
+                Logger.writeLog("MP3Player: riproduzione completata – " + currentSong.getTitle());
             } catch (Exception e) {
-                e.printStackTrace();
+                Logger.writeLog("MP3Player resume(): errore – " + e.getMessage());
+            } finally {
+                isPlaying.set(false);
+                Logger.writeLog("MP3Player: isPlaying = false");
             }
         });
 
         playbackThread = thread;
         thread.start();
     }
+
 
     /**
      * Mette in pausa la riproduzione corrente, salvando la posizione attuale nel file.
@@ -98,7 +188,7 @@ public class MP3Player {
                     isPaused = true;
                     player.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                	Logger.writeLog(e.getMessage());
                 }
             }
         }
@@ -123,20 +213,21 @@ public class MP3Player {
             try {
                 fileInputStream.close();
             } catch (IOException e) {
-                e.printStackTrace();
+            	Logger.writeLog(e.getMessage());
             } finally {
                 fileInputStream = null;
             }
         }
 
         isPaused = true;
+        currentPercentage = 0;
 
         if (oldThread != null && oldThread.isAlive() && oldThread != current) {
             oldThread.interrupt();
             try {
                 oldThread.join();
             } catch (InterruptedException e) {
-                e.printStackTrace();
+            	Logger.writeLog(e.getMessage());
             }
         }
     }
@@ -173,7 +264,7 @@ public class MP3Player {
                 }
 
             } catch (Exception e) {
-                e.printStackTrace();
+            	Logger.writeLog(e.getMessage());
             }
         });
 
@@ -190,19 +281,10 @@ public class MP3Player {
      *
      * @return Percentuale della canzone già riprodotta.
      */
-    public int getCurrentPercentage() throws Exception
-    {
-        if (fileInputStream == null || currentSong == null) throw new Exception("empty");
-
-        try 
-        {
-            int available = fileInputStream.available(); 
-            int bytesRead = (int) (fileSize - available);
-            
-            return (int) ((bytesRead * 100L) / fileSize);
-        } 
-        catch (IOException e) { throw new Exception("empty"); }
+    public int getCurrentPercentage() {
+        return currentPercentage;
     }
+
 
     /**
      * Verifica se la canzone è attualmente in riproduzione (thread attivo).
@@ -245,4 +327,30 @@ public class MP3Player {
     {
     	return this.currentSong;
     }
+    
+    public void setPanel(Panel panel)
+    {
+    	this.panel = panel;
+    }
+    
+    public void setSemaphore(Semaphore s) {
+        this.semaphore = s;
+    }
+    
+    public AtomicBoolean getIsPlaying()
+    {
+    	return this.isPlaying;
+    }
+    
+    public void setIsPlaying(boolean value)
+    {
+    	isPlaying = new AtomicBoolean(value);
+
+    	Logger.writeLog("MP3Player: isPlaying impostato a " + isPlaying.get());
+
+    }
+
+	public void setCurrentSong(Song selected) {
+		currentSong = selected;
+	}
 }

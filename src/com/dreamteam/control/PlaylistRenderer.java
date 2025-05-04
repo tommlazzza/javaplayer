@@ -15,6 +15,7 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.ListCellRenderer;
 
+import com.dreamteam.data.LanguageManager;
 import com.dreamteam.model.Playlist;
 import com.dreamteam.view.Panel;
 

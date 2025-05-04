@@ -1,0 +1,1217 @@
+[Logger inizializzato alle 10:54:58]
+[10:54:58] Window creata
+[10:54:58] Lingua caricata: Italiano
+[10:54:58] Tema caricato dal file config
+[10:54:58] Modalità di riproduzione caricata dal file config
+[10:54:59] Lista canzoni aggiornate
+[10:54:59] Icone playlist caricate
+[10:54:59] Repaint e Revalidate fatto
+[10:54:59] Lingua aggiornata
+[10:54:59] Icone aggiornate
+[10:54:59] Tema applicato
+[10:54:59] Pannello creato
+[10:54:59] Lingua caricata: Italiano
+[10:54:59] Repaint e Revalidate fatto
+[10:54:59] Lingua aggiornata
+[10:55:06] Lista canzoni aggiornate
+[10:55:06] Icone playlist caricate
+[10:55:06] Icone playlist caricate
+[10:55:13] Lista canzoni aggiornate
+[10:55:13] Icone playlist caricate
+[10:55:14] Billie Bossa Nova
+[10:55:14] MP3Player: play() avviato – Billie Bossa Nova
+[10:55:14] MP3Player: inizio riproduzione di "Billie Bossa Nova"
+[10:55:14] MP3Player: thread playback avviato
+[10:55:14] Icone aggiornate
+[10:55:14] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:55:14] PlaybackManager: percentuale attuale = 0
+[10:55:14] MP3Player: player creato, avvio riproduzione
+[10:55:15] PlaybackManager: percentuale attuale = 0
+[10:55:16] PlaybackManager: percentuale attuale = 1
+[10:55:17] PlaybackManager: percentuale attuale = 1
+[10:55:18] PlaybackManager: percentuale attuale = 2
+[10:55:19] PlaybackManager: percentuale attuale = 2
+[10:55:20] PlaybackManager: percentuale attuale = 3
+[10:55:21] PlaybackManager: percentuale attuale = 3
+[10:55:22] PlaybackManager: percentuale attuale = 4
+[10:55:23] PlaybackManager: percentuale attuale = 4
+[10:55:24] PlaybackManager: percentuale attuale = 5
+[10:55:25] PlaybackManager: percentuale attuale = 5
+[10:55:26] PlaybackManager: percentuale attuale = 6
+[10:55:27] PlaybackManager: percentuale attuale = 6
+[10:55:28] PlaybackManager: percentuale attuale = 7
+[10:55:29] PlaybackManager: percentuale attuale = 7
+[10:55:30] PlaybackManager: percentuale attuale = 8
+[10:55:31] PlaybackManager: percentuale attuale = 8
+[10:55:32] PlaybackManager: percentuale attuale = 9
+[10:55:33] PlaybackManager: percentuale attuale = 9
+[10:55:34] PlaybackManager: percentuale attuale = 10
+[10:55:35] PlaybackManager: percentuale attuale = 10
+[10:55:36] PlaybackManager: percentuale attuale = 11
+[10:55:37] PlaybackManager: percentuale attuale = 11
+[10:55:38] PlaybackManager: percentuale attuale = 12
+[10:55:39] PlaybackManager: percentuale attuale = 12
+[10:55:40] PlaybackManager: percentuale attuale = 13
+[10:55:41] PlaybackManager: percentuale attuale = 13
+[10:55:42] PlaybackManager: percentuale attuale = 14
+[10:55:43] PlaybackManager: percentuale attuale = 14
+[10:55:44] PlaybackManager: percentuale attuale = 15
+[10:55:45] PlaybackManager: percentuale attuale = 15
+[10:55:46] PlaybackManager: percentuale attuale = 16
+[10:55:47] PlaybackManager: percentuale attuale = 16
+[10:55:48] PlaybackManager: percentuale attuale = 17
+[10:55:49] PlaybackManager: percentuale attuale = 17
+[10:55:50] PlaybackManager: percentuale attuale = 18
+[10:55:51] PlaybackManager: percentuale attuale = 18
+[10:55:52] PlaybackManager: percentuale attuale = 19
+[10:55:53] PlaybackManager: percentuale attuale = 19
+[10:55:54] PlaybackManager: percentuale attuale = 20
+[10:55:55] PlaybackManager: percentuale attuale = 20
+[10:55:56] PlaybackManager: percentuale attuale = 21
+[10:55:57] PlaybackManager: percentuale attuale = 21
+[10:55:58] PlaybackManager: percentuale attuale = 22
+[10:55:59] PlaybackManager: percentuale attuale = 22
+[10:56:00] PlaybackManager: percentuale attuale = 23
+[10:56:01] PlaybackManager: percentuale attuale = 23
+[10:56:02] PlaybackManager: percentuale attuale = 24
+[10:56:03] PlaybackManager: percentuale attuale = 24
+[10:56:04] PlaybackManager: percentuale attuale = 25
+[10:56:05] PlaybackManager: percentuale attuale = 26
+[10:56:06] PlaybackManager: percentuale attuale = 26
+[10:56:07] PlaybackManager: percentuale attuale = 27
+[10:56:08] PlaybackManager: percentuale attuale = 27
+[10:56:09] PlaybackManager: percentuale attuale = 28
+[10:56:10] PlaybackManager: percentuale attuale = 28
+[10:56:11] PlaybackManager: percentuale attuale = 29
+[10:56:12] PlaybackManager: percentuale attuale = 29
+[10:56:13] PlaybackManager: percentuale attuale = 29
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] PlaybackManager: percentuale attuale = 30
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] Lista canzoni aggiornate
+[10:56:14] Icone playlist caricate
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] Lista canzoni aggiornate
+[10:56:14] Icone playlist caricate
+[10:56:14] Icone playlist caricate
+[10:56:14] Icone playlist caricate
+[10:56:14] Lista canzoni aggiornate
+[10:56:14] MP3Player: riproduzione completata
+[10:56:14] MP3Player: riproduzione completata
+[10:56:14] MP3Player: riproduzione completata – Billie Bossa Nova
+[10:56:14] MP3Player: isPlaying = false
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:56:14] Lista canzoni aggiornate
+[10:56:14] Icone playlist caricate
+[10:56:14] Icone playlist caricate
+[10:56:14] Lista canzoni aggiornate
+[10:56:14] Icone aggiornate
+[10:56:15] PlaybackManager: percentuale attuale = 0
+[10:56:16] PlaybackManager: percentuale attuale = 1
+[10:56:17] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:56:17] PlaybackManager: percentuale attuale = 0
+[10:56:17] PlaybackManager: canzone finita, chiamo nextSong()
+[10:56:17] PlaybackManager: isPlaying prima = false
+[10:56:17] MP3Player: isPlaying impostato a false
+[10:56:17] Controller: nextSong() chiamato
+[10:56:17] Nessuna playlist di riproduzione attiva o vuota.
+[10:56:17] PlaybackManager: nextSong() chiamato
+[10:56:18] PlaybackManager: percentuale attuale = 22
+[10:56:19] Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[10:56:19] MP3Player: play() avviato – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[10:56:19] MP3Player: inizio riproduzione di "Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)"
+[10:56:19] MP3Player: thread playback avviato
+[10:56:19] Icone aggiornate
+[10:56:19] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:56:19] PlaybackManager: percentuale attuale = 0
+[10:56:19] PlaybackManager: canzone finita, chiamo nextSong()
+[10:56:19] PlaybackManager: isPlaying prima = true
+[10:56:19] MP3Player: player creato, avvio riproduzione
+[10:56:20] PlaybackManager: percentuale attuale = 0
+[10:56:21] PlaybackManager: percentuale attuale = 1
+[10:56:21] MP3Player: riproduzione completata
+[10:56:21] MP3Player: riproduzione completata
+[10:56:21] MP3Player: riproduzione completata – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[10:56:21] MP3Player: isPlaying = false
+[10:56:22] PlaybackManager: percentuale attuale = 0
+[10:56:23] PlaybackManager: percentuale attuale = 45
+[10:56:24] PlaybackManager: percentuale attuale = 45
+[10:56:24] Controller: nextSong() chiamato
+[10:56:24] Riproduco: If It Ain’t Me
+[10:56:24] MP3Player: play() avviato – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[10:56:24] MP3Player: inizio riproduzione di "If It Ain’t Me"
+[10:56:24] MP3Player: thread playback avviato
+[10:56:24] Icone aggiornate
+[10:56:24] MP3Player: player creato, avvio riproduzione
+[10:56:25] PlaybackManager: percentuale attuale = 0
+[10:56:26] PlaybackManager: percentuale attuale = 0
+[10:56:27] PlaybackManager: percentuale attuale = 1
+[10:56:28] PlaybackManager: percentuale attuale = 1
+[10:56:29] PlaybackManager: percentuale attuale = 2
+[10:56:30] PlaybackManager: percentuale attuale = 2
+[10:56:31] PlaybackManager: percentuale attuale = 3
+[10:56:32] PlaybackManager: percentuale attuale = 4
+[10:56:33] PlaybackManager: percentuale attuale = 4
+[10:56:34] PlaybackManager: percentuale attuale = 5
+[10:56:35] PlaybackManager: percentuale attuale = 5
+[10:56:36] PlaybackManager: percentuale attuale = 5
+[10:56:37] PlaybackManager: percentuale attuale = 6
+[10:56:38] PlaybackManager: percentuale attuale = 6
+[10:56:39] PlaybackManager: percentuale attuale = 7
+[10:56:40] PlaybackManager: percentuale attuale = 8
+[10:56:41] PlaybackManager: percentuale attuale = 8
+[10:56:42] PlaybackManager: percentuale attuale = 9
+[10:56:43] PlaybackManager: percentuale attuale = 9
+[10:56:44] PlaybackManager: percentuale attuale = 10
+[10:56:45] PlaybackManager: percentuale attuale = 10
+[10:56:46] PlaybackManager: percentuale attuale = 11
+[10:56:47] PlaybackManager: percentuale attuale = 11
+[10:56:48] PlaybackManager: percentuale attuale = 12
+[10:56:49] PlaybackManager: percentuale attuale = 12
+[10:56:50] PlaybackManager: percentuale attuale = 13
+[10:56:51] PlaybackManager: percentuale attuale = 13
+[10:56:52] PlaybackManager: percentuale attuale = 14
+[10:56:53] PlaybackManager: percentuale attuale = 14
+[10:56:54] PlaybackManager: percentuale attuale = 15
+[10:56:55] PlaybackManager: percentuale attuale = 15
+[10:56:56] PlaybackManager: percentuale attuale = 16
+[10:56:57] PlaybackManager: percentuale attuale = 16
+[10:56:58] PlaybackManager: percentuale attuale = 17
+[10:56:59] PlaybackManager: percentuale attuale = 17
+[10:57:00] PlaybackManager: percentuale attuale = 18
+[10:57:01] PlaybackManager: percentuale attuale = 18
+[10:57:02] PlaybackManager: percentuale attuale = 19

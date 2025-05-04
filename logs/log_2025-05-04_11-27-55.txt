@@ -1,0 +1,81 @@
+[Logger inizializzato alle 11:27:55]
+[11:27:56] Window creata
+[11:27:56] Lingua caricata: Italiano
+[11:27:56] Tema caricato dal file config
+[11:27:56] Modalità di riproduzione caricata dal file config
+[11:27:56] Lista canzoni aggiornata
+[11:27:56] Icone playlist caricate
+[11:27:56] Repaint e Revalidate fatto
+[11:27:56] Lingua aggiornata
+[11:27:56] Icone aggiornate
+[11:27:56] Tema applicato
+[11:27:56] Pannello creato
+[11:27:56] Lingua caricata: Italiano
+[11:27:56] Repaint e Revalidate fatto
+[11:27:56] Lingua aggiornata
+[11:27:58] Lista canzoni aggiornata
+[11:27:58] Icone playlist caricate
+[11:27:58] Icone playlist caricate
+[11:27:58] DEAD
+[11:27:58] MP3Player: play() avviato – DEAD
+[11:27:58] MP3Player: inizio riproduzione di "DEAD"
+[11:27:58] MP3Player: thread playback avviato
+[11:27:58] Icone aggiornate
+[11:27:58] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:27:58] PlaybackManager: percentuale attuale = 0
+[11:27:58] MP3Player: player creato, avvio riproduzione
+[11:27:59] PlaybackManager: percentuale attuale = 1
+[11:28:00] PlaybackManager: percentuale attuale = 2
+[11:28:01] Lista canzoni aggiornata
+[11:28:01] Icone playlist caricate
+[11:28:01] Lista canzoni aggiornata
+[11:28:01] Icone playlist caricate
+[11:28:01] Icone playlist caricate
+[11:28:01] Icone playlist caricate
+[11:28:01] Lista canzoni aggiornata
+[11:28:01] MP3Player: riproduzione completata
+[11:28:01] MP3Player: riproduzione completata
+[11:28:01] MP3Player: riproduzione completata – DEAD
+[11:28:01] MP3Player: isPlaying = false
+[11:28:01] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:28:01] PlaybackManager: percentuale attuale = 0
+[11:28:01] Icone aggiornate
+[11:28:01] 2009
+[11:28:01] MP3Player: play() avviato – 2009
+[11:28:01] MP3Player: inizio riproduzione di "2009"
+[11:28:01] MP3Player: thread playback avviato
+[11:28:01] MP3Player: player creato, avvio riproduzione
+[11:28:01] Icone aggiornate
+[11:28:01] MP3Player: riproduzione completata
+[11:28:01] MP3Player: riproduzione completata
+[11:28:01] MP3Player: riproduzione completata – 2009
+[11:28:01] MP3Player: isPlaying = false
+[11:28:01] 2009
+[11:28:01] MP3Player: play() avviato – 2009
+[11:28:01] MP3Player: inizio riproduzione di "2009"
+[11:28:01] MP3Player: thread playback avviato
+[11:28:01] MP3Player: player creato, avvio riproduzione
+[11:28:01] Icone aggiornate
+[11:28:01] PlaybackManager: canzone finita, chiamo nextSong()
+[11:28:01] PlaybackManager: isPlaying prima = true
+[11:28:02] PlaybackManager: percentuale attuale = 32
+[11:28:03] PlaybackManager: percentuale attuale = 33
+[11:28:04] MP3Player: riproduzione completata
+[11:28:04] MP3Player: riproduzione completata
+[11:28:04] MP3Player: riproduzione completata – 2009
+[11:28:04] MP3Player: isPlaying = false
+[11:28:04] Billie Bossa Nova
+[11:28:04] MP3Player: play() avviato – Billie Bossa Nova
+[11:28:04] MP3Player: inizio riproduzione di "Billie Bossa Nova"
+[11:28:04] MP3Player: thread playback avviato
+[11:28:04] Icone aggiornate
+[11:28:04] MP3Player: player creato, avvio riproduzione
+[11:28:04] PlaybackManager: percentuale attuale = 0
+[11:28:05] PlaybackManager: percentuale attuale = 1
+[11:28:06] PlaybackManager: percentuale attuale = 1
+[11:28:06] MP3Player: riproduzione completata
+[11:28:06] MP3Player: riproduzione completata
+[11:28:06] MP3Player: riproduzione completata – Billie Bossa Nova
+[11:28:06] MP3Player: isPlaying = false
+[11:28:07] PlaybackManager: percentuale attuale = 42
+[11:28:08] PlaybackManager: percentuale attuale = 43

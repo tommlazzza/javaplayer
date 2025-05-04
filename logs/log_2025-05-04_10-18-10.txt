@@ -1,0 +1,274 @@
+[Logger inizializzato alle 10:18:10]
+[10:18:11] Window creata
+[10:18:11] Lingua caricata: Italiano
+[10:18:11] Tema caricato dal file config
+[10:18:11] Modalità di riproduzione caricata dal file config
+[10:18:11] Lista canzoni aggiornate
+[10:18:11] Icone playlist caricate
+[10:18:11] Repaint e Revalidate fatto
+[10:18:11] Lingua aggiornata
+[10:18:11] Icone aggiornate
+[10:18:11] Tema applicato
+[10:18:11] Pannello creato
+[10:18:11] Lingua caricata: Italiano
+[10:18:11] Repaint e Revalidate fatto
+[10:18:11] Lingua aggiornata
+[10:18:13] Lista canzoni aggiornate
+[10:18:13] Icone playlist caricate
+[10:18:13] Icone playlist caricate
+[10:18:14] BULLY
+[10:18:14] MP3Player: play() avviato – BULLY
+[10:18:14] MP3Player: inizio riproduzione di "BULLY"
+[10:18:14] MP3Player: thread playback avviato
+[10:18:14] Icone aggiornate
+[10:18:14] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:18:14] PlaybackManager: percentuale attuale = 0
+[10:18:15] MP3Player: player creato, avvio riproduzione
+[10:18:15] PlaybackManager: percentuale attuale = 0
+[10:18:16] PlaybackManager: percentuale attuale = 0
+[10:18:17] PlaybackManager: percentuale attuale = 1
+[10:18:18] PlaybackManager: percentuale attuale = 2
+[10:18:19] PlaybackManager: percentuale attuale = 2
+[10:18:20] PlaybackManager: percentuale attuale = 3
+[10:18:21] PlaybackManager: percentuale attuale = 4
+[10:18:22] PlaybackManager: percentuale attuale = 4
+[10:18:23] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:18:23] Lista canzoni aggiornate
+[10:18:23] Icone playlist caricate
+[10:18:23] Icone playlist caricate
+[10:18:23] PlaybackManager: percentuale attuale = 5
+[10:18:24] PlaybackManager: percentuale attuale = 5
+[10:18:24] MP3Player: riproduzione completata
+[10:18:24] MP3Player: riproduzione completata
+[10:18:24] MP3Player: riproduzione completata – BULLY
+[10:18:24] MP3Player: isPlaying = false
+[10:18:24] MR MIYAGI
+[10:18:24] MP3Player: play() avviato – MR MIYAGI
+[10:18:24] MP3Player: inizio riproduzione di "MR MIYAGI"
+[10:18:24] MP3Player: thread playback avviato
+[10:18:24] Icone aggiornate
+[10:18:24] MP3Player: player creato, avvio riproduzione
+[10:18:25] PlaybackManager: percentuale attuale = 0
+[10:18:25] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:18:25] Lista canzoni aggiornate
+[10:18:25] Icone playlist caricate
+[10:18:25] Icone playlist caricate
+[10:18:26] PlaybackManager: percentuale attuale = 1
+[10:18:27] PlaybackManager: percentuale attuale = 1
+[10:18:28] PlaybackManager: percentuale attuale = 2
+[10:18:29] PlaybackManager: percentuale attuale = 2
+[10:18:30] PlaybackManager: percentuale attuale = 3
+[10:18:31] MP3Player: riproduzione completata
+[10:18:31] MP3Player: riproduzione completata
+[10:18:31] MP3Player: riproduzione completata – MR MIYAGI
+[10:18:31] MP3Player: isPlaying = false
+[10:18:31] MR MIYAGI
+[10:18:31] MP3Player: play() avviato – MR MIYAGI
+[10:18:31] MP3Player: inizio riproduzione di "MR MIYAGI"
+[10:18:31] MP3Player: thread playback avviato
+[10:18:31] MP3Player: player creato, avvio riproduzione
+[10:18:31] Icone aggiornate
+[10:18:31] PlaybackManager: percentuale attuale = 0
+[10:18:32] PlaybackManager: percentuale attuale = 1
+[10:18:33] PlaybackManager: percentuale attuale = 1
+[10:18:34] MP3Player: riproduzione completata
+[10:18:34] MP3Player: riproduzione completata
+[10:18:34] MP3Player: riproduzione completata – MR MIYAGI
+[10:18:34] MP3Player: isPlaying = false
+[10:18:34] Icone aggiornate
+[10:18:34] PlaybackManager: canzone finita, chiamo nextSong()
+[10:18:34] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:18:34] PlaybackManager: isPlaying prima = false
+[10:18:34] PlaybackManager: canzone finita, chiamo nextSong()
+[10:18:34] PlaybackManager: isPlaying prima = false
+[10:18:36] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:18:36] PlaybackManager: percentuale attuale = 1
+[10:18:36] MP3Player: ripresa riproduzione di "MR MIYAGI"
+[10:18:36] MP3Player: mutex rilasciato dopo resume()
+[10:18:36] Icone aggiornate
+[10:18:37] PlaybackManager: percentuale attuale = 2
+[10:18:38] PlaybackManager: percentuale attuale = 3
+[10:18:38] MP3Player: riproduzione completata – MR MIYAGI
+[10:18:38] MP3Player: isPlaying = false
+[10:18:39] PlaybackManager: percentuale attuale = 30
+[10:18:39] Icone aggiornate
+[10:18:40] PlaybackManager: canzone finita, chiamo nextSong()
+[10:18:40] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:18:40] PlaybackManager: isPlaying prima = false
+[10:18:40] PlaybackManager: canzone finita, chiamo nextSong()
+[10:18:40] PlaybackManager: isPlaying prima = false
+[10:18:41] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:18:41] MP3Player: ripresa riproduzione di "MR MIYAGI"
+[10:18:41] PlaybackManager: percentuale attuale = 30
+[10:18:41] MP3Player: mutex rilasciato dopo resume()
+[10:18:41] Icone aggiornate
+[10:18:42] PlaybackManager: percentuale attuale = 31
+[10:18:43] PlaybackManager: percentuale attuale = 32
+[10:18:44] PlaybackManager: percentuale attuale = 32
+[10:18:45] PlaybackManager: percentuale attuale = 33
+[10:18:46] PlaybackManager: percentuale attuale = 34
+[10:18:47] PlaybackManager: percentuale attuale = 34
+[10:18:48] PlaybackManager: percentuale attuale = 34
+[10:18:49] PlaybackManager: percentuale attuale = 35
+[10:18:50] PlaybackManager: percentuale attuale = 36
+[10:18:51] PlaybackManager: percentuale attuale = 36
+[10:18:52] PlaybackManager: percentuale attuale = 37
+[10:18:53] PlaybackManager: percentuale attuale = 38
+[10:18:54] PlaybackManager: percentuale attuale = 38
+[10:18:55] PlaybackManager: percentuale attuale = 39
+[10:18:56] PlaybackManager: percentuale attuale = 39
+[10:18:57] PlaybackManager: percentuale attuale = 40
+[10:18:58] PlaybackManager: percentuale attuale = 40
+[10:18:59] PlaybackManager: percentuale attuale = 41
+[10:19:00] PlaybackManager: percentuale attuale = 42
+[10:19:01] PlaybackManager: percentuale attuale = 42
+[10:19:02] PlaybackManager: percentuale attuale = 43
+[10:19:03] PlaybackManager: percentuale attuale = 43
+[10:19:04] PlaybackManager: percentuale attuale = 44
+[10:19:05] PlaybackManager: percentuale attuale = 44
+[10:19:06] PlaybackManager: percentuale attuale = 45
+[10:19:07] PlaybackManager: percentuale attuale = 45
+[10:19:08] PlaybackManager: percentuale attuale = 46
+[10:19:09] PlaybackManager: percentuale attuale = 47
+[10:19:10] PlaybackManager: percentuale attuale = 47
+[10:19:11] PlaybackManager: percentuale attuale = 48
+[10:19:12] PlaybackManager: percentuale attuale = 48
+[10:19:13] PlaybackManager: percentuale attuale = 49
+[10:19:14] PlaybackManager: percentuale attuale = 49
+[10:19:15] PlaybackManager: percentuale attuale = 50
+[10:19:15] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[10:19:15] Lista canzoni aggiornate
+[10:19:15] Icone playlist caricate
+[10:19:15] Icone playlist caricate
+[10:19:16] PlaybackManager: percentuale attuale = 51
+[10:19:17] PlaybackManager: percentuale attuale = 51
+[10:19:18] Lista canzoni aggiornate
+[10:19:18] Icone playlist caricate
+[10:19:18] Icone playlist caricate
+[10:19:18] PlaybackManager: percentuale attuale = 51
+[10:19:19] MP3Player: riproduzione completata – MR MIYAGI
+[10:19:19] MP3Player: isPlaying = false
+[10:19:19] PlaybackManager: percentuale attuale = 52
+[10:19:20] PlaybackManager: percentuale attuale = 52
+[10:19:21] PlaybackManager: percentuale attuale = 53
+[10:19:22] PlaybackManager: percentuale attuale = 54
+[10:19:23] PlaybackManager: percentuale attuale = 54
+[10:19:24] PlaybackManager: percentuale attuale = 55
+[10:19:25] PlaybackManager: percentuale attuale = 55
+[10:19:26] PlaybackManager: percentuale attuale = 56
+[10:19:27] PlaybackManager: percentuale attuale = 56
+[10:19:28] PlaybackManager: percentuale attuale = 57
+[10:19:29] PlaybackManager: percentuale attuale = 57
+[10:19:30] PlaybackManager: percentuale attuale = 58
+[10:19:31] PlaybackManager: percentuale attuale = 59
+[10:19:32] PlaybackManager: percentuale attuale = 59
+[10:19:33] PlaybackManager: percentuale attuale = 60
+[10:19:34] PlaybackManager: percentuale attuale = 60
+[10:19:35] PlaybackManager: percentuale attuale = 61
+[10:19:36] PlaybackManager: percentuale attuale = 61
+[10:19:37] PlaybackManager: percentuale attuale = 62
+[10:19:38] PlaybackManager: percentuale attuale = 63
+[10:19:39] PlaybackManager: percentuale attuale = 63
+[10:19:40] PlaybackManager: percentuale attuale = 64
+[10:19:41] PlaybackManager: percentuale attuale = 64
+[10:19:42] PlaybackManager: percentuale attuale = 65
+[10:19:43] Lista canzoni aggiornate
+[10:19:43] Icone playlist caricate
+[10:19:43] Icone playlist caricate
+[10:19:43] PlaybackManager: percentuale attuale = 66
+[10:19:44] PlaybackManager: percentuale attuale = 66
+[10:19:45] PlaybackManager: percentuale attuale = 67
+[10:19:46] PlaybackManager: percentuale attuale = 67
+[10:19:47] PlaybackManager: percentuale attuale = 68
+[10:19:48] PlaybackManager: percentuale attuale = 68
+[10:19:49] PlaybackManager: percentuale attuale = 69
+[10:19:50] PlaybackManager: percentuale attuale = 69
+[10:19:51] PlaybackManager: percentuale attuale = 70
+[10:19:52] PlaybackManager: percentuale attuale = 71
+[10:19:53] PlaybackManager: percentuale attuale = 71
+[10:19:54] PlaybackManager: percentuale attuale = 72
+[10:19:55] PlaybackManager: percentuale attuale = 72
+[10:19:56] PlaybackManager: percentuale attuale = 73
+[10:19:57] PlaybackManager: percentuale attuale = 73
+[10:19:58] PlaybackManager: percentuale attuale = 74
+[10:19:59] PlaybackManager: percentuale attuale = 74
+[10:20:00] PlaybackManager: percentuale attuale = 75
+[10:20:01] PlaybackManager: percentuale attuale = 75
+[10:20:02] PlaybackManager: percentuale attuale = 76
+[10:20:03] PlaybackManager: percentuale attuale = 77
+[10:20:04] PlaybackManager: percentuale attuale = 77
+[10:20:05] PlaybackManager: percentuale attuale = 78
+[10:20:06] PlaybackManager: percentuale attuale = 78
+[10:20:07] PlaybackManager: percentuale attuale = 79
+[10:20:08] PlaybackManager: percentuale attuale = 80
+[10:20:09] PlaybackManager: percentuale attuale = 80
+[10:20:10] PlaybackManager: percentuale attuale = 80
+[10:20:11] PlaybackManager: percentuale attuale = 81
+[10:20:12] PlaybackManager: percentuale attuale = 82
+[10:20:13] PlaybackManager: percentuale attuale = 82
+[10:20:14] PlaybackManager: percentuale attuale = 83
+[10:20:15] PlaybackManager: percentuale attuale = 83
+[10:20:16] PlaybackManager: percentuale attuale = 84
+[10:20:17] PlaybackManager: percentuale attuale = 85
+[10:20:18] PlaybackManager: percentuale attuale = 85
+[10:20:19] PlaybackManager: percentuale attuale = 86
+[10:20:20] PlaybackManager: percentuale attuale = 86
+[10:20:21] PlaybackManager: percentuale attuale = 87
+[10:20:22] PlaybackManager: percentuale attuale = 87
+[10:20:23] PlaybackManager: percentuale attuale = 88
+[10:20:24] PlaybackManager: percentuale attuale = 89
+[10:20:25] PlaybackManager: percentuale attuale = 89
+[10:20:26] PlaybackManager: percentuale attuale = 90
+[10:20:27] PlaybackManager: percentuale attuale = 90
+[10:20:28] PlaybackManager: percentuale attuale = 91
+[10:20:29] PlaybackManager: percentuale attuale = 91
+[10:20:30] PlaybackManager: percentuale attuale = 92
+[10:20:31] PlaybackManager: percentuale attuale = 92
+[10:20:32] PlaybackManager: percentuale attuale = 93
+[10:20:33] PlaybackManager: percentuale attuale = 94
+[10:20:34] PlaybackManager: percentuale attuale = 94
+[10:20:35] PlaybackManager: percentuale attuale = 95
+[10:20:36] PlaybackManager: percentuale attuale = 95
+[10:20:37] PlaybackManager: percentuale attuale = 96
+[10:20:38] PlaybackManager: percentuale attuale = 96
+[10:20:39] PlaybackManager: percentuale attuale = 97
+[10:20:40] PlaybackManager: percentuale attuale = 98
+[10:20:41] PlaybackManager: percentuale attuale = 98
+[10:20:42] PlaybackManager: percentuale attuale = 99
+[10:20:43] PlaybackManager: percentuale attuale = 99
+[10:20:44] PlaybackManager: percentuale attuale = 100
+[10:20:45] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:20:45] PlaybackManager: canzone finita, chiamo nextSong()
+[10:20:45] PlaybackManager: isPlaying prima = false
+[10:20:45] MP3Player: isPlaying impostato a false
+[10:20:45] Controller: nextSong() chiamato
+[10:20:45] No Mistakes
+[10:20:45] MP3Player: play() avviato – No Mistakes
+[10:20:45] MP3Player: inizio riproduzione di "No Mistakes"
+[10:20:45] MP3Player: thread playback avviato
+[10:20:45] Icone aggiornate
+[10:20:45] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[10:20:45] PlaybackManager: percentuale attuale = 0
+[10:20:45] Riproduco: No Mistakes
+[10:20:45] PlaybackManager: nextSong() chiamato
+[10:20:45] PlaybackManager: canzone finita, chiamo nextSong()
+[10:20:45] PlaybackManager: isPlaying prima = true
+[10:20:45] MP3Player: player creato, avvio riproduzione
+[10:20:45] Icone aggiornate
+[10:20:46] PlaybackManager: percentuale attuale = 3
+[10:20:47] PlaybackManager: percentuale attuale = 4
+[10:20:48] PlaybackManager: percentuale attuale = 5
+[10:20:49] PlaybackManager: percentuale attuale = 5
+[10:20:50] PlaybackManager: percentuale attuale = 6
+[10:20:51] PlaybackManager: percentuale attuale = 7
+[10:20:52] PlaybackManager: percentuale attuale = 8
+[10:20:53] PlaybackManager: percentuale attuale = 9
+[10:20:54] PlaybackManager: percentuale attuale = 10
+[10:20:55] PlaybackManager: percentuale attuale = 10
+[10:20:56] PlaybackManager: percentuale attuale = 11
+[10:20:57] PlaybackManager: percentuale attuale = 12
+[10:20:58] PlaybackManager: percentuale attuale = 12
+[10:20:59] PlaybackManager: percentuale attuale = 13
+[10:21:00] PlaybackManager: percentuale attuale = 14
+[10:21:01] PlaybackManager: percentuale attuale = 15
+[10:21:02] PlaybackManager: percentuale attuale = 16

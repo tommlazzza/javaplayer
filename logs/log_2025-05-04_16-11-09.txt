@@ -1,0 +1,100 @@
+[Logger inizializzato alle 16:11:09]
+[16:11:10] Window creata
+[16:11:10] Lingua caricata: Italiano
+[16:11:10] Tema caricato dal file config
+[16:11:10] Modalità di riproduzione caricata dal file config
+[16:11:10] Lista canzoni aggiornata
+[16:11:10] Icone playlist caricate
+[16:11:10] Repaint e Revalidate fatto
+[16:11:10] Lingua aggiornata
+[16:11:10] Icone aggiornate
+[16:11:10] Tema applicato
+[16:11:10] Pannello creato
+[16:11:10] Lingua caricata: Italiano
+[16:11:10] Repaint e Revalidate fatto
+[16:11:10] Lingua aggiornata
+[16:11:14] Lista canzoni aggiornata
+[16:11:14] Icone playlist caricate
+[16:11:14] Icone playlist caricate
+[16:11:14] Awesome
+[16:11:14] MP3Player: play() avviato – Awesome
+[16:11:14] MP3Player: inizio riproduzione di "Awesome"
+[16:11:14] MP3Player: thread playback avviato
+[16:11:14] Icone aggiornate
+[16:11:14] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[16:11:14] PlaybackManager: percentuale attuale = 0
+[16:11:14] MP3Player: player creato, avvio riproduzione
+[16:11:15] PlaybackManager: percentuale attuale = 27
+[16:11:15] Controller: nextSong() chiamato
+[16:11:15] MP3Player: riproduzione completata
+[16:11:15] MP3Player: riproduzione completata
+[16:11:15] MP3Player: riproduzione completata – Awesome
+[16:11:15] MP3Player: isPlaying = false
+[16:11:15] Riproduco: AYAHUASCA
+[16:11:15] MP3Player: play() avviato – Awesome
+[16:11:15] MP3Player: inizio riproduzione di "AYAHUASCA"
+[16:11:15] MP3Player: thread playback avviato
+[16:11:15] MP3Player: player creato, avvio riproduzione
+[16:11:15] Icone aggiornate
+[16:11:15] MP3Player: riproduzione completata
+[16:11:15] MP3Player: riproduzione completata
+[16:11:15] MP3Player: riproduzione completata – AYAHUASCA
+[16:11:15] MP3Player: isPlaying = false
+[16:11:15] AYAHUASCA
+[16:11:15] MP3Player: play() avviato – AYAHUASCA
+[16:11:15] MP3Player: inizio riproduzione di "AYAHUASCA"
+[16:11:15] MP3Player: thread playback avviato
+[16:11:15] MP3Player: player creato, avvio riproduzione
+[16:11:15] Icone aggiornate
+[16:11:16] Icone aggiornate
+[16:11:16] Controller: nextSong() chiamato
+[16:11:16] MP3Player: riproduzione completata
+[16:11:16] MP3Player: riproduzione completata
+[16:11:16] MP3Player: riproduzione completata – AYAHUASCA
+[16:11:16] MP3Player: isPlaying = false
+[16:11:16] Riproduco: Law Of Attraction
+[16:11:16] MP3Player: play() avviato – AYAHUASCA
+[16:11:16] MP3Player: inizio riproduzione di "Law Of Attraction"
+[16:11:16] MP3Player: thread playback avviato
+[16:11:16] MP3Player: player creato, avvio riproduzione
+[16:11:16] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[16:11:16] PlaybackManager: percentuale attuale = 1
+[16:11:16] PlaybackManager: canzone finita, chiamo nextSong()
+[16:11:16] PlaybackManager: isPlaying prima = true
+[16:11:16] Icone aggiornate
+[16:11:16] MP3Player: riproduzione completata
+[16:11:16] MP3Player: riproduzione completata
+[16:11:16] MP3Player: riproduzione completata – Law Of Attraction
+[16:11:16] MP3Player: isPlaying = false
+[16:11:16] Law Of Attraction
+[16:11:16] MP3Player: play() avviato – Law Of Attraction
+[16:11:16] MP3Player: inizio riproduzione di "Law Of Attraction"
+[16:11:16] MP3Player: thread playback avviato
+[16:11:16] MP3Player: player creato, avvio riproduzione
+[16:11:16] Icone aggiornate
+[16:11:17] PlaybackManager: percentuale attuale = 2
+[16:11:18] PlaybackManager: percentuale attuale = 2
+[16:11:19] PlaybackManager: percentuale attuale = 2
+[16:11:20] PlaybackManager: percentuale attuale = 3
+[16:11:21] PlaybackManager: percentuale attuale = 3
+[16:11:22] PlaybackManager: percentuale attuale = 3
+[16:11:23] PlaybackManager: percentuale attuale = 3
+[16:11:24] PlaybackManager: percentuale attuale = 4
+[16:11:25] PlaybackManager: percentuale attuale = 4
+[16:11:26] PlaybackManager: percentuale attuale = 4
+[16:11:27] PlaybackManager: percentuale attuale = 5
+[16:11:28] PlaybackManager: percentuale attuale = 5
+[16:11:29] PlaybackManager: percentuale attuale = 5
+[16:11:30] PlaybackManager: percentuale attuale = 6
+[16:11:31] PlaybackManager: percentuale attuale = 6
+[16:11:32] PlaybackManager: percentuale attuale = 6
+[16:11:33] PlaybackManager: percentuale attuale = 7
+[16:11:34] PlaybackManager: percentuale attuale = 7
+[16:11:35] PlaybackManager: percentuale attuale = 7
+[16:11:36] PlaybackManager: percentuale attuale = 7
+[16:11:37] PlaybackManager: percentuale attuale = 8
+[16:11:38] PlaybackManager: percentuale attuale = 8
+[16:11:39] PlaybackManager: percentuale attuale = 8
+[16:11:40] PlaybackManager: percentuale attuale = 9
+[16:11:41] PlaybackManager: percentuale attuale = 9
+[16:11:42] PlaybackManager: percentuale attuale = 9

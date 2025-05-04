@@ -1,17 +1,17 @@
-package com.dreamteam.control;
+package com.dreamteam.data;
 
 import java.io.File;
 
 import com.dreamteam.model.Song;
 
-public class PackageFiles {
+public class PackageFilesManager {
     private final String path = "songs/";
 
     /**
      * Costruttore di default.
      * Inizializza il percorso della cartella contenente i file MP3.
      */
-    public PackageFiles() {}
+    public PackageFilesManager() {}
 
     /**
      * Restituisce un array di oggetti {@link Song} rappresentanti i file MP3 nella cartella "songs/".

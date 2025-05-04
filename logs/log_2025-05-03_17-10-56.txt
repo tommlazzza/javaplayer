@@ -1,0 +1,961 @@
+[Logger inizializzato alle 17:10:56]
+[17:10:56] Window creata
+[17:10:56] Lingua caricata: Italiano
+[17:10:56] Tema caricato dal file config
+[17:10:56] Modalità di riproduzione caricata dal file config
+[17:10:57] Lista canzoni aggiornate
+[17:10:57] Icone playlist caricate
+[17:10:57] Repaint e Revalidate fatto
+[17:10:57] Lingua aggiornata
+[17:10:57] Icone aggiornate
+[17:10:57] Tema applicato
+[17:10:57] Pannello creato
+[17:10:57] Lingua caricata: Italiano
+[17:10:57] Repaint e Revalidate fatto
+[17:10:57] Lingua aggiornata
+[17:10:59] Lista canzoni aggiornate
+[17:10:59] Icone playlist caricate
+[17:10:59] Icone playlist caricate
+[17:10:59] Billie Bossa Nova
+[17:10:59] MP3Player: play() avviato – Billie Bossa Nova
+[17:10:59] MP3Player: inizio riproduzione di "Billie Bossa Nova"
+[17:10:59] MP3Player: thread playback avviato
+[17:10:59] Icone aggiornate
+[17:10:59] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:10:59] PlaybackManager: percentuale attuale = 0
+[17:10:59] MP3Player: player creato, avvio riproduzione
+[17:11:00] PlaybackManager: percentuale attuale = 0
+[17:11:01] MP3Player: riproduzione completata
+[17:11:01] MP3Player: riproduzione completata
+[17:11:01] MP3Player: riproduzione completata – Billie Bossa Nova
+[17:11:01] MP3Player: isPlaying = false
+[17:11:01] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:01] PlaybackManager: percentuale attuale = 0
+[17:11:01] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:01] PlaybackManager: isPlaying prima = false
+[17:11:01] MP3Player: isPlaying impostato a false
+[17:11:01] Controller: nextSong() chiamato
+[17:11:01] Calm (Interlude)
+[17:11:01] MP3Player: play() avviato – Calm (Interlude)
+[17:11:01] MP3Player: inizio riproduzione di "Calm (Interlude)"
+[17:11:01] MP3Player: thread playback avviato
+[17:11:01] MP3Player: player creato, avvio riproduzione
+[17:11:01] Icone aggiornate
+[17:11:01] Riproduco: Calm (Interlude)
+[17:11:01] PlaybackManager: nextSong() chiamato
+[17:11:01] Icone aggiornate
+[17:11:02] PlaybackManager: percentuale attuale = 11
+[17:11:03] MP3Player: riproduzione completata
+[17:11:03] MP3Player: riproduzione completata
+[17:11:03] MP3Player: riproduzione completata – Calm (Interlude)
+[17:11:03] MP3Player: isPlaying = false
+[17:11:03] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:03] PlaybackManager: percentuale attuale = 0
+[17:11:03] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:03] PlaybackManager: isPlaying prima = false
+[17:11:03] MP3Player: isPlaying impostato a false
+[17:11:03] Controller: nextSong() chiamato
+[17:11:03] MELROSE
+[17:11:03] MP3Player: play() avviato – MELROSE
+[17:11:03] MP3Player: inizio riproduzione di "MELROSE"
+[17:11:03] MP3Player: thread playback avviato
+[17:11:03] MP3Player: player creato, avvio riproduzione
+[17:11:03] Icone aggiornate
+[17:11:03] Riproduco: MELROSE
+[17:11:03] PlaybackManager: nextSong() chiamato
+[17:11:03] Icone aggiornate
+[17:11:04] PlaybackManager: percentuale attuale = 0
+[17:11:05] MP3Player: riproduzione completata
+[17:11:05] MP3Player: riproduzione completata
+[17:11:05] MP3Player: riproduzione completata – MELROSE
+[17:11:05] MP3Player: isPlaying = false
+[17:11:05] PlaybackManager: percentuale attuale = 42
+[17:11:06] PlaybackManager: percentuale attuale = 42
+[17:11:07] Icone aggiornate
+[17:11:07] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:07] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:07] PlaybackManager: isPlaying prima = false
+[17:11:07] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:07] PlaybackManager: isPlaying prima = false
+[17:11:10] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[17:11:10] Lista canzoni aggiornate
+[17:11:10] Icone playlist caricate
+[17:11:10] Icone playlist caricate
+[17:11:11] 4 4 4 4
+[17:11:11] MP3Player: play() avviato – 4 4 4 4
+[17:11:11] MP3Player: inizio riproduzione di "4 4 4 4"
+[17:11:11] MP3Player: thread playback avviato
+[17:11:11] MP3Player: player creato, avvio riproduzione
+[17:11:11] Icone aggiornate
+[17:11:11] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:11] PlaybackManager: percentuale attuale = 2
+[17:11:12] MP3Player: riproduzione completata
+[17:11:12] MP3Player: riproduzione completata
+[17:11:12] MP3Player: riproduzione completata – 4 4 4 4
+[17:11:12] MP3Player: isPlaying = false
+[17:11:12] Icone aggiornate
+[17:11:12] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:12] PlaybackManager: isPlaying prima = false
+[17:11:15] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:15] PlaybackManager: percentuale attuale = 2
+[17:11:15] MP3Player: ripresa riproduzione di "4 4 4 4"
+[17:11:15] MP3Player: mutex rilasciato dopo resume()
+[17:11:15] Icone aggiornate
+[17:11:16] PlaybackManager: percentuale attuale = 2
+[17:11:16] MP3Player: riproduzione completata – 4 4 4 4
+[17:11:16] MP3Player: isPlaying = false
+[17:11:16] Icone aggiornate
+[17:11:17] MP3Player: ripresa riproduzione di "4 4 4 4"
+[17:11:17] MP3Player: mutex rilasciato dopo resume()
+[17:11:17] Icone aggiornate
+[17:11:17] PlaybackManager: percentuale attuale = 3
+[17:11:18] PlaybackManager: percentuale attuale = 3
+[17:11:18] MP3Player: riproduzione completata – 4 4 4 4
+[17:11:18] MP3Player: isPlaying = false
+[17:11:18] Icone aggiornate
+[17:11:19] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:19] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:19] PlaybackManager: isPlaying prima = false
+[17:11:19] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:19] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:19] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:19] PlaybackManager: isPlaying prima = false
+[17:11:19] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:19] PlaybackManager: isPlaying prima = false
+[17:11:19] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:19] PlaybackManager: isPlaying prima = false
+[17:11:20] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:20] PlaybackManager: percentuale attuale = 0
+[17:11:21] PlaybackManager: percentuale attuale = 0
+[17:11:22] PlaybackManager: percentuale attuale = 0
+[17:11:22] Icone aggiornate
+[17:11:23] MP3Player: ripresa riproduzione di "4 4 4 4"
+[17:11:23] MP3Player: mutex rilasciato dopo resume()
+[17:11:23] Icone aggiornate
+[17:11:23] PlaybackManager: percentuale attuale = 40
+[17:11:24] PlaybackManager: percentuale attuale = 41
+[17:11:24] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[17:11:24] Lista canzoni aggiornate
+[17:11:24] Icone playlist caricate
+[17:11:24] Icone playlist caricate
+[17:11:25] MP3Player: riproduzione completata – 4 4 4 4
+[17:11:25] MP3Player: isPlaying = false
+[17:11:25] BELIEVER
+[17:11:25] MP3Player: play() avviato – BELIEVER
+[17:11:25] MP3Player: inizio riproduzione di "BELIEVER"
+[17:11:25] MP3Player: thread playback avviato
+[17:11:25] MP3Player: player creato, avvio riproduzione
+[17:11:25] Icone aggiornate
+[17:11:25] PlaybackManager: percentuale attuale = 0
+[17:11:26] PlaybackManager: percentuale attuale = 0
+[17:11:26] MP3Player: riproduzione completata
+[17:11:26] MP3Player: riproduzione completata
+[17:11:26] MP3Player: riproduzione completata – BELIEVER
+[17:11:26] MP3Player: isPlaying = false
+[17:11:27] PlaybackManager: percentuale attuale = 46
+[17:11:27] Icone aggiornate
+[17:11:28] MP3Player: ripresa riproduzione di "BELIEVER"
+[17:11:28] MP3Player: mutex rilasciato dopo resume()
+[17:11:28] Icone aggiornate
+[17:11:28] PlaybackManager: percentuale attuale = 46
+[17:11:29] Controller: nextSong() chiamato
+[17:11:29] MP3Player: riproduzione completata – BELIEVER
+[17:11:29] MP3Player: isPlaying = false
+[17:11:29] Lost Cause
+[17:11:29] MP3Player: play() avviato – Lost Cause
+[17:11:29] MP3Player: inizio riproduzione di "Lost Cause"
+[17:11:29] MP3Player: thread playback avviato
+[17:11:29] MP3Player: player creato, avvio riproduzione
+[17:11:29] Icone aggiornate
+[17:11:29] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:29] PlaybackManager: percentuale attuale = 0
+[17:11:29] Riproduco: Lost Cause
+[17:11:29] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:29] PlaybackManager: isPlaying prima = true
+[17:11:29] Icone aggiornate
+[17:11:30] MP3Player: riproduzione completata
+[17:11:30] MP3Player: riproduzione completata
+[17:11:30] MP3Player: riproduzione completata – Lost Cause
+[17:11:30] MP3Player: isPlaying = false
+[17:11:30] Icone aggiornate
+[17:11:30] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:30] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:30] PlaybackManager: isPlaying prima = false
+[17:11:30] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:30] PlaybackManager: isPlaying prima = false
+[17:11:32] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:32] PlaybackManager: percentuale attuale = 0
+[17:11:32] MP3Player: ripresa riproduzione di "Lost Cause"
+[17:11:32] MP3Player: mutex rilasciato dopo resume()
+[17:11:32] Icone aggiornate
+[17:11:33] PlaybackManager: percentuale attuale = 1
+[17:11:34] PlaybackManager: percentuale attuale = 1
+[17:11:35] PlaybackManager: percentuale attuale = 2
+[17:11:35] MP3Player: riproduzione completata – Lost Cause
+[17:11:35] MP3Player: isPlaying = false
+[17:11:35] Icone aggiornate
+[17:11:36] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:36] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:36] PlaybackManager: isPlaying prima = false
+[17:11:36] PlaybackManager: canzone finita, chiamo nextSong()
+[17:11:36] PlaybackManager: isPlaying prima = false
+[17:11:36] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:11:36] PlaybackManager: percentuale attuale = 2
+[17:11:36] MP3Player: ripresa riproduzione di "Lost Cause"
+[17:11:36] MP3Player: mutex rilasciato dopo resume()
+[17:11:36] Icone aggiornate
+[17:11:37] PlaybackManager: percentuale attuale = 3
+[17:11:38] PlaybackManager: percentuale attuale = 3
+[17:11:39] PlaybackManager: percentuale attuale = 4
+[17:11:40] PlaybackManager: percentuale attuale = 4
+[17:11:41] PlaybackManager: percentuale attuale = 5
+[17:11:42] PlaybackManager: percentuale attuale = 5
+[17:11:43] PlaybackManager: percentuale attuale = 6
+[17:11:44] PlaybackManager: percentuale attuale = 6
+[17:11:45] PlaybackManager: percentuale attuale = 6
+[17:11:46] PlaybackManager: percentuale attuale = 7
+[17:11:47] PlaybackManager: percentuale attuale = 7
+[17:11:48] PlaybackManager: percentuale attuale = 8
+[17:11:49] PlaybackManager: percentuale attuale = 8
+[17:11:50] PlaybackManager: percentuale attuale = 9
+[17:11:51] PlaybackManager: percentuale attuale = 9
+[17:11:52] PlaybackManager: percentuale attuale = 10
+[17:11:53] PlaybackManager: percentuale attuale = 10
+[17:11:54] PlaybackManager: percentuale attuale = 11
+[17:11:55] PlaybackManager: percentuale attuale = 11
+[17:11:56] PlaybackManager: percentuale attuale = 12
+[17:11:57] PlaybackManager: percentuale attuale = 12
+[17:11:58] PlaybackManager: percentuale attuale = 13
+[17:11:59] PlaybackManager: percentuale attuale = 13
+[17:12:00] PlaybackManager: percentuale attuale = 14
+[17:12:01] PlaybackManager: percentuale attuale = 14
+[17:12:02] PlaybackManager: percentuale attuale = 15
+[17:12:03] PlaybackManager: percentuale attuale = 15
+[17:12:04] PlaybackManager: percentuale attuale = 16
+[17:12:05] PlaybackManager: percentuale attuale = 16
+[17:12:06] PlaybackManager: percentuale attuale = 16
+[17:12:07] PlaybackManager: percentuale attuale = 17
+[17:12:08] PlaybackManager: percentuale attuale = 18
+[17:12:09] PlaybackManager: percentuale attuale = 18
+[17:12:10] PlaybackManager: percentuale attuale = 19
+[17:12:11] PlaybackManager: percentuale attuale = 19
+[17:12:12] PlaybackManager: percentuale attuale = 19
+[17:12:13] PlaybackManager: percentuale attuale = 20
+[17:12:14] PlaybackManager: percentuale attuale = 20
+[17:12:15] PlaybackManager: percentuale attuale = 21
+[17:12:16] PlaybackManager: percentuale attuale = 21
+[17:12:17] PlaybackManager: percentuale attuale = 22
+[17:12:18] PlaybackManager: percentuale attuale = 22
+[17:12:19] PlaybackManager: percentuale attuale = 23
+[17:12:20] PlaybackManager: percentuale attuale = 23
+[17:12:21] PlaybackManager: percentuale attuale = 24
+[17:12:22] PlaybackManager: percentuale attuale = 24
+[17:12:23] PlaybackManager: percentuale attuale = 25
+[17:12:24] PlaybackManager: percentuale attuale = 25
+[17:12:25] PlaybackManager: percentuale attuale = 26
+[17:12:26] PlaybackManager: percentuale attuale = 26
+[17:12:27] PlaybackManager: percentuale attuale = 26
+[17:12:28] PlaybackManager: percentuale attuale = 27
+[17:12:29] PlaybackManager: percentuale attuale = 27
+[17:12:30] PlaybackManager: percentuale attuale = 28
+[17:12:31] PlaybackManager: percentuale attuale = 28
+[17:12:32] PlaybackManager: percentuale attuale = 29
+[17:12:33] PlaybackManager: percentuale attuale = 29
+[17:12:34] PlaybackManager: percentuale attuale = 30
+[17:12:35] PlaybackManager: percentuale attuale = 30
+[17:12:36] PlaybackManager: percentuale attuale = 31
+[17:12:37] PlaybackManager: percentuale attuale = 31
+[17:12:38] PlaybackManager: percentuale attuale = 32
+[17:12:39] PlaybackManager: percentuale attuale = 32
+[17:12:40] PlaybackManager: percentuale attuale = 33
+[17:12:41] PlaybackManager: percentuale attuale = 33
+[17:12:42] PlaybackManager: percentuale attuale = 34
+[17:12:43] PlaybackManager: percentuale attuale = 34
+[17:12:44] PlaybackManager: percentuale attuale = 34
+[17:12:45] PlaybackManager: percentuale attuale = 35
+[17:12:46] PlaybackManager: percentuale attuale = 35
+[17:12:47] PlaybackManager: percentuale attuale = 36
+[17:12:48] PlaybackManager: percentuale attuale = 36
+[17:12:49] PlaybackManager: percentuale attuale = 37
+[17:12:50] PlaybackManager: percentuale attuale = 37
+[17:12:51] PlaybackManager: percentuale attuale = 38
+[17:12:52] PlaybackManager: percentuale attuale = 38
+[17:12:53] PlaybackManager: percentuale attuale = 39
+[17:12:54] PlaybackManager: percentuale attuale = 39
+[17:12:55] PlaybackManager: percentuale attuale = 40
+[17:12:56] PlaybackManager: percentuale attuale = 40
+[17:12:57] PlaybackManager: percentuale attuale = 41
+[17:12:58] PlaybackManager: percentuale attuale = 41
+[17:12:59] PlaybackManager: percentuale attuale = 42
+[17:13:00] PlaybackManager: percentuale attuale = 42
+[17:13:01] PlaybackManager: percentuale attuale = 43
+[17:13:02] PlaybackManager: percentuale attuale = 43
+[17:13:03] PlaybackManager: percentuale attuale = 43
+[17:13:04] PlaybackManager: percentuale attuale = 44
+[17:13:05] PlaybackManager: percentuale attuale = 45
+[17:13:06] PlaybackManager: percentuale attuale = 45
+[17:13:07] PlaybackManager: percentuale attuale = 45
+[17:13:08] PlaybackManager: percentuale attuale = 46
+[17:13:09] PlaybackManager: percentuale attuale = 46
+[17:13:10] PlaybackManager: percentuale attuale = 46
+[17:13:11] PlaybackManager: percentuale attuale = 47
+[17:13:12] PlaybackManager: percentuale attuale = 47
+[17:13:13] PlaybackManager: percentuale attuale = 48
+[17:13:14] PlaybackManager: percentuale attuale = 48
+[17:13:15] PlaybackManager: percentuale attuale = 49
+[17:13:16] PlaybackManager: percentuale attuale = 49
+[17:13:17] PlaybackManager: percentuale attuale = 50
+[17:13:18] PlaybackManager: percentuale attuale = 50
+[17:13:19] PlaybackManager: percentuale attuale = 51
+[17:13:20] PlaybackManager: percentuale attuale = 51
+[17:13:21] PlaybackManager: percentuale attuale = 52
+[17:13:22] PlaybackManager: percentuale attuale = 52
+[17:13:23] PlaybackManager: percentuale attuale = 53
+[17:13:24] PlaybackManager: percentuale attuale = 53
+[17:13:25] PlaybackManager: percentuale attuale = 54
+[17:13:26] PlaybackManager: percentuale attuale = 54
+[17:13:27] PlaybackManager: percentuale attuale = 55
+[17:13:28] PlaybackManager: percentuale attuale = 55
+[17:13:29] PlaybackManager: percentuale attuale = 56
+[17:13:30] PlaybackManager: percentuale attuale = 56
+[17:13:31] PlaybackManager: percentuale attuale = 56
+[17:13:32] PlaybackManager: percentuale attuale = 57
+[17:13:33] PlaybackManager: percentuale attuale = 57
+[17:13:34] PlaybackManager: percentuale attuale = 58
+[17:13:35] PlaybackManager: percentuale attuale = 58
+[17:13:36] PlaybackManager: percentuale attuale = 59
+[17:13:37] PlaybackManager: percentuale attuale = 59
+[17:13:38] PlaybackManager: percentuale attuale = 60
+[17:13:39] PlaybackManager: percentuale attuale = 60
+[17:13:40] PlaybackManager: percentuale attuale = 61
+[17:13:41] PlaybackManager: percentuale attuale = 61
+[17:13:42] PlaybackManager: percentuale attuale = 62
+[17:13:43] PlaybackManager: percentuale attuale = 62
+[17:13:44] PlaybackManager: percentuale attuale = 63
+[17:13:45] PlaybackManager: percentuale attuale = 63
+[17:13:46] PlaybackManager: percentuale attuale = 64
+[17:13:47] PlaybackManager: percentuale attuale = 64
+[17:13:48] PlaybackManager: percentuale attuale = 65
+[17:13:49] PlaybackManager: percentuale attuale = 65
+[17:13:50] PlaybackManager: percentuale attuale = 65
+[17:13:51] PlaybackManager: percentuale attuale = 66
+[17:13:52] PlaybackManager: percentuale attuale = 66
+[17:13:53] PlaybackManager: percentuale attuale = 67
+[17:13:54] PlaybackManager: percentuale attuale = 67
+[17:13:55] PlaybackManager: percentuale attuale = 68
+[17:13:56] PlaybackManager: percentuale attuale = 68
+[17:13:57] PlaybackManager: percentuale attuale = 69
+[17:13:58] PlaybackManager: percentuale attuale = 69
+[17:13:59] PlaybackManager: percentuale attuale = 70
+[17:14:00] PlaybackManager: percentuale attuale = 70
+[17:14:01] PlaybackManager: percentuale attuale = 71
+[17:14:02] PlaybackManager: percentuale attuale = 71
+[17:14:03] PlaybackManager: percentuale attuale = 72
+[17:14:04] PlaybackManager: percentuale attuale = 72
+[17:14:05] PlaybackManager: percentuale attuale = 72
+[17:14:06] PlaybackManager: percentuale attuale = 73
+[17:14:07] PlaybackManager: percentuale attuale = 73
+[17:14:08] PlaybackManager: percentuale attuale = 74
+[17:14:09] PlaybackManager: percentuale attuale = 74
+[17:14:10] PlaybackManager: percentuale attuale = 75
+[17:14:11] PlaybackManager: percentuale attuale = 75
+[17:14:12] PlaybackManager: percentuale attuale = 76
+[17:14:13] PlaybackManager: percentuale attuale = 76
+[17:14:14] PlaybackManager: percentuale attuale = 77
+[17:14:15] PlaybackManager: percentuale attuale = 77
+[17:14:16] PlaybackManager: percentuale attuale = 78
+[17:14:17] PlaybackManager: percentuale attuale = 78
+[17:14:18] PlaybackManager: percentuale attuale = 79
+[17:14:19] PlaybackManager: percentuale attuale = 79
+[17:14:20] PlaybackManager: percentuale attuale = 79
+[17:14:21] PlaybackManager: percentuale attuale = 80
+[17:14:22] PlaybackManager: percentuale attuale = 80
+[17:14:23] PlaybackManager: percentuale attuale = 81
+[17:14:24] PlaybackManager: percentuale attuale = 81
+[17:14:25] PlaybackManager: percentuale attuale = 82
+[17:14:26] PlaybackManager: percentuale attuale = 82
+[17:14:27] PlaybackManager: percentuale attuale = 83
+[17:14:28] PlaybackManager: percentuale attuale = 83
+[17:14:29] PlaybackManager: percentuale attuale = 84
+[17:14:30] PlaybackManager: percentuale attuale = 84
+[17:14:31] PlaybackManager: percentuale attuale = 85
+[17:14:32] PlaybackManager: percentuale attuale = 85
+[17:14:33] PlaybackManager: percentuale attuale = 86
+[17:14:34] PlaybackManager: percentuale attuale = 86
+[17:14:35] PlaybackManager: percentuale attuale = 87
+[17:14:36] PlaybackManager: percentuale attuale = 87
+[17:14:37] PlaybackManager: percentuale attuale = 88
+[17:14:38] PlaybackManager: percentuale attuale = 88
+[17:14:39] PlaybackManager: percentuale attuale = 89
+[17:14:40] PlaybackManager: percentuale attuale = 89
+[17:14:41] PlaybackManager: percentuale attuale = 90
+[17:14:42] PlaybackManager: percentuale attuale = 90
+[17:14:43] PlaybackManager: percentuale attuale = 90
+[17:14:44] PlaybackManager: percentuale attuale = 91
+[17:14:45] PlaybackManager: percentuale attuale = 91
+[17:14:46] PlaybackManager: percentuale attuale = 92
+[17:14:47] PlaybackManager: percentuale attuale = 92
+[17:14:48] PlaybackManager: percentuale attuale = 93
+[17:14:49] PlaybackManager: percentuale attuale = 93
+[17:14:50] PlaybackManager: percentuale attuale = 94
+[17:14:51] PlaybackManager: percentuale attuale = 94
+[17:14:52] PlaybackManager: percentuale attuale = 95
+[17:14:53] PlaybackManager: percentuale attuale = 95
+[17:14:54] PlaybackManager: percentuale attuale = 96
+[17:14:55] PlaybackManager: percentuale attuale = 96
+[17:14:56] PlaybackManager: percentuale attuale = 97
+[17:14:57] PlaybackManager: percentuale attuale = 97
+[17:14:58] PlaybackManager: percentuale attuale = 98
+[17:14:59] PlaybackManager: percentuale attuale = 98
+[17:15:00] PlaybackManager: percentuale attuale = 98
+[17:15:01] PlaybackManager: percentuale attuale = 99
+[17:15:02] PlaybackManager: percentuale attuale = 99
+[17:15:03] MP3Player: riproduzione completata – Lost Cause
+[17:15:03] MP3Player: isPlaying = false
+[17:15:03] PlaybackManager: canzone finita, chiamo nextSong()
+[17:15:03] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:15:03] PlaybackManager: isPlaying prima = false
+[17:15:03] MP3Player: isPlaying impostato a false
+[17:15:03] Controller: nextSong() chiamato
+[17:15:03] CVLT
+[17:15:03] MP3Player: play() avviato – CVLT
+[17:15:03] MP3Player: inizio riproduzione di "CVLT"
+[17:15:03] MP3Player: thread playback avviato
+[17:15:03] MP3Player: player creato, avvio riproduzione
+[17:15:03] Icone aggiornate
+[17:15:03] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:15:03] PlaybackManager: percentuale attuale = 0
+[17:15:03] Riproduco: CVLT
+[17:15:03] PlaybackManager: nextSong() chiamato
+[17:15:03] PlaybackManager: canzone finita, chiamo nextSong()
+[17:15:03] PlaybackManager: isPlaying prima = true
+[17:15:03] Icone aggiornate
+[17:15:04] PlaybackManager: percentuale attuale = 0
+[17:15:05] PlaybackManager: percentuale attuale = 1
+[17:15:06] PlaybackManager: percentuale attuale = 1
+[17:15:07] PlaybackManager: percentuale attuale = 1
+[17:15:08] PlaybackManager: percentuale attuale = 2
+[17:15:09] PlaybackManager: percentuale attuale = 2
+[17:15:10] PlaybackManager: percentuale attuale = 3
+[17:15:11] PlaybackManager: percentuale attuale = 3
+[17:15:12] PlaybackManager: percentuale attuale = 4
+[17:15:13] PlaybackManager: percentuale attuale = 4
+[17:15:14] PlaybackManager: percentuale attuale = 5
+[17:15:15] PlaybackManager: percentuale attuale = 5
+[17:15:16] PlaybackManager: percentuale attuale = 6
+[17:15:17] PlaybackManager: percentuale attuale = 6
+[17:15:18] PlaybackManager: percentuale attuale = 6
+[17:15:19] PlaybackManager: percentuale attuale = 7
+[17:15:20] PlaybackManager: percentuale attuale = 7
+[17:15:21] PlaybackManager: percentuale attuale = 8
+[17:15:22] PlaybackManager: percentuale attuale = 8
+[17:15:23] PlaybackManager: percentuale attuale = 9
+[17:15:24] PlaybackManager: percentuale attuale = 9
+[17:15:25] PlaybackManager: percentuale attuale = 9
+[17:15:26] PlaybackManager: percentuale attuale = 10
+[17:15:27] PlaybackManager: percentuale attuale = 10
+[17:15:28] PlaybackManager: percentuale attuale = 11
+[17:15:29] PlaybackManager: percentuale attuale = 11
+[17:15:30] PlaybackManager: percentuale attuale = 12
+[17:15:31] PlaybackManager: percentuale attuale = 12
+[17:15:32] PlaybackManager: percentuale attuale = 13
+[17:15:33] PlaybackManager: percentuale attuale = 13
+[17:15:34] PlaybackManager: percentuale attuale = 14
+[17:15:35] PlaybackManager: percentuale attuale = 14
+[17:15:36] PlaybackManager: percentuale attuale = 14
+[17:15:37] PlaybackManager: percentuale attuale = 15
+[17:15:38] PlaybackManager: percentuale attuale = 15
+[17:15:39] PlaybackManager: percentuale attuale = 16
+[17:15:40] PlaybackManager: percentuale attuale = 16
+[17:15:41] PlaybackManager: percentuale attuale = 17
+[17:15:42] PlaybackManager: percentuale attuale = 17
+[17:15:43] PlaybackManager: percentuale attuale = 17
+[17:15:44] PlaybackManager: percentuale attuale = 18
+[17:15:45] PlaybackManager: percentuale attuale = 18
+[17:15:46] PlaybackManager: percentuale attuale = 19
+[17:15:47] PlaybackManager: percentuale attuale = 19
+[17:15:48] PlaybackManager: percentuale attuale = 20
+[17:15:49] PlaybackManager: percentuale attuale = 20
+[17:15:50] PlaybackManager: percentuale attuale = 21
+[17:15:51] PlaybackManager: percentuale attuale = 21
+[17:15:52] PlaybackManager: percentuale attuale = 21
+[17:15:53] PlaybackManager: percentuale attuale = 22
+[17:15:54] PlaybackManager: percentuale attuale = 22
+[17:15:55] PlaybackManager: percentuale attuale = 23
+[17:15:56] PlaybackManager: percentuale attuale = 23
+[17:15:57] PlaybackManager: percentuale attuale = 24
+[17:15:58] PlaybackManager: percentuale attuale = 24
+[17:15:59] PlaybackManager: percentuale attuale = 25
+[17:16:00] PlaybackManager: percentuale attuale = 25
+[17:16:01] PlaybackManager: percentuale attuale = 25
+[17:16:02] PlaybackManager: percentuale attuale = 26
+[17:16:03] PlaybackManager: percentuale attuale = 26
+[17:16:04] PlaybackManager: percentuale attuale = 27
+[17:16:05] PlaybackManager: percentuale attuale = 27
+[17:16:06] PlaybackManager: percentuale attuale = 28
+[17:16:07] PlaybackManager: percentuale attuale = 28
+[17:16:08] PlaybackManager: percentuale attuale = 29
+[17:16:09] PlaybackManager: percentuale attuale = 29
+[17:16:10] PlaybackManager: percentuale attuale = 29
+[17:16:11] PlaybackManager: percentuale attuale = 30
+[17:16:12] PlaybackManager: percentuale attuale = 30
+[17:16:13] PlaybackManager: percentuale attuale = 31
+[17:16:14] PlaybackManager: percentuale attuale = 31
+[17:16:15] PlaybackManager: percentuale attuale = 32
+[17:16:16] PlaybackManager: percentuale attuale = 32
+[17:16:17] PlaybackManager: percentuale attuale = 32
+[17:16:18] PlaybackManager: percentuale attuale = 33
+[17:16:19] PlaybackManager: percentuale attuale = 33
+[17:16:20] PlaybackManager: percentuale attuale = 34
+[17:16:21] PlaybackManager: percentuale attuale = 34
+[17:16:22] PlaybackManager: percentuale attuale = 35
+[17:16:23] PlaybackManager: percentuale attuale = 35
+[17:16:24] PlaybackManager: percentuale attuale = 35
+[17:16:25] PlaybackManager: percentuale attuale = 36
+[17:16:26] PlaybackManager: percentuale attuale = 36
+[17:16:27] PlaybackManager: percentuale attuale = 37
+[17:16:28] PlaybackManager: percentuale attuale = 37
+[17:16:29] PlaybackManager: percentuale attuale = 38
+[17:16:30] PlaybackManager: percentuale attuale = 38
+[17:16:31] PlaybackManager: percentuale attuale = 39
+[17:16:32] PlaybackManager: percentuale attuale = 39
+[17:16:33] PlaybackManager: percentuale attuale = 40
+[17:16:34] PlaybackManager: percentuale attuale = 40
+[17:16:35] PlaybackManager: percentuale attuale = 40
+[17:16:36] PlaybackManager: percentuale attuale = 41
+[17:16:37] PlaybackManager: percentuale attuale = 41
+[17:16:38] PlaybackManager: percentuale attuale = 42
+[17:16:39] PlaybackManager: percentuale attuale = 42
+[17:16:40] PlaybackManager: percentuale attuale = 43
+[17:16:41] PlaybackManager: percentuale attuale = 43
+[17:16:42] PlaybackManager: percentuale attuale = 43
+[17:16:43] PlaybackManager: percentuale attuale = 44
+[17:16:44] PlaybackManager: percentuale attuale = 44
+[17:16:45] PlaybackManager: percentuale attuale = 45
+[17:16:46] PlaybackManager: percentuale attuale = 45
+[17:16:47] PlaybackManager: percentuale attuale = 46
+[17:16:48] PlaybackManager: percentuale attuale = 46
+[17:16:49] PlaybackManager: percentuale attuale = 47
+[17:16:50] PlaybackManager: percentuale attuale = 47
+[17:16:51] PlaybackManager: percentuale attuale = 48
+[17:16:52] PlaybackManager: percentuale attuale = 48
+[17:16:53] PlaybackManager: percentuale attuale = 48
+[17:16:54] PlaybackManager: percentuale attuale = 49
+[17:16:55] PlaybackManager: percentuale attuale = 49
+[17:16:56] PlaybackManager: percentuale attuale = 50
+[17:16:57] PlaybackManager: percentuale attuale = 50
+[17:16:58] PlaybackManager: percentuale attuale = 51
+[17:16:59] PlaybackManager: percentuale attuale = 51
+[17:17:00] PlaybackManager: percentuale attuale = 51
+[17:17:01] PlaybackManager: percentuale attuale = 52
+[17:17:02] PlaybackManager: percentuale attuale = 52
+[17:17:04] PlaybackManager: percentuale attuale = 53
+[17:17:05] PlaybackManager: percentuale attuale = 53
+[17:17:06] PlaybackManager: percentuale attuale = 54
+[17:17:07] PlaybackManager: percentuale attuale = 54
+[17:17:08] PlaybackManager: percentuale attuale = 55
+[17:17:09] PlaybackManager: percentuale attuale = 55
+[17:17:10] PlaybackManager: percentuale attuale = 56
+[17:17:11] PlaybackManager: percentuale attuale = 56
+[17:17:11] C:\Users\giamm\Downloads\drive-download-20250503T151340Z-1-001\All Day (feat\ Kendrick Lamar).mp3
+[17:17:12] PlaybackManager: percentuale attuale = 56
+[17:17:13] PlaybackManager: percentuale attuale = 57
+[17:17:14] PlaybackManager: percentuale attuale = 57
+[17:17:15] PlaybackManager: percentuale attuale = 57
+[17:17:16] PlaybackManager: percentuale attuale = 58
+[17:17:17] PlaybackManager: percentuale attuale = 58
+[17:17:18] PlaybackManager: percentuale attuale = 59
+[17:17:19] PlaybackManager: percentuale attuale = 59
+[17:17:20] PlaybackManager: percentuale attuale = 60
+[17:17:21] PlaybackManager: percentuale attuale = 60
+[17:17:22] PlaybackManager: percentuale attuale = 61
+[17:17:23] PlaybackManager: percentuale attuale = 61
+[17:17:24] PlaybackManager: percentuale attuale = 61
+[17:17:25] PlaybackManager: percentuale attuale = 62
+[17:17:26] PlaybackManager: percentuale attuale = 62
+[17:17:27] PlaybackManager: percentuale attuale = 63
+[17:17:28] PlaybackManager: percentuale attuale = 63
+[17:17:29] PlaybackManager: percentuale attuale = 64
+[17:17:30] PlaybackManager: percentuale attuale = 64
+[17:17:31] PlaybackManager: percentuale attuale = 65
+[17:17:32] PlaybackManager: percentuale attuale = 65
+[17:17:33] PlaybackManager: percentuale attuale = 65
+[17:17:34] PlaybackManager: percentuale attuale = 66
+[17:17:35] PlaybackManager: percentuale attuale = 67
+[17:17:36] PlaybackManager: percentuale attuale = 67
+[17:17:37] PlaybackManager: percentuale attuale = 67
+[17:17:38] PlaybackManager: percentuale attuale = 68
+[17:17:39] PlaybackManager: percentuale attuale = 68
+[17:17:40] PlaybackManager: percentuale attuale = 68
+[17:17:41] PlaybackManager: percentuale attuale = 69
+[17:17:42] PlaybackManager: percentuale attuale = 69
+[17:17:43] PlaybackManager: percentuale attuale = 70
+[17:17:44] PlaybackManager: percentuale attuale = 70
+[17:17:45] PlaybackManager: percentuale attuale = 71
+[17:17:46] PlaybackManager: percentuale attuale = 71
+[17:17:47] PlaybackManager: percentuale attuale = 72
+[17:17:48] PlaybackManager: percentuale attuale = 72
+[17:17:49] PlaybackManager: percentuale attuale = 73
+[17:17:50] PlaybackManager: percentuale attuale = 73
+[17:17:51] PlaybackManager: percentuale attuale = 74
+[17:17:52] PlaybackManager: percentuale attuale = 74
+[17:17:53] PlaybackManager: percentuale attuale = 74
+[17:17:54] PlaybackManager: percentuale attuale = 75
+[17:17:55] PlaybackManager: percentuale attuale = 75
+[17:17:56] PlaybackManager: percentuale attuale = 76
+[17:17:57] PlaybackManager: percentuale attuale = 76
+[17:17:57] C:\Users\giamm\Downloads\drive-download-20250503T151340Z-1-001\All Day (feat\ Kendrick Lamar).mp3
+[17:17:58] PlaybackManager: percentuale attuale = 77
+[17:17:59] PlaybackManager: percentuale attuale = 77
+[17:18:00] PlaybackManager: percentuale attuale = 78
+[17:18:01] PlaybackManager: percentuale attuale = 78
+[17:18:02] PlaybackManager: percentuale attuale = 78
+[17:18:03] PlaybackManager: percentuale attuale = 79
+[17:18:04] PlaybackManager: percentuale attuale = 79
+[17:18:05] PlaybackManager: percentuale attuale = 80
+[17:18:06] PlaybackManager: percentuale attuale = 80
+[17:18:07] PlaybackManager: percentuale attuale = 81
+[17:18:08] PlaybackManager: percentuale attuale = 81
+[17:18:09] PlaybackManager: percentuale attuale = 81
+[17:18:10] PlaybackManager: percentuale attuale = 82
+[17:18:11] PlaybackManager: percentuale attuale = 82
+[17:18:12] PlaybackManager: percentuale attuale = 83
+[17:18:13] PlaybackManager: percentuale attuale = 83
+[17:18:14] PlaybackManager: percentuale attuale = 84
+[17:18:15] PlaybackManager: percentuale attuale = 84
+[17:18:16] PlaybackManager: percentuale attuale = 84
+[17:18:17] PlaybackManager: percentuale attuale = 85
+[17:18:18] PlaybackManager: percentuale attuale = 85
+[17:18:19] PlaybackManager: percentuale attuale = 86
+[17:18:20] PlaybackManager: percentuale attuale = 86
+[17:18:21] PlaybackManager: percentuale attuale = 87
+[17:18:22] PlaybackManager: percentuale attuale = 87
+[17:18:23] PlaybackManager: percentuale attuale = 87
+[17:18:24] PlaybackManager: percentuale attuale = 88
+[17:18:25] PlaybackManager: percentuale attuale = 89
+[17:18:26] PlaybackManager: percentuale attuale = 89
+[17:18:27] PlaybackManager: percentuale attuale = 89
+[17:18:28] PlaybackManager: percentuale attuale = 90
+[17:18:29] PlaybackManager: percentuale attuale = 90
+[17:18:30] PlaybackManager: percentuale attuale = 91
+[17:18:31] PlaybackManager: percentuale attuale = 91
+[17:18:32] PlaybackManager: percentuale attuale = 92
+[17:18:33] PlaybackManager: percentuale attuale = 92
+[17:18:34] PlaybackManager: percentuale attuale = 93
+[17:18:35] PlaybackManager: percentuale attuale = 93
+[17:18:36] PlaybackManager: percentuale attuale = 93
+[17:18:37] PlaybackManager: percentuale attuale = 94
+[17:18:38] PlaybackManager: percentuale attuale = 94
+[17:18:39] PlaybackManager: percentuale attuale = 95
+[17:18:40] PlaybackManager: percentuale attuale = 95
+[17:18:41] PlaybackManager: percentuale attuale = 96
+[17:18:42] PlaybackManager: percentuale attuale = 96
+[17:18:43] PlaybackManager: percentuale attuale = 97
+[17:18:44] PlaybackManager: percentuale attuale = 97
+[17:18:45] PlaybackManager: percentuale attuale = 97
+[17:18:46] PlaybackManager: percentuale attuale = 98
+[17:18:47] PlaybackManager: percentuale attuale = 98
+[17:18:48] PlaybackManager: percentuale attuale = 99
+[17:18:49] PlaybackManager: percentuale attuale = 99
+[17:18:50] PlaybackManager: percentuale attuale = 100
+[17:18:50] MP3Player: riproduzione completata
+[17:18:50] MP3Player: riproduzione completata
+[17:18:50] MP3Player: riproduzione completata – CVLT
+[17:18:50] MP3Player: isPlaying = false
+[17:18:51] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:18:51] PlaybackManager: canzone finita, chiamo nextSong()
+[17:18:51] PlaybackManager: isPlaying prima = false
+[17:18:51] MP3Player: isPlaying impostato a false
+[17:18:51] Controller: nextSong() chiamato
+[17:18:51] Hollywood
+[17:18:51] MP3Player: play() avviato – Hollywood
+[17:18:51] MP3Player: inizio riproduzione di "Hollywood"
+[17:18:51] MP3Player: thread playback avviato
+[17:18:51] Icone aggiornate
+[17:18:51] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:18:51] PlaybackManager: percentuale attuale = 0
+[17:18:51] Riproduco: Hollywood
+[17:18:51] PlaybackManager: nextSong() chiamato
+[17:18:51] PlaybackManager: canzone finita, chiamo nextSong()
+[17:18:51] PlaybackManager: isPlaying prima = true
+[17:18:51] Icone aggiornate
+[17:18:51] MP3Player: player creato, avvio riproduzione
+[17:18:52] PlaybackManager: percentuale attuale = 30
+[17:18:53] PlaybackManager: percentuale attuale = 30
+[17:18:54] PlaybackManager: percentuale attuale = 30
+[17:18:55] PlaybackManager: percentuale attuale = 31
+[17:18:56] PlaybackManager: percentuale attuale = 31
+[17:18:57] PlaybackManager: percentuale attuale = 31
+[17:18:58] PlaybackManager: percentuale attuale = 32
+[17:18:59] PlaybackManager: percentuale attuale = 32
+[17:19:00] PlaybackManager: percentuale attuale = 32
+[17:19:01] PlaybackManager: percentuale attuale = 33
+[17:19:02] PlaybackManager: percentuale attuale = 33
+[17:19:03] PlaybackManager: percentuale attuale = 33
+[17:19:04] PlaybackManager: percentuale attuale = 34
+[17:19:05] PlaybackManager: percentuale attuale = 34
+[17:19:06] PlaybackManager: percentuale attuale = 34
+[17:19:07] PlaybackManager: percentuale attuale = 35
+[17:19:08] PlaybackManager: percentuale attuale = 35
+[17:19:09] PlaybackManager: percentuale attuale = 35
+[17:19:10] PlaybackManager: percentuale attuale = 35
+[17:19:11] PlaybackManager: percentuale attuale = 36
+[17:19:12] PlaybackManager: percentuale attuale = 36
+[17:19:13] PlaybackManager: percentuale attuale = 36
+[17:19:14] PlaybackManager: percentuale attuale = 37
+[17:19:15] PlaybackManager: percentuale attuale = 37
+[17:19:16] PlaybackManager: percentuale attuale = 37
+[17:19:17] PlaybackManager: percentuale attuale = 38
+[17:19:18] PlaybackManager: percentuale attuale = 38
+[17:19:19] PlaybackManager: percentuale attuale = 38
+[17:19:20] PlaybackManager: percentuale attuale = 38
+[17:19:21] PlaybackManager: percentuale attuale = 39
+[17:19:22] PlaybackManager: percentuale attuale = 39
+[17:19:23] PlaybackManager: percentuale attuale = 39
+[17:19:24] PlaybackManager: percentuale attuale = 40
+[17:19:25] PlaybackManager: percentuale attuale = 40
+[17:19:26] PlaybackManager: percentuale attuale = 40
+[17:19:27] PlaybackManager: percentuale attuale = 41
+[17:19:28] PlaybackManager: percentuale attuale = 41
+[17:19:29] PlaybackManager: percentuale attuale = 41
+[17:19:30] PlaybackManager: percentuale attuale = 42
+[17:19:31] PlaybackManager: percentuale attuale = 42
+[17:19:32] PlaybackManager: percentuale attuale = 42
+[17:19:33] PlaybackManager: percentuale attuale = 43
+[17:19:34] PlaybackManager: percentuale attuale = 43
+[17:19:35] PlaybackManager: percentuale attuale = 43
+[17:19:36] PlaybackManager: percentuale attuale = 43
+[17:19:37] PlaybackManager: percentuale attuale = 44
+[17:19:38] PlaybackManager: percentuale attuale = 44
+[17:19:39] PlaybackManager: percentuale attuale = 44
+[17:19:40] PlaybackManager: percentuale attuale = 45
+[17:19:41] PlaybackManager: percentuale attuale = 45
+[17:19:42] PlaybackManager: percentuale attuale = 45
+[17:19:43] PlaybackManager: percentuale attuale = 46
+[17:19:44] PlaybackManager: percentuale attuale = 46
+[17:19:45] PlaybackManager: percentuale attuale = 46
+[17:19:46] PlaybackManager: percentuale attuale = 47
+[17:19:47] PlaybackManager: percentuale attuale = 47
+[17:19:48] PlaybackManager: percentuale attuale = 47
+[17:19:49] PlaybackManager: percentuale attuale = 48
+[17:19:49] ATTENZIONE: nessuna canzone selezionata nella comboBox
+[17:19:49] Lista canzoni aggiornate
+[17:19:49] Icone playlist caricate
+[17:19:49] Icone playlist caricate
+[17:19:50] PlaybackManager: percentuale attuale = 48
+[17:19:51] PlaybackManager: percentuale attuale = 48
+[17:19:51] MP3Player: riproduzione completata
+[17:19:51] MP3Player: riproduzione completata
+[17:19:51] MP3Player: riproduzione completata – Hollywood
+[17:19:51] MP3Player: isPlaying = false
+[17:19:51] Liberated (feat Kendrick Lamar)
+[17:19:51] MP3Player: play() avviato – Liberated (feat Kendrick Lamar)
+[17:19:51] MP3Player: inizio riproduzione di "Liberated (feat Kendrick Lamar)"
+[17:19:51] MP3Player: thread playback avviato
+[17:19:51] Icone aggiornate
+[17:19:51] MP3Player: player creato, avvio riproduzione
+[17:19:52] PlaybackManager: percentuale attuale = 0
+[17:19:53] PlaybackManager: percentuale attuale = 0
+[17:19:54] PlaybackManager: percentuale attuale = 1
+[17:19:54] MP3Player: riproduzione completata
+[17:19:54] MP3Player: riproduzione completata
+[17:19:54] MP3Player: riproduzione completata – Liberated (feat Kendrick Lamar)
+[17:19:54] MP3Player: isPlaying = false
+[17:19:55] PlaybackManager: percentuale attuale = 18
+[17:19:56] PlaybackManager: percentuale attuale = 0
+[17:19:57] PlaybackManager: percentuale attuale = 32
+[17:19:58] PlaybackManager: percentuale attuale = 33
+[17:19:59] PlaybackManager: percentuale attuale = 33
+[17:20:00] PlaybackManager: percentuale attuale = 34
+[17:20:01] Don't Jump (feat Kendrick Lamar)
+[17:20:01] MP3Player: play() avviato – Don't Jump (feat Kendrick Lamar)
+[17:20:01] MP3Player: inizio riproduzione di "Don't Jump (feat Kendrick Lamar)"
+[17:20:01] MP3Player: thread playback avviato
+[17:20:01] Icone aggiornate
+[17:20:01] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[17:20:01] PlaybackManager: percentuale attuale = 0
+[17:20:01] PlaybackManager: canzone finita, chiamo nextSong()
+[17:20:01] PlaybackManager: isPlaying prima = true
+[17:20:01] MP3Player: player creato, avvio riproduzione
+[17:20:02] PlaybackManager: percentuale attuale = 2
+[17:20:03] MP3Player: riproduzione completata
+[17:20:03] MP3Player: riproduzione completata
+[17:20:03] MP3Player: riproduzione completata – Don't Jump (feat Kendrick Lamar)
+[17:20:03] MP3Player: isPlaying = false
+[17:20:03] PlaybackManager: percentuale attuale = 16
+[17:20:04] PlaybackManager: percentuale attuale = 18
+[17:20:05] PlaybackManager: percentuale attuale = 19
+[17:20:06] PlaybackManager: percentuale attuale = 56
+[17:20:07] All Day (feat Kendrick Lamar)
+[17:20:07] MP3Player: play() avviato – All Day (feat Kendrick Lamar)
+[17:20:07] MP3Player: inizio riproduzione di "All Day (feat Kendrick Lamar)"
+[17:20:07] MP3Player: thread playback avviato
+[17:20:07] Icone aggiornate
+[17:20:07] MP3Player: player creato, avvio riproduzione
+[17:20:07] PlaybackManager: percentuale attuale = 0
+[17:20:08] PlaybackManager: percentuale attuale = 0
+[17:20:08] MP3Player: riproduzione completata
+[17:20:08] MP3Player: riproduzione completata
+[17:20:08] MP3Player: riproduzione completata – All Day (feat Kendrick Lamar)
+[17:20:08] MP3Player: isPlaying = false
+[17:20:08] I Feel Like That
+[17:20:08] MP3Player: play() avviato – I Feel Like That
+[17:20:08] MP3Player: inizio riproduzione di "I Feel Like That"
+[17:20:08] MP3Player: thread playback avviato
+[17:20:08] Icone aggiornate
+[17:20:08] MP3Player: player creato, avvio riproduzione
+[17:20:09] PlaybackManager: percentuale attuale = 2
+[17:20:10] MP3Player: riproduzione completata
+[17:20:10] MP3Player: riproduzione completata
+[17:20:10] MP3Player: riproduzione completata – I Feel Like That
+[17:20:10] MP3Player: isPlaying = false
+[17:20:10] PlaybackManager: percentuale attuale = 0
+[17:20:11] Nina Chop (feat Young Thug)
+[17:20:11] MP3Player: play() avviato – Nina Chop (feat Young Thug)
+[17:20:11] MP3Player: inizio riproduzione di "Nina Chop (feat Young Thug)"
+[17:20:11] MP3Player: thread playback avviato
+[17:20:11] Icone aggiornate
+[17:20:11] MP3Player: player creato, avvio riproduzione
+[17:20:11] PlaybackManager: percentuale attuale = 0
+[17:20:12] PlaybackManager: percentuale attuale = 0
+[17:20:12] MP3Player: riproduzione completata
+[17:20:12] MP3Player: riproduzione completata
+[17:20:12] MP3Player: riproduzione completata – Nina Chop (feat Young Thug)
+[17:20:12] MP3Player: isPlaying = false
+[17:20:13] PlaybackManager: percentuale attuale = 32
+[17:20:13] FML (feat The Weeknd & Travis Scott)
+[17:20:13] MP3Player: play() avviato – FML (feat The Weeknd & Travis Scott)
+[17:20:13] MP3Player: inizio riproduzione di "FML (feat The Weeknd & Travis Scott)"
+[17:20:13] MP3Player: thread playback avviato
+[17:20:13] Icone aggiornate
+[17:20:13] MP3Player: player creato, avvio riproduzione
+[17:20:14] PlaybackManager: percentuale attuale = 0
+[17:20:15] PlaybackManager: percentuale attuale = 0
+[17:20:16] PlaybackManager: percentuale attuale = 1
+[17:20:17] PlaybackManager: percentuale attuale = 1
+[17:20:17] MP3Player: riproduzione completata
+[17:20:17] MP3Player: riproduzione completata
+[17:20:17] MP3Player: riproduzione completata – FML (feat The Weeknd & Travis Scott)
+[17:20:17] MP3Player: isPlaying = false
+[17:20:18] PlaybackManager: percentuale attuale = 31
+[17:20:19] Piss On Your Grave
+[17:20:19] MP3Player: play() avviato – Piss On Your Grave
+[17:20:19] MP3Player: inizio riproduzione di "Piss On Your Grave"
+[17:20:19] MP3Player: thread playback avviato
+[17:20:19] Icone aggiornate
+[17:20:19] MP3Player: player creato, avvio riproduzione
+[17:20:19] PlaybackManager: percentuale attuale = 0
+[17:20:20] PlaybackManager: percentuale attuale = 1
+[17:20:20] MP3Player: riproduzione completata
+[17:20:20] MP3Player: riproduzione completata
+[17:20:20] MP3Player: riproduzione completata – Piss On Your Grave
+[17:20:20] MP3Player: isPlaying = false
+[17:20:21] PlaybackManager: percentuale attuale = 31
+[17:20:22] PlaybackManager: percentuale attuale = 32
+[17:20:23] Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[17:20:23] MP3Player: play() avviato – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[17:20:23] MP3Player: inizio riproduzione di "Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)"
+[17:20:23] MP3Player: thread playback avviato
+[17:20:23] Icone aggiornate
+[17:20:23] MP3Player: player creato, avvio riproduzione
+[17:20:23] PlaybackManager: percentuale attuale = 0
+[17:20:24] PlaybackManager: percentuale attuale = 0
+[17:20:24] MP3Player: riproduzione completata
+[17:20:24] MP3Player: riproduzione completata
+[17:20:24] MP3Player: riproduzione completata – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[17:20:24] MP3Player: isPlaying = false
+[17:20:25] PlaybackManager: percentuale attuale = 28
+[17:20:26] PlaybackManager: percentuale attuale = 28
+[17:20:27] PlaybackManager: percentuale attuale = 29
+[17:20:28] PlaybackManager: percentuale attuale = 29
+[17:20:29] PlaybackManager: percentuale attuale = 30
+[17:20:30] PlaybackManager: percentuale attuale = 30
+[17:20:31] PlaybackManager: percentuale attuale = 30
+[17:20:32] PlaybackManager: percentuale attuale = 31
+[17:20:33] PlaybackManager: percentuale attuale = 31
+[17:20:34] PlaybackManager: percentuale attuale = 31
+[17:20:35] PlaybackManager: percentuale attuale = 32
+[17:20:36] PlaybackManager: percentuale attuale = 32
+[17:20:37] PlaybackManager: percentuale attuale = 33
+[17:20:38] PlaybackManager: percentuale attuale = 33
+[17:20:39] PlaybackManager: percentuale attuale = 33
+[17:20:39] White Dress
+[17:20:39] MP3Player: play() avviato – White Dress
+[17:20:39] MP3Player: inizio riproduzione di "White Dress"
+[17:20:39] MP3Player: thread playback avviato
+[17:20:39] Icone aggiornate
+[17:20:39] MP3Player: player creato, avvio riproduzione
+[17:20:40] PlaybackManager: percentuale attuale = 14
+[17:20:41] MP3Player: riproduzione completata
+[17:20:41] MP3Player: riproduzione completata
+[17:20:41] MP3Player: riproduzione completata – White Dress
+[17:20:41] MP3Player: isPlaying = false
+[17:20:41] All Day (feat Kendrick Lamar)
+[17:20:41] MP3Player: play() avviato – All Day (feat Kendrick Lamar)
+[17:20:41] MP3Player: inizio riproduzione di "All Day (feat Kendrick Lamar)"
+[17:20:41] MP3Player: thread playback avviato
+[17:20:41] MP3Player: player creato, avvio riproduzione
+[17:20:41] Icone aggiornate
+[17:20:41] PlaybackManager: percentuale attuale = 0
+[17:20:42] PlaybackManager: percentuale attuale = 0
+[17:20:43] PlaybackManager: percentuale attuale = 0
+[17:20:44] PlaybackManager: percentuale attuale = 1
+[17:20:45] PlaybackManager: percentuale attuale = 1
+[17:20:46] PlaybackManager: percentuale attuale = 1
+[17:20:47] PlaybackManager: percentuale attuale = 2
+[17:20:48] PlaybackManager: percentuale attuale = 2
+[17:20:49] PlaybackManager: percentuale attuale = 2
+[17:20:50] PlaybackManager: percentuale attuale = 3
+[17:20:51] PlaybackManager: percentuale attuale = 3
+[17:20:52] PlaybackManager: percentuale attuale = 3
+[17:20:53] PlaybackManager: percentuale attuale = 4
+[17:20:54] PlaybackManager: percentuale attuale = 4
+[17:20:55] PlaybackManager: percentuale attuale = 4
+[17:20:56] PlaybackManager: percentuale attuale = 5
+[17:20:57] PlaybackManager: percentuale attuale = 5
+[17:20:58] PlaybackManager: percentuale attuale = 5
+[17:20:59] PlaybackManager: percentuale attuale = 6
+[17:21:00] PlaybackManager: percentuale attuale = 6
+[17:21:01] PlaybackManager: percentuale attuale = 6
+[17:21:02] PlaybackManager: percentuale attuale = 7
+[17:21:03] PlaybackManager: percentuale attuale = 7
+[17:21:04] PlaybackManager: percentuale attuale = 7
+[17:21:05] PlaybackManager: percentuale attuale = 8
+[17:21:06] PlaybackManager: percentuale attuale = 8
+[17:21:07] PlaybackManager: percentuale attuale = 8
+[17:21:08] PlaybackManager: percentuale attuale = 8
+[17:21:09] PlaybackManager: percentuale attuale = 9
+[17:21:10] PlaybackManager: percentuale attuale = 9
+[17:21:10] MP3Player: riproduzione completata
+[17:21:10] MP3Player: riproduzione completata
+[17:21:10] MP3Player: riproduzione completata – All Day (feat Kendrick Lamar)
+[17:21:10] MP3Player: isPlaying = false
+[17:21:10] One I Love
+[17:21:10] MP3Player: play() avviato – One I Love
+[17:21:10] MP3Player: inizio riproduzione di "One I Love"
+[17:21:10] MP3Player: thread playback avviato
+[17:21:10] Icone aggiornate
+[17:21:10] MP3Player: player creato, avvio riproduzione
+[17:21:11] PlaybackManager: percentuale attuale = 42
+[17:21:12] PlaybackManager: percentuale attuale = 42
+[17:21:12] MP3Player: riproduzione completata
+[17:21:12] MP3Player: riproduzione completata
+[17:21:12] MP3Player: riproduzione completata – One I Love
+[17:21:12] MP3Player: isPlaying = false
+[17:21:13] PlaybackManager: percentuale attuale = 72
+[17:21:14] PlaybackManager: percentuale attuale = 72
+[17:21:15] PlaybackManager: percentuale attuale = 73
+[17:21:15] Awesome
+[17:21:15] MP3Player: play() avviato – Awesome
+[17:21:15] MP3Player: inizio riproduzione di "Awesome"
+[17:21:15] MP3Player: thread playback avviato
+[17:21:15] Icone aggiornate
+[17:21:15] MP3Player: player creato, avvio riproduzione
+[17:21:16] PlaybackManager: percentuale attuale = 27
+[17:21:17] PlaybackManager: percentuale attuale = 27
+[17:21:17] MP3Player: riproduzione completata
+[17:21:17] MP3Player: riproduzione completata
+[17:21:17] MP3Player: riproduzione completata – Awesome
+[17:21:17] MP3Player: isPlaying = false
+[17:21:18] PlaybackManager: percentuale attuale = 66
+[17:21:19] PlaybackManager: percentuale attuale = 66

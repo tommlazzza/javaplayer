@@ -1,0 +1,108 @@
+[Logger inizializzato alle 11:10:09]
+[11:10:09] Window creata
+[11:10:09] Lingua caricata: Italiano
+[11:10:09] Tema caricato dal file config
+[11:10:09] Modalità di riproduzione caricata dal file config
+[11:10:10] Lista canzoni aggiornata
+[11:10:10] Icone playlist caricate
+[11:10:10] Repaint e Revalidate fatto
+[11:10:10] Lingua aggiornata
+[11:10:10] Icone aggiornate
+[11:10:10] Tema applicato
+[11:10:10] Pannello creato
+[11:10:10] Lingua caricata: Italiano
+[11:10:10] Repaint e Revalidate fatto
+[11:10:10] Lingua aggiornata
+[11:10:16] Lista canzoni aggiornata
+[11:10:16] Icone playlist caricate
+[11:10:16] Icone playlist caricate
+[11:10:20] Lista canzoni aggiornata
+[11:10:20] Icone playlist caricate
+[11:10:20] Alright
+[11:10:20] MP3Player: play() avviato – Alright
+[11:10:20] MP3Player: inizio riproduzione di "Alright"
+[11:10:20] MP3Player: thread playback avviato
+[11:10:20] Icone aggiornate
+[11:10:20] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:10:20] PlaybackManager: percentuale attuale = 0
+[11:10:20] MP3Player: player creato, avvio riproduzione
+[11:10:21] PlaybackManager: percentuale attuale = 0
+[11:10:22] PlaybackManager: percentuale attuale = 0
+[11:10:23] Lista canzoni aggiornata
+[11:10:23] Icone playlist caricate
+[11:10:23] Lista canzoni aggiornata
+[11:10:23] Icone playlist caricate
+[11:10:23] Icone playlist caricate
+[11:10:23] Icone playlist caricate
+[11:10:23] Lista canzoni aggiornata
+[11:10:23] MP3Player: riproduzione completata
+[11:10:23] MP3Player: riproduzione completata
+[11:10:23] MP3Player: riproduzione completata – Alright
+[11:10:23] MP3Player: isPlaying = false
+[11:10:23] Lista canzoni aggiornata
+[11:10:23] Icone playlist caricate
+[11:10:23] Icone playlist caricate
+[11:10:23] Lista canzoni aggiornata
+[11:10:23] Icone aggiornate
+[11:10:23] PlaybackManager: canzone finita, chiamo nextSong()
+[11:10:23] PlaybackManager: isPlaying prima = false
+[11:10:25] Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[11:10:25] MP3Player: play() avviato – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[11:10:25] MP3Player: inizio riproduzione di "Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)"
+[11:10:25] MP3Player: thread playback avviato
+[11:10:25] MP3Player: player creato, avvio riproduzione
+[11:10:25] Icone aggiornate
+[11:10:25] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:10:25] PlaybackManager: percentuale attuale = 0
+[11:10:26] PlaybackManager: percentuale attuale = 0
+[11:10:27] PlaybackManager: percentuale attuale = 1
+[11:10:28] PlaybackManager: percentuale attuale = 1
+[11:10:29] PlaybackManager: percentuale attuale = 1
+[11:10:30] PlaybackManager: percentuale attuale = 2
+[11:10:31] PlaybackManager: percentuale attuale = 2
+[11:10:32] PlaybackManager: percentuale attuale = 2
+[11:10:33] PlaybackManager: percentuale attuale = 3
+[11:10:33] Lista canzoni aggiornata
+[11:10:33] Icone playlist caricate
+[11:10:33] Icone playlist caricate
+[11:10:34] PlaybackManager: percentuale attuale = 3
+[11:10:35] MP3Player: riproduzione completata
+[11:10:35] MP3Player: riproduzione completata
+[11:10:35] MP3Player: riproduzione completata – Black Skinhead (feat Miley Cyrus, Travis Scott) (Remix)
+[11:10:35] MP3Player: isPlaying = false
+[11:10:35] The Garden
+[11:10:35] MP3Player: play() avviato – The Garden
+[11:10:35] MP3Player: inizio riproduzione di "The Garden"
+[11:10:35] MP3Player: thread playback avviato
+[11:10:35] Icone aggiornate
+[11:10:35] MP3Player: player creato, avvio riproduzione
+[11:10:35] PlaybackManager: percentuale attuale = 2
+[11:10:36] PlaybackManager: percentuale attuale = 3
+[11:10:36] MP3Player: riproduzione completata
+[11:10:36] MP3Player: riproduzione completata
+[11:10:36] MP3Player: riproduzione completata – The Garden
+[11:10:36] MP3Player: isPlaying = false
+[11:10:37] Controller: nextSong() chiamato
+[11:10:37] Riproduco: City In The Sky
+[11:10:37] MP3Player: play() avviato – The Garden
+[11:10:37] MP3Player: inizio riproduzione di "City In The Sky"
+[11:10:37] MP3Player: thread playback avviato
+[11:10:37] PlaybackManager: mutex acquisito, inizio monitoraggio slider
+[11:10:37] PlaybackManager: canzone finita, chiamo nextSong()
+[11:10:37] PlaybackManager: percentuale attuale = 0
+[11:10:37] PlaybackManager: isPlaying prima = true
+[11:10:37] Icone aggiornate
+[11:10:37] MP3Player: player creato, avvio riproduzione
+[11:10:37] Controller: nextSong() chiamato
+[11:10:38] MP3Player: riproduzione completata
+[11:10:38] MP3Player: riproduzione completata
+[11:10:38] MP3Player: riproduzione completata – City In The Sky
+[11:10:38] MP3Player: isPlaying = false
+[11:10:38] Riproduco: Alien (Interlude)
+[11:10:38] MP3Player: play() avviato – City In The Sky
+[11:10:38] MP3Player: inizio riproduzione di "Alien (Interlude)"
+[11:10:38] MP3Player: thread playback avviato
+[11:10:38] Icone aggiornate
+[11:10:38] MP3Player: player creato, avvio riproduzione
+[11:10:38] PlaybackManager: percentuale attuale = 12
+[11:10:39] PlaybackManager: percentuale attuale = 15
